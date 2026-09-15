@@ -6,26 +6,28 @@ import {
   Pressable,
   ScrollView,
   Animated,
-  Dimensions,
   Platform,
   Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 import {
   Ionicons,
   MaterialCommunityIcons,
   FontAwesome5,
-  Feather,
 } from '@expo/vector-icons';
+import { useSettings } from '@/context/settings-context';
+import { AppThemePalette } from '@/constants/theme';
 
 interface ActionCardProps {
   title: string;
   iconName: string;
   iconType: 'ionicons' | 'material' | 'font-awesome';
+  theme: AppThemePalette;
   onPress: () => void;
 }
 
-function ActionCard({ title, iconName, iconType, onPress }: ActionCardProps) {
+function ActionCard({ title, iconName, iconType, theme, onPress }: ActionCardProps) {
   const scaleAnim = useRef(new Animated.Value(1)).current;
 
   const handlePressIn = () => {
@@ -46,8 +48,8 @@ function ActionCard({ title, iconName, iconType, onPress }: ActionCardProps) {
   };
 
   const renderIcon = () => {
-    const iconSize = 34;
-    const iconColor = '#2E7D32';
+    const iconSize = 32;
+    const iconColor = theme.primaryGreen;
 
     if (iconType === 'ionicons') {
       return <Ionicons name={iconName as any} size={iconSize} color={iconColor} />;
@@ -61,7 +63,13 @@ function ActionCard({ title, iconName, iconType, onPress }: ActionCardProps) {
   return (
     <Animated.View style={[styles.cardWrapper, { transform: [{ scale: scaleAnim }] }]}>
       <Pressable
-        style={styles.card}
+        style={[
+          styles.card,
+          {
+            backgroundColor: theme.surface,
+            borderColor: theme.border,
+          },
+        ]}
         onPress={onPress}
         onPressIn={handlePressIn}
         onPressOut={handlePressOut}
@@ -69,10 +77,21 @@ function ActionCard({ title, iconName, iconType, onPress }: ActionCardProps) {
         accessibilityRole="button"
         accessibilityLabel={title}
       >
-        <View style={styles.cardIconContainer}>
+        <View
+          style={[
+            styles.cardIconContainer,
+            { backgroundColor: theme.primaryGreenBg },
+          ]}
+        >
           {renderIcon()}
         </View>
-        <Text style={styles.cardTitle} numberOfLines={2}>
+        <Text
+          style={[
+            styles.cardTitle,
+            { color: theme.textPrimary },
+          ]}
+          numberOfLines={2}
+        >
           {title}
         </Text>
       </Pressable>
@@ -81,6 +100,8 @@ function ActionCard({ title, iconName, iconType, onPress }: ActionCardProps) {
 }
 
 export default function HomeScreen() {
+  const router = useRouter();
+  const { theme, t, currentLanguageOption } = useSettings();
   const [isListening, setIsListening] = useState(false);
   const [activeTab, setActiveTab] = useState<'Home' | 'Slots' | 'Help' | 'Profile'>('Home');
 
@@ -144,7 +165,6 @@ export default function HomeScreen() {
   };
 
   const handleCardPress = (feature: string) => {
-    // Action handler placeholder
     if (Platform.OS === 'web') {
       console.log(`Navigating to ${feature}`);
     } else {
@@ -152,8 +172,15 @@ export default function HomeScreen() {
     }
   };
 
+  const navigateToProfile = () => {
+    router.push('/profile');
+  };
+
   return (
-    <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right']}>
+    <SafeAreaView
+      style={[styles.safeArea, { backgroundColor: theme.background }]}
+      edges={['top', 'left', 'right']}
+    >
       <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.scrollContent}
@@ -162,51 +189,77 @@ export default function HomeScreen() {
         {/* Top Header: Branding, Language Selector & Profile */}
         <View style={styles.header}>
           <View style={styles.brandingContainer}>
-            <View style={styles.brandIconBadge}>
+            <View
+              style={[
+                styles.brandIconBadge,
+                { backgroundColor: theme.primaryGreen },
+              ]}
+            >
               <MaterialCommunityIcons name="sprout" size={20} color="#FFFFFF" />
             </View>
             <View>
-              <Text style={styles.brandTitle}>Kissan Saathi</Text>
-              <Text style={styles.brandSubtitle}>Farmer Assistant</Text>
+              <Text style={[styles.brandTitle, { color: theme.textPrimary }]}>
+                {t('appName')}
+              </Text>
+              <Text style={[styles.brandSubtitle, { color: theme.primaryGreen }]}>
+                {t('appSubtitle')}
+              </Text>
             </View>
           </View>
 
           <View style={styles.headerActions}>
             {/* Language Selector Pill */}
             <Pressable
-              style={styles.languagePill}
-              onPress={() => {
-                if (Platform.OS === 'web') {
-                  console.log('Switch Language');
-                } else {
-                  Alert.alert('Language', 'Language selection: English');
-                }
-              }}
+              style={[
+                styles.languagePill,
+                {
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                },
+              ]}
+              onPress={navigateToProfile}
               accessibilityRole="button"
               accessibilityLabel="Select Language"
             >
-              <Ionicons name="globe-outline" size={16} color="#374151" style={styles.globeIcon} />
-              <Text style={styles.languageText}>English</Text>
-              <Ionicons name="chevron-down" size={14} color="#6B7280" />
+              <Ionicons
+                name="globe-outline"
+                size={16}
+                color={theme.textPrimary}
+                style={styles.globeIcon}
+              />
+              <Text style={[styles.languageText, { color: theme.textPrimary }]}>
+                {currentLanguageOption.nativeName}
+              </Text>
+              <Ionicons name="chevron-down" size={14} color={theme.textMuted} />
             </Pressable>
 
             {/* Profile Avatar */}
             <Pressable
-              style={styles.profileAvatar}
-              onPress={() => setActiveTab('Profile')}
+              style={[
+                styles.profileAvatar,
+                {
+                  backgroundColor: theme.primaryGreenBg,
+                  borderColor: theme.primaryGreen,
+                },
+              ]}
+              onPress={navigateToProfile}
               accessibilityRole="button"
-              accessibilityLabel="Farmer Profile"
+              accessibilityLabel="Farmer Profile and Settings"
             >
-              <Ionicons name="person" size={18} color="#4B5563" />
+              <Ionicons name="person" size={18} color={theme.primaryGreen} />
             </Pressable>
           </View>
         </View>
 
         {/* Greeting Section */}
         <View style={styles.greetingContainer}>
-          <Text style={styles.greetingSalutation}>Good morning,</Text>
+          <Text style={[styles.greetingSalutation, { color: theme.textSecondary }]}>
+            {t('greetingSalutation')}
+          </Text>
           <View style={styles.greetingNameRow}>
-            <Text style={styles.greetingName}>Ramu</Text>
+            <Text style={[styles.greetingName, { color: theme.textPrimary }]}>
+              {t('greetingName')}
+            </Text>
             <Text style={styles.greetingEmoji}> 👋</Text>
           </View>
         </View>
@@ -219,6 +272,7 @@ export default function HomeScreen() {
               style={[
                 styles.micOuterRipple,
                 {
+                  backgroundColor: theme.micRippleOuter,
                   transform: [{ scale: pulseAnim }],
                   opacity: opacityAnim,
                 },
@@ -226,14 +280,19 @@ export default function HomeScreen() {
             />
 
             {/* Middle Soft Coral Ripple Circle */}
-            <View style={styles.micMiddleRipple} />
+            <View
+              style={[
+                styles.micMiddleRipple,
+                { backgroundColor: theme.micRippleMiddle },
+              ]}
+            />
 
             {/* Core Circular Red/Coral Microphone Button */}
             <Animated.View style={{ transform: [{ scale: micButtonScale }] }}>
               <Pressable
                 style={[
                   styles.micButton,
-                  isListening && styles.micButtonActive,
+                  { backgroundColor: isListening ? theme.micCoralActive : theme.micCoral },
                 ]}
                 onPress={handleMicPress}
                 accessibilityRole="button"
@@ -250,8 +309,8 @@ export default function HomeScreen() {
 
           {/* Voice Prompt Label */}
           <Pressable onPress={handleMicPress}>
-            <Text style={styles.tapToSpeakText}>
-              {isListening ? 'Listening... Speak now' : 'Tap to speak'}
+            <Text style={[styles.tapToSpeakText, { color: theme.textSecondary }]}>
+              {isListening ? t('listening') : t('tapToSpeak')}
             </Text>
           </Pressable>
         </View>
@@ -260,38 +319,50 @@ export default function HomeScreen() {
         <View style={styles.gridContainer}>
           <View style={styles.gridRow}>
             <ActionCard
-              title="Book a Slot"
+              title={t('bookSlot')}
               iconName="calendar-month-outline"
               iconType="material"
-              onPress={() => handleCardPress('Book a Slot')}
+              theme={theme}
+              onPress={() => router.push('/slots')}
             />
             <ActionCard
-              title="Payment Status"
+              title={t('paymentStatus')}
               iconName="currency-inr"
               iconType="material"
-              onPress={() => handleCardPress('Payment Status')}
+              theme={theme}
+              onPress={() => handleCardPress(t('paymentStatus'))}
             />
           </View>
 
           <View style={styles.gridRow}>
             <ActionCard
-              title="Nearby Mandis"
+              title={t('nearbyMandis')}
               iconName="location-sharp"
               iconType="ionicons"
-              onPress={() => handleCardPress('Nearby Mandis')}
+              theme={theme}
+              onPress={() => handleCardPress(t('nearbyMandis'))}
             />
             <ActionCard
-              title="My Crops"
+              title={t('myCrops')}
               iconName="file-document-outline"
               iconType="material"
-              onPress={() => handleCardPress('My Crops')}
+              theme={theme}
+              onPress={() => handleCardPress(t('myCrops'))}
             />
           </View>
         </View>
       </ScrollView>
 
       {/* Simple Bottom Navigation */}
-      <View style={styles.bottomNavContainer}>
+      <View
+        style={[
+          styles.bottomNavContainer,
+          {
+            backgroundColor: theme.bottomNavBg,
+            borderTopColor: theme.bottomNavBorder,
+          },
+        ]}
+      >
         <View style={styles.bottomNav}>
           {/* Home Tab */}
           <Pressable
@@ -303,65 +374,86 @@ export default function HomeScreen() {
             <View
               style={[
                 styles.navIconWrapper,
-                activeTab === 'Home' && styles.navIconWrapperActive,
+                activeTab === 'Home' && {
+                  backgroundColor: theme.primaryGreenBg,
+                },
               ]}
             >
               <Ionicons
                 name={activeTab === 'Home' ? 'home' : 'home-outline'}
                 size={22}
-                color={activeTab === 'Home' ? '#2E7D32' : '#6B7280'}
+                color={activeTab === 'Home' ? theme.primaryGreen : theme.textMuted}
               />
             </View>
             <Text
               style={[
                 styles.navLabel,
-                activeTab === 'Home' && styles.navLabelActive,
+                { color: theme.textMuted },
+                activeTab === 'Home' && {
+                  color: theme.primaryGreen,
+                  fontWeight: '700',
+                },
               ]}
             >
-              Home
+              {t('tabHome')}
             </Text>
           </Pressable>
 
           {/* Slots Tab */}
           <Pressable
             style={styles.navItem}
-            onPress={() => setActiveTab('Slots')}
+            onPress={() => router.push('/slots')}
             accessibilityRole="tab"
             accessibilityState={{ selected: activeTab === 'Slots' }}
           >
             <View
               style={[
                 styles.navIconWrapper,
-                activeTab === 'Slots' && styles.navIconWrapperActive,
+                activeTab === 'Slots' && {
+                  backgroundColor: theme.primaryGreenBg,
+                },
               ]}
             >
               <Ionicons
                 name={activeTab === 'Slots' ? 'calendar' : 'calendar-outline'}
                 size={22}
-                color={activeTab === 'Slots' ? '#2E7D32' : '#6B7280'}
+                color={activeTab === 'Slots' ? theme.primaryGreen : theme.textMuted}
               />
             </View>
             <Text
               style={[
                 styles.navLabel,
-                activeTab === 'Slots' && styles.navLabelActive,
+                { color: theme.textMuted },
+                activeTab === 'Slots' && {
+                  color: theme.primaryGreen,
+                  fontWeight: '700',
+                },
               ]}
             >
-              Slots
+              {t('tabSlots')}
             </Text>
           </Pressable>
 
           {/* Help Tab */}
           <Pressable
             style={styles.navItem}
-            onPress={() => setActiveTab('Help')}
+            onPress={() => {
+              setActiveTab('Help');
+              if (Platform.OS === 'web') {
+                console.log('Help clicked');
+              } else {
+                Alert.alert(t('tabHelp'), 'Help & Support center coming soon.');
+              }
+            }}
             accessibilityRole="tab"
             accessibilityState={{ selected: activeTab === 'Help' }}
           >
             <View
               style={[
                 styles.navIconWrapper,
-                activeTab === 'Help' && styles.navIconWrapperActive,
+                activeTab === 'Help' && {
+                  backgroundColor: theme.primaryGreenBg,
+                },
               ]}
             >
               <Ionicons
@@ -371,45 +463,55 @@ export default function HomeScreen() {
                     : 'help-circle-outline'
                 }
                 size={23}
-                color={activeTab === 'Help' ? '#2E7D32' : '#6B7280'}
+                color={activeTab === 'Help' ? theme.primaryGreen : theme.textMuted}
               />
             </View>
             <Text
               style={[
                 styles.navLabel,
-                activeTab === 'Help' && styles.navLabelActive,
+                { color: theme.textMuted },
+                activeTab === 'Help' && {
+                  color: theme.primaryGreen,
+                  fontWeight: '700',
+                },
               ]}
             >
-              Help
+              {t('tabHelp')}
             </Text>
           </Pressable>
 
           {/* Profile Tab */}
           <Pressable
             style={styles.navItem}
-            onPress={() => setActiveTab('Profile')}
+            onPress={navigateToProfile}
             accessibilityRole="tab"
             accessibilityState={{ selected: activeTab === 'Profile' }}
           >
             <View
               style={[
                 styles.navIconWrapper,
-                activeTab === 'Profile' && styles.navIconWrapperActive,
+                activeTab === 'Profile' && {
+                  backgroundColor: theme.primaryGreenBg,
+                },
               ]}
             >
               <Ionicons
                 name={activeTab === 'Profile' ? 'person' : 'person-outline'}
                 size={22}
-                color={activeTab === 'Profile' ? '#2E7D32' : '#6B7280'}
+                color={activeTab === 'Profile' ? theme.primaryGreen : theme.textMuted}
               />
             </View>
             <Text
               style={[
                 styles.navLabel,
-                activeTab === 'Profile' && styles.navLabelActive,
+                { color: theme.textMuted },
+                activeTab === 'Profile' && {
+                  color: theme.primaryGreen,
+                  fontWeight: '700',
+                },
               ]}
             >
-              Profile
+              {t('tabProfile')}
             </Text>
           </Pressable>
         </View>
@@ -421,7 +523,6 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#F7F9F6',
   },
   scrollView: {
     flex: 1,
@@ -452,7 +553,6 @@ const styles = StyleSheet.create({
     width: 38,
     height: 38,
     borderRadius: 12,
-    backgroundColor: '#2E7D32',
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#2E7D32',
@@ -464,13 +564,11 @@ const styles = StyleSheet.create({
   brandTitle: {
     fontSize: 17,
     fontWeight: '700',
-    color: '#1B3820',
     letterSpacing: -0.2,
   },
   brandSubtitle: {
     fontSize: 11,
-    fontWeight: '500',
-    color: '#527958',
+    fontWeight: '600',
     marginTop: -1,
   },
   headerActions: {
@@ -481,12 +579,10 @@ const styles = StyleSheet.create({
   languagePill: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF',
     paddingHorizontal: 12,
     paddingVertical: 7,
     borderRadius: 20,
     borderWidth: 1,
-    borderColor: '#E5E7EB',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.04,
@@ -499,18 +595,15 @@ const styles = StyleSheet.create({
   languageText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#374151',
     marginRight: 4,
   },
   profileAvatar: {
     width: 36,
     height: 36,
     borderRadius: 18,
-    backgroundColor: '#E5E7EB',
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1.5,
-    borderColor: '#FFFFFF',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.05,
@@ -527,7 +620,6 @@ const styles = StyleSheet.create({
   greetingSalutation: {
     fontSize: 22,
     fontWeight: '500',
-    color: '#374151',
     letterSpacing: -0.2,
   },
   greetingNameRow: {
@@ -538,7 +630,6 @@ const styles = StyleSheet.create({
   greetingName: {
     fontSize: 32,
     fontWeight: '800',
-    color: '#111827',
     letterSpacing: -0.5,
   },
   greetingEmoji: {
@@ -563,20 +654,17 @@ const styles = StyleSheet.create({
     width: 210,
     height: 210,
     borderRadius: 105,
-    backgroundColor: 'rgba(254, 205, 211, 0.45)', // very soft light pink/coral
   },
   micMiddleRipple: {
     position: 'absolute',
     width: 165,
     height: 165,
     borderRadius: 82.5,
-    backgroundColor: 'rgba(254, 202, 202, 0.65)', // soft pink/coral
   },
   micButton: {
     width: 124,
     height: 124,
     borderRadius: 62,
-    backgroundColor: '#F87171', // warm coral/red matching reference photo
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#EF4444',
@@ -587,14 +675,9 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: '#FFFFFF',
   },
-  micButtonActive: {
-    backgroundColor: '#EF4444',
-    shadowOpacity: 0.5,
-  },
   tapToSpeakText: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#4B5563',
     marginTop: 14,
     letterSpacing: 0.2,
   },
@@ -613,7 +696,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   card: {
-    backgroundColor: '#FFFFFF',
     borderRadius: 20,
     paddingVertical: 20,
     paddingHorizontal: 16,
@@ -621,7 +703,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     minHeight: 112,
     borderWidth: 1,
-    borderColor: '#EEF2F0',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.05,
@@ -632,7 +713,6 @@ const styles = StyleSheet.create({
     width: 52,
     height: 52,
     borderRadius: 14,
-    backgroundColor: '#F0F7F2',
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 10,
@@ -640,16 +720,13 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#2D3748',
     textAlign: 'center',
     lineHeight: 19,
   },
 
   /* Bottom Navigation Styles */
   bottomNavContainer: {
-    backgroundColor: '#FFFFFF',
     borderTopWidth: 1,
-    borderTopColor: '#EBECEE',
     paddingTop: 8,
     paddingBottom: Platform.OS === 'ios' ? 24 : 12,
     paddingHorizontal: 16,
@@ -682,16 +759,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 2,
   },
-  navIconWrapperActive: {
-    backgroundColor: '#E8F5E9',
-  },
   navLabel: {
     fontSize: 12,
     fontWeight: '500',
-    color: '#6B7280',
-  },
-  navLabelActive: {
-    color: '#2E7D32',
-    fontWeight: '700',
   },
 });
