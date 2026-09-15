@@ -6,6 +6,7 @@ import {
   Pressable,
   ScrollView,
   Animated,
+  ActivityIndicator,
   Platform,
   Alert,
 } from 'react-native';
@@ -17,6 +18,9 @@ import {
   FontAwesome5,
 } from '@expo/vector-icons';
 import { useSettings } from '@/context/settings-context';
+import { useFarmerLocation } from '@/context/location-context';
+import { getNearbyMandisForLocation } from '@/constants/mandis';
+import { LocationModal } from '@/components/location-modal';
 import { AppThemePalette } from '@/constants/theme';
 
 interface ActionCardProps {
@@ -102,6 +106,8 @@ function ActionCard({ title, iconName, iconType, theme, onPress }: ActionCardPro
 export default function HomeScreen() {
   const router = useRouter();
   const { theme, t, currentLanguageOption } = useSettings();
+  const { location, isLoading: isLocationLoading, fetchCurrentLocation } = useFarmerLocation();
+
   const [isListening, setIsListening] = useState(false);
   const [activeTab, setActiveTab] = useState<'Home' | 'Slots' | 'Help' | 'Profile'>('Home');
 
@@ -165,15 +171,43 @@ export default function HomeScreen() {
   };
 
   const handleCardPress = (feature: string) => {
-    if (Platform.OS === 'web') {
-      console.log(`Navigating to ${feature}`);
+    if (feature === t('nearbyMandis')) {
+      const mandis = getNearbyMandisForLocation(
+        location.latitude,
+        location.longitude,
+        location.city || location.district,
+        location.state
+      );
+
+      const mandiListText = mandis
+        .map((m, i) => `${i + 1}. ${m.name} (${m.distance})\n   • ${m.gate} | ${m.availableSlots} ${t('slotsAvailableSuffix')}`)
+        .join('\n\n');
+
+      Alert.alert(
+        t('nearbyMandisTitle'),
+        `${t('mandisClosestTo')} ${location.formattedAddress}:\n\n${mandiListText}`,
+        [
+          { text: t('close'), style: 'cancel' },
+          { text: t('bookDeliverySlot'), onPress: () => router.push('/slots') },
+        ]
+      );
     } else {
-      Alert.alert(feature, `Opening ${feature}...`);
+      if (Platform.OS === 'web') {
+        console.log(`Navigating to ${feature}`);
+      } else {
+        Alert.alert(feature, `${feature}...`);
+      }
     }
   };
 
   const navigateToProfile = () => {
     router.push('/profile');
+  };
+
+  const [isLocationModalVisible, setIsLocationModalVisible] = useState(false);
+
+  const handleLocationPress = () => {
+    setIsLocationModalVisible(true);
   };
 
   return (
@@ -251,16 +285,60 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        {/* Greeting Section */}
+        {/* Greeting Section & Location Pill */}
         <View style={styles.greetingContainer}>
-          <Text style={[styles.greetingSalutation, { color: theme.textSecondary }]}>
-            {t('greetingSalutation')}
-          </Text>
-          <View style={styles.greetingNameRow}>
-            <Text style={[styles.greetingName, { color: theme.textPrimary }]}>
-              {t('greetingName')}
-            </Text>
-            <Text style={styles.greetingEmoji}> 👋</Text>
+          <View style={styles.greetingHeaderRow}>
+            <View>
+              <Text style={[styles.greetingSalutation, { color: theme.textSecondary }]}>
+                {t('greetingSalutation')}
+              </Text>
+              <View style={styles.greetingNameRow}>
+                <Text style={[styles.greetingName, { color: theme.textPrimary }]}>
+                  {t('greetingName')}
+                </Text>
+                <Text style={styles.greetingEmoji}> 👋</Text>
+              </View>
+            </View>
+
+            {/* Live Location Pill Button */}
+            <Pressable
+              style={[
+                styles.locationBadge,
+                {
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                },
+              ]}
+              onPress={handleLocationPress}
+              accessibilityRole="button"
+              accessibilityLabel={`Location: ${location.formattedAddress}. Tap to update via GPS.`}
+            >
+              {isLocationLoading ? (
+                <ActivityIndicator size="small" color={theme.primaryGreen} />
+              ) : (
+                <Ionicons
+                  name="location"
+                  size={15}
+                  color={theme.primaryGreen}
+                />
+              )}
+              <View style={styles.locationTextWrapper}>
+                <Text
+                  style={[styles.locationName, { color: theme.textPrimary }]}
+                  numberOfLines={1}
+                >
+                  {location.city || location.district || 'Nagpur'}
+                </Text>
+                <Text style={[styles.locationState, { color: theme.textMuted }]}>
+                  {location.state || 'Maharashtra'}
+                </Text>
+              </View>
+              <Ionicons
+                name="refresh-outline"
+                size={13}
+                color={theme.textMuted}
+              />
+            </Pressable>
           </View>
         </View>
 
@@ -330,7 +408,7 @@ export default function HomeScreen() {
               iconName="currency-inr"
               iconType="material"
               theme={theme}
-              onPress={() => handleCardPress(t('paymentStatus'))}
+              onPress={() => router.push('/payments')}
             />
           </View>
 
@@ -347,7 +425,7 @@ export default function HomeScreen() {
               iconName="file-document-outline"
               iconType="material"
               theme={theme}
-              onPress={() => handleCardPress(t('myCrops'))}
+              onPress={() => router.push('/crops')}
             />
           </View>
         </View>
@@ -442,7 +520,7 @@ export default function HomeScreen() {
               if (Platform.OS === 'web') {
                 console.log('Help clicked');
               } else {
-                Alert.alert(t('tabHelp'), 'Help & Support center coming soon.');
+                Alert.alert(t('tabHelp'), 'Kissan Saathi Farmer Helpline: 1800-180-1551');
               }
             }}
             accessibilityRole="tab"
@@ -516,6 +594,13 @@ export default function HomeScreen() {
           </Pressable>
         </View>
       </View>
+
+      {/* Farm Location Selection Modal */}
+      <LocationModal
+        visible={isLocationModalVisible}
+        onClose={() => setIsLocationModalVisible(false)}
+        theme={theme}
+      />
     </SafeAreaView>
   );
 }
@@ -542,7 +627,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingVertical: 12,
-    marginBottom: 16,
+    marginBottom: 12,
   },
   brandingContainer: {
     flexDirection: 'row',
@@ -613,34 +698,67 @@ const styles = StyleSheet.create({
 
   /* Greeting Styles */
   greetingContainer: {
-    marginTop: 4,
-    marginBottom: 24,
-    paddingHorizontal: 4,
+    marginTop: 2,
+    marginBottom: 20,
+    paddingHorizontal: 2,
+  },
+  greetingHeaderRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   greetingSalutation: {
-    fontSize: 22,
+    fontSize: 20,
     fontWeight: '500',
     letterSpacing: -0.2,
   },
   greetingNameRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 2,
+    marginTop: 1,
   },
   greetingName: {
-    fontSize: 32,
+    fontSize: 30,
     fontWeight: '800',
     letterSpacing: -0.5,
   },
   greetingEmoji: {
-    fontSize: 28,
+    fontSize: 26,
+  },
+
+  /* Location Badge */
+  locationBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingHorizontal: 11,
+    paddingVertical: 7,
+    borderRadius: 16,
+    borderWidth: 1,
+    maxWidth: 160,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.04,
+    shadowRadius: 3,
+    elevation: 1,
+  },
+  locationTextWrapper: {
+    flex: 1,
+  },
+  locationName: {
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  locationState: {
+    fontSize: 10,
+    fontWeight: '500',
   },
 
   /* Voice / Mic Section */
   voiceSection: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginVertical: 12,
+    marginVertical: 10,
   },
   micRippleContainer: {
     width: 220,
@@ -684,7 +802,7 @@ const styles = StyleSheet.create({
 
   /* 2x2 Grid Section */
   gridContainer: {
-    marginTop: 28,
+    marginTop: 24,
     marginBottom: 10,
     gap: 14,
   },

@@ -18,6 +18,12 @@ import {
   FontAwesome5,
 } from '@expo/vector-icons';
 import { useSettings } from '@/context/settings-context';
+import { useFarmerLocation } from '@/context/location-context';
+import { getNearbyMandisForLocation, NearbyMandiResult } from '@/constants/mandis';
+import {
+  getCropTranslationKey,
+  getVehicleTranslationKey,
+} from '@/constants/translations';
 import { AppThemePalette } from '@/constants/theme';
 
 interface SlotItem {
@@ -48,7 +54,7 @@ const INITIAL_SLOTS: SlotItem[] = [
     quantityQuintals: 45,
     mandiName: 'Nagpur APMC Main Yard',
     mandiGate: 'Gate #3 (Grain Section)',
-    date: 'Tomorrow, 16 Sep 2026',
+    date: '16 Sep 2026',
     timeWindow: '08:30 AM - 11:30 AM',
     vehicleType: 'Tractor Trolley',
     vehicleNumber: 'MH 31 CZ 5521',
@@ -65,7 +71,7 @@ const INITIAL_SLOTS: SlotItem[] = [
     quantityQuintals: 30,
     mandiName: 'Hingna Procurement Hub',
     mandiGate: 'Gate #1',
-    date: 'Friday, 18 Sep 2026',
+    date: '18 Sep 2026',
     timeWindow: '11:30 AM - 02:30 PM',
     vehicleType: 'Small Truck',
     vehicleNumber: 'MH 31 AG 4190',
@@ -126,35 +132,53 @@ const NEARBY_MANDIS = [
 ];
 
 const TIME_WINDOWS = [
-  { id: 'morning', label: 'Morning', time: '08:30 AM - 11:30 AM', slots: '18 left' },
-  { id: 'afternoon', label: 'Afternoon', time: '11:30 AM - 02:30 PM', slots: '14 left' },
-  { id: 'evening', label: 'Evening', time: '02:30 PM - 05:30 PM', slots: '9 left' },
+  { id: 'morning', timeKey: 'morning' as const, time: '08:30 AM - 11:30 AM', slots: '18' },
+  { id: 'afternoon', timeKey: 'afternoon' as const, time: '11:30 AM - 02:30 PM', slots: '14' },
+  { id: 'evening', timeKey: 'evening' as const, time: '02:30 PM - 05:30 PM', slots: '9' },
 ];
 
 const DATES_LIST = [
-  { id: 'd1', label: 'Tomorrow', day: 'Wed', dateNum: '16', fullDate: 'Wed, 16 Sep 2026' },
-  { id: 'd2', label: 'Day after', day: 'Thu', dateNum: '17', fullDate: 'Thu, 17 Sep 2026' },
-  { id: 'd3', label: 'Friday', day: 'Fri', dateNum: '18', fullDate: 'Fri, 18 Sep 2026' },
-  { id: 'd4', label: 'Saturday', day: 'Sat', dateNum: '19', fullDate: 'Sat, 19 Sep 2026' },
-  { id: 'd5', label: 'Monday', day: 'Mon', dateNum: '21', fullDate: 'Mon, 21 Sep 2026' },
+  { id: 'd1', labelKey: 'tomorrow' as const, day: 'Wed', dateNum: '16', fullDate: '16 Sep 2026' },
+  { id: 'd2', labelKey: 'dayAfter' as const, day: 'Thu', dateNum: '17', fullDate: '17 Sep 2026' },
+  { id: 'd3', labelKey: 'tomorrow' as const, day: 'Fri', dateNum: '18', fullDate: '18 Sep 2026' },
+  { id: 'd4', labelKey: 'tomorrow' as const, day: 'Sat', dateNum: '19', fullDate: '19 Sep 2026' },
+  { id: 'd5', labelKey: 'tomorrow' as const, day: 'Mon', dateNum: '21', fullDate: '21 Sep 2026' },
 ];
 
 export default function SlotsScreen() {
   const router = useRouter();
   const { theme, t } = useSettings();
+  const { location } = useFarmerLocation();
 
   const [activeTab, setActiveTab] = useState<'upcoming' | 'completed'>('upcoming');
   const [slotsList, setSlotsList] = useState<SlotItem[]>(INITIAL_SLOTS);
+
+  const nearbyMandis = React.useMemo(() => {
+    return getNearbyMandisForLocation(
+      location.latitude,
+      location.longitude,
+      location.city || location.district,
+      location.state
+    );
+  }, [location.latitude, location.longitude, location.city, location.state]);
 
   // Booking Modal State
   const [isBookingModalVisible, setIsBookingModalVisible] = useState(false);
   const [selectedCrop, setSelectedCrop] = useState(AVAILABLE_CROPS[0]);
   const [quantity, setQuantity] = useState('40');
-  const [selectedMandi, setSelectedMandi] = useState(NEARBY_MANDIS[0]);
+  const [selectedMandi, setSelectedMandi] = useState<NearbyMandiResult | typeof NEARBY_MANDIS[0]>(
+    () => nearbyMandis[0] || NEARBY_MANDIS[0]
+  );
   const [selectedDate, setSelectedDate] = useState(DATES_LIST[0]);
   const [selectedTimeWindow, setSelectedTimeWindow] = useState(TIME_WINDOWS[0]);
   const [vehicleNumber, setVehicleNumber] = useState('MH 31 CZ 5521');
   const [vehicleType, setVehicleType] = useState('Tractor Trolley');
+
+  React.useEffect(() => {
+    if (nearbyMandis && nearbyMandis.length > 0) {
+      setSelectedMandi(nearbyMandis[0]);
+    }
+  }, [nearbyMandis]);
 
   // Gate Pass Modal
   const [selectedGatePass, setSelectedGatePass] = useState<SlotItem | null>(null);
@@ -197,12 +221,12 @@ export default function SlotsScreen() {
 
   const handleCancelSlot = (slotId: string) => {
     Alert.alert(
-      'Cancel Slot Booking',
-      'Are you sure you want to cancel this mandi delivery slot?',
+      t('cancelSlotTitle'),
+      t('cancelSlotConfirm'),
       [
-        { text: 'Keep Slot', style: 'cancel' },
+        { text: t('keepSlot'), style: 'cancel' },
         {
-          text: 'Yes, Cancel',
+          text: t('yesCancel'),
           style: 'destructive',
           onPress: () => {
             setSlotsList((prev) =>
@@ -240,10 +264,10 @@ export default function SlotsScreen() {
 
         <View style={styles.headerTitleContainer}>
           <Text style={[styles.headerTitle, { color: theme.textPrimary }]}>
-            Mandi Delivery Slots
+            {t('mandiDeliverySlots')}
           </Text>
           <Text style={[styles.headerSubtitle, { color: theme.primaryGreen }]}>
-            Direct APMC Gate Pass
+            {t('directGatePass')}
           </Text>
         </View>
 
@@ -254,7 +278,7 @@ export default function SlotsScreen() {
           accessibilityLabel="Book new slot"
         >
           <Ionicons name="add" size={20} color="#FFFFFF" />
-          <Text style={styles.bookHeaderBtnText}>Book</Text>
+          <Text style={styles.bookHeaderBtnText}>{t('bookBtn')}</Text>
         </Pressable>
       </View>
 
@@ -288,10 +312,10 @@ export default function SlotsScreen() {
             </View>
             <View style={styles.bannerTextCol}>
               <Text style={[styles.bannerTitle, { color: theme.textPrimary }]}>
-                No Long Mandi Queues
+                {t('noMandiQueues')}
               </Text>
               <Text style={[styles.bannerDesc, { color: theme.textMuted }]}>
-                Pre-book your delivery token & get priority weighbridge entry
+                {t('noMandiQueuesDesc')}
               </Text>
             </View>
           </View>
@@ -304,7 +328,7 @@ export default function SlotsScreen() {
             onPress={() => setIsBookingModalVisible(true)}
           >
             <Text style={[styles.bannerActionText, { color: theme.primaryGreen }]}>
-              + Book New Slot
+              {t('bookNewSlot')}
             </Text>
           </Pressable>
         </View>
@@ -343,7 +367,7 @@ export default function SlotsScreen() {
                 },
               ]}
             >
-              Upcoming ({slotsList.filter((s) => s.status === 'confirmed').length})
+              {t('upcomingSlots')} ({slotsList.filter((s) => s.status === 'confirmed').length})
             </Text>
           </Pressable>
 
@@ -372,7 +396,7 @@ export default function SlotsScreen() {
                 },
               ]}
             >
-              Past Deliveries ({slotsList.filter((s) => s.status === 'completed').length})
+              {t('pastDeliveries')} ({slotsList.filter((s) => s.status === 'completed').length})
             </Text>
           </Pressable>
         </View>
@@ -394,10 +418,10 @@ export default function SlotsScreen() {
               color={theme.textMuted}
             />
             <Text style={[styles.emptyStateTitle, { color: theme.textPrimary }]}>
-              No {activeTab} slots found
+              {t('noSlotsFound')}
             </Text>
             <Text style={[styles.emptyStateDesc, { color: theme.textMuted }]}>
-              Book a slot to sell your crop at the nearest APMC Mandi without waiting.
+              {t('noSlotsDesc')}
             </Text>
             <Pressable
               style={[
@@ -406,7 +430,7 @@ export default function SlotsScreen() {
               ]}
               onPress={() => setIsBookingModalVisible(true)}
             >
-              <Text style={styles.emptyStateBtnText}>Book Your First Slot</Text>
+              <Text style={styles.emptyStateBtnText}>{t('bookFirstSlot')}</Text>
             </Pressable>
           </View>
         ) : (
@@ -449,7 +473,7 @@ export default function SlotsScreen() {
                               { color: theme.textPrimary },
                             ]}
                           >
-                            {slot.cropName}
+                            {t(getCropTranslationKey(slot.cropName))}
                           </Text>
                           <Text
                             style={[
@@ -466,7 +490,7 @@ export default function SlotsScreen() {
                             { color: theme.primaryGreen },
                           ]}
                         >
-                          {slot.quantityQuintals} Quintals • Est. ₹
+                          {slot.quantityQuintals} {t('quintals')} • {t('estTotalValueShort')} ₹
                           {slot.estTotalValue.toLocaleString('en-IN')}
                         </Text>
                       </View>
@@ -504,7 +528,7 @@ export default function SlotsScreen() {
                           },
                         ]}
                       >
-                        {isConfirmed ? 'Confirmed' : 'Completed'}
+                        {isConfirmed ? t('confirmed') : t('completed')}
                       </Text>
                     </View>
                   </View>
@@ -531,7 +555,7 @@ export default function SlotsScreen() {
                             { color: theme.textMuted },
                           ]}
                         >
-                          Mandi / Yard
+                          {t('mandiYard')}
                         </Text>
                         <Text
                           style={[
@@ -565,7 +589,7 @@ export default function SlotsScreen() {
                             { color: theme.textMuted },
                           ]}
                         >
-                          Date & Time Slot
+                          {t('dateTimeSlot')}
                         </Text>
                         <Text
                           style={[
@@ -599,7 +623,7 @@ export default function SlotsScreen() {
                             { color: theme.textMuted },
                           ]}
                         >
-                          Transport Vehicle
+                          {t('transportVehicle')}
                         </Text>
                         <Text
                           style={[
@@ -607,7 +631,7 @@ export default function SlotsScreen() {
                             { color: theme.textPrimary },
                           ]}
                         >
-                          {slot.vehicleType} ({slot.vehicleNumber})
+                          {t(getVehicleTranslationKey(slot.vehicleType))} ({slot.vehicleNumber})
                         </Text>
                       </View>
                     </View>
@@ -630,7 +654,7 @@ export default function SlotsScreen() {
                           { color: theme.textMuted },
                         ]}
                       >
-                        Token No.
+                        {t('tokenNo')}
                       </Text>
                       <Text
                         style={[
@@ -652,7 +676,7 @@ export default function SlotsScreen() {
                             ]}
                             onPress={() => handleCancelSlot(slot.id)}
                           >
-                            <Text style={styles.cancelBtnText}>Cancel</Text>
+                            <Text style={styles.cancelBtnText}>{t('cancelSlot')}</Text>
                           </Pressable>
 
                           <Pressable
@@ -668,7 +692,7 @@ export default function SlotsScreen() {
                               color="#FFFFFF"
                             />
                             <Text style={styles.gatePassBtnText}>
-                              Gate Pass
+                              {t('gatePassBtn')}
                             </Text>
                           </Pressable>
                         </>
@@ -688,7 +712,7 @@ export default function SlotsScreen() {
                             color="#FFFFFF"
                           />
                           <Text style={styles.gatePassBtnText}>
-                            View Receipt
+                            {t('viewReceipt')}
                           </Text>
                         </Pressable>
                       )}
@@ -725,12 +749,12 @@ export default function SlotsScreen() {
               <Text
                 style={[styles.modalHeaderTitle, { color: theme.textPrimary }]}
               >
-                Book Mandi Slot
+                {t('bookMandiSlotTitle')}
               </Text>
               <Text
                 style={[styles.modalHeaderSub, { color: theme.primaryGreen }]}
               >
-                Step-by-step Mandi Token
+                {t('stepByStepToken')}
               </Text>
             </View>
             <Pressable
@@ -752,7 +776,7 @@ export default function SlotsScreen() {
             {/* 1. Crop Selection */}
             <View style={styles.formSection}>
               <Text style={[styles.formSectionTitle, { color: theme.textPrimary }]}>
-                1. Select Produce / Crop
+                {t('step1Crop')}
               </Text>
               <View style={styles.cropGrid}>
                 {AVAILABLE_CROPS.map((crop) => {
@@ -803,7 +827,7 @@ export default function SlotsScreen() {
                           },
                         ]}
                       >
-                        {crop.name}
+                        {t(getCropTranslationKey(crop.name))}
                       </Text>
                       <Text
                         style={[
@@ -830,7 +854,7 @@ export default function SlotsScreen() {
             {/* 2. Quantity in Quintals */}
             <View style={styles.formSection}>
               <Text style={[styles.formSectionTitle, { color: theme.textPrimary }]}>
-                2. Quantity (in Quintals)
+                {t('step2Qty')}
               </Text>
               <View
                 style={[
@@ -862,7 +886,7 @@ export default function SlotsScreen() {
                     onChangeText={setQuantity}
                   />
                   <Text style={[styles.qtyUnit, { color: theme.textMuted }]}>
-                    Quintals (~{(parseFloat(quantity) || 0) * 100} Kg)
+                    {t('quintals')} (~{(parseFloat(quantity) || 0) * 100} Kg)
                   </Text>
                 </View>
 
@@ -884,10 +908,10 @@ export default function SlotsScreen() {
             {/* 3. Mandi Selection */}
             <View style={styles.formSection}>
               <Text style={[styles.formSectionTitle, { color: theme.textPrimary }]}>
-                3. Choose Procurement Mandi
+                {t('step3Mandi')}
               </Text>
               <View style={styles.mandiList}>
-                {NEARBY_MANDIS.map((mandi) => {
+                {nearbyMandis.map((mandi) => {
                   const isSelected = selectedMandi.id === mandi.id;
                   return (
                     <Pressable
@@ -958,7 +982,7 @@ export default function SlotsScreen() {
                             },
                           ]}
                         >
-                          {mandi.availableSlots} slots
+                          {mandi.availableSlots} {t('slotsAvailableSuffix')}
                         </Text>
                       </View>
                     </Pressable>
@@ -970,7 +994,7 @@ export default function SlotsScreen() {
             {/* 4. Date & Time Window */}
             <View style={styles.formSection}>
               <Text style={[styles.formSectionTitle, { color: theme.textPrimary }]}>
-                4. Select Date & Arrival Time
+                {t('step4DateTime')}
               </Text>
 
               {/* Horizontal Date Picker */}
@@ -1021,7 +1045,7 @@ export default function SlotsScreen() {
                           { color: isSelected ? '#E8F5E9' : theme.primaryGreen },
                         ]}
                       >
-                        {d.label}
+                        {t(d.labelKey)}
                       </Text>
                     </Pressable>
                   );
@@ -1068,7 +1092,7 @@ export default function SlotsScreen() {
                             },
                           ]}
                         >
-                          {tw.label}
+                          {t(tw.timeKey)}
                         </Text>
                         <Text
                           style={[
@@ -1088,7 +1112,7 @@ export default function SlotsScreen() {
             {/* 5. Vehicle Info */}
             <View style={styles.formSection}>
               <Text style={[styles.formSectionTitle, { color: theme.textPrimary }]}>
-                5. Vehicle Information
+                {t('step5Vehicle')}
               </Text>
               <View
                 style={[
@@ -1100,39 +1124,43 @@ export default function SlotsScreen() {
                 ]}
               >
                 <View style={styles.vehicleTypeRow}>
-                  {['Tractor Trolley', 'Small Truck', 'Bolero Pickup'].map((v) => (
+                  {[
+                    { id: 'Tractor Trolley', key: 'tractorTrolley' as const },
+                    { id: 'Small Truck', key: 'smallTruck' as const },
+                    { id: 'Bolero Pickup', key: 'boleroPickup' as const },
+                  ].map((v) => (
                     <Pressable
-                      key={v}
+                      key={v.id}
                       style={[
                         styles.vehicleTypeBtn,
                         {
                           backgroundColor:
-                            vehicleType === v
+                            vehicleType === v.id
                               ? theme.primaryGreenBg
                               : theme.isDark
                               ? '#222824'
                               : '#F3F4F6',
                           borderColor:
-                            vehicleType === v
+                            vehicleType === v.id
                               ? theme.primaryGreen
                               : 'transparent',
                         },
                       ]}
-                      onPress={() => setVehicleType(v)}
+                      onPress={() => setVehicleType(v.id)}
                     >
                       <Text
                         style={[
                           styles.vehicleTypeText,
                           {
                             color:
-                              vehicleType === v
+                              vehicleType === v.id
                                 ? theme.primaryGreen
                                 : theme.textMuted,
-                            fontWeight: vehicleType === v ? '700' : '500',
+                            fontWeight: vehicleType === v.id ? '700' : '500',
                           },
                         ]}
                       >
-                        {v}
+                        {t(v.key)}
                       </Text>
                     </Pressable>
                   ))}
@@ -1179,15 +1207,15 @@ export default function SlotsScreen() {
             >
               <View style={styles.summaryRow}>
                 <Text style={[styles.summaryLabel, { color: theme.textSecondary }]}>
-                  Govt. MSP Rate ({selectedCrop.name})
+                  {t('govtMspRate')} ({t(getCropTranslationKey(selectedCrop.name))})
                 </Text>
                 <Text style={[styles.summaryValue, { color: theme.primaryGreen }]}>
-                  ₹{selectedCrop.msp} / Quintal
+                  ₹{selectedCrop.msp} / {t('quintals')}
                 </Text>
               </View>
               <View style={styles.summaryRow}>
                 <Text style={[styles.summaryLabel, { color: theme.textSecondary }]}>
-                  Estimated Payout
+                  {t('estimatedPayout')}
                 </Text>
                 <Text style={[styles.summaryTotal, { color: theme.primaryGreen }]}>
                   ₹
@@ -1218,7 +1246,7 @@ export default function SlotsScreen() {
             >
               <Ionicons name="checkmark-circle" size={22} color="#FFFFFF" />
               <Text style={styles.confirmBookingBtnText}>
-                Confirm & Generate Gate Pass
+                {t('confirmGatePass')}
               </Text>
             </Pressable>
           </View>
@@ -1251,7 +1279,7 @@ export default function SlotsScreen() {
                     color="#FFFFFF"
                   />
                   <Text style={styles.passBrandText}>
-                    APMC E-GATE PASS
+                    {t('apmcGatePassTitle')}
                   </Text>
                 </View>
                 <Pressable
@@ -1270,7 +1298,7 @@ export default function SlotsScreen() {
                     { backgroundColor: theme.primaryGreenBg },
                   ]}
                 >
-                  <Text style={styles.passTokenLabel}>ENTRY TOKEN</Text>
+                  <Text style={styles.passTokenLabel}>{t('entryToken')}</Text>
                   <Text
                     style={[
                       styles.passTokenNumber,
@@ -1286,36 +1314,36 @@ export default function SlotsScreen() {
                 <View style={styles.qrCodeBox}>
                   <Ionicons name="qr-code" size={130} color="#1F2937" />
                   <Text style={styles.qrScanPrompt}>
-                    Scan at Mandi Entry Weighbridge
+                    {t('scanWeighbridge')}
                   </Text>
                 </View>
 
                 {/* Key Details on Gate Pass */}
                 <View style={styles.passDetailsList}>
                   <View style={styles.passDetailRow}>
-                    <Text style={styles.passDetailKey}>Farmer Name:</Text>
-                    <Text style={styles.passDetailVal}>Ramu Ji</Text>
+                    <Text style={styles.passDetailKey}>{t('farmerNameLabel')}</Text>
+                    <Text style={styles.passDetailVal}>{t('greetingName')}</Text>
                   </View>
                   <View style={styles.passDetailRow}>
-                    <Text style={styles.passDetailKey}>Crop & Quantity:</Text>
+                    <Text style={styles.passDetailKey}>{t('cropQtyLabel')}</Text>
                     <Text style={styles.passDetailVal}>
-                      {selectedGatePass.cropName} ({selectedGatePass.quantityQuintals} Qtl)
+                      {t(getCropTranslationKey(selectedGatePass.cropName))} ({selectedGatePass.quantityQuintals} {t('quintals')})
                     </Text>
                   </View>
                   <View style={styles.passDetailRow}>
-                    <Text style={styles.passDetailKey}>Mandi Center:</Text>
+                    <Text style={styles.passDetailKey}>{t('mandiCenterLabel')}</Text>
                     <Text style={styles.passDetailVal}>
                       {selectedGatePass.mandiName}
                     </Text>
                   </View>
                   <View style={styles.passDetailRow}>
-                    <Text style={styles.passDetailKey}>Slot Window:</Text>
+                    <Text style={styles.passDetailKey}>{t('slotWindowLabel')}</Text>
                     <Text style={styles.passDetailVal}>
                       {selectedGatePass.date} ({selectedGatePass.timeWindow})
                     </Text>
                   </View>
                   <View style={styles.passDetailRow}>
-                    <Text style={styles.passDetailKey}>Vehicle Reg.:</Text>
+                    <Text style={styles.passDetailKey}>{t('vehicleRegLabel')}</Text>
                     <Text style={styles.passDetailVal}>
                       {selectedGatePass.vehicleNumber}
                     </Text>
@@ -1330,7 +1358,7 @@ export default function SlotsScreen() {
                   onPress={() => setSelectedGatePass(null)}
                 >
                   <Ionicons name="checkmark" size={20} color="#FFFFFF" />
-                  <Text style={styles.passDoneBtnText}>Done</Text>
+                  <Text style={styles.passDoneBtnText}>{t('done')}</Text>
                 </Pressable>
               </View>
             </View>

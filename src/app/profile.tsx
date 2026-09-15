@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   StyleSheet,
   View,
   Text,
   Pressable,
   ScrollView,
+  ActivityIndicator,
+  Platform,
+  Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -13,7 +16,9 @@ import {
   MaterialCommunityIcons,
 } from '@expo/vector-icons';
 import { useSettings } from '@/context/settings-context';
+import { useFarmerLocation } from '@/context/location-context';
 import { LanguageDropdown } from '@/components/language-dropdown';
+import { LocationModal } from '@/components/location-modal';
 
 export default function ProfileScreen() {
   const router = useRouter();
@@ -23,6 +28,8 @@ export default function ProfileScreen() {
     theme,
     t,
   } = useSettings();
+  const { location, isLoading: isLocationLoading } = useFarmerLocation();
+  const [isLocationModalVisible, setIsLocationModalVisible] = useState(false);
 
   const handleBack = () => {
     if (router.canGoBack()) {
@@ -30,6 +37,10 @@ export default function ProfileScreen() {
     } else {
       router.replace('/');
     }
+  };
+
+  const handleUpdateLocation = () => {
+    setIsLocationModalVisible(true);
   };
 
   return (
@@ -135,6 +146,7 @@ export default function ProfileScreen() {
               },
             ]}
           >
+            {/* Phone */}
             <View style={styles.metaItem}>
               <View style={styles.metaIconRow}>
                 <Ionicons
@@ -158,6 +170,7 @@ export default function ProfileScreen() {
               ]}
             />
 
+            {/* Location (Dynamic GPS) */}
             <View style={styles.metaItem}>
               <View style={styles.metaIconRow}>
                 <Ionicons
@@ -169,9 +182,27 @@ export default function ProfileScreen() {
                   {t('location')}
                 </Text>
               </View>
-              <Text style={[styles.metaValue, { color: theme.textPrimary }]}>
-                {t('sampleLocation')}
-              </Text>
+              <Pressable
+                style={styles.locationUpdateAction}
+                onPress={handleUpdateLocation}
+                accessibilityRole="button"
+                accessibilityLabel="Update GPS location"
+              >
+                {isLocationLoading ? (
+                  <ActivityIndicator size="small" color={theme.primaryGreen} />
+                ) : (
+                  <>
+                    <Text style={[styles.metaValue, { color: theme.textPrimary }]}>
+                      {location.formattedAddress}
+                    </Text>
+                    <Ionicons
+                      name="refresh-circle"
+                      size={18}
+                      color={theme.primaryGreen}
+                    />
+                  </>
+                )}
+              </Pressable>
             </View>
 
             <View
@@ -181,6 +212,7 @@ export default function ProfileScreen() {
               ]}
             />
 
+            {/* Land Holding */}
             <View style={styles.metaItem}>
               <View style={styles.metaIconRow}>
                 <MaterialCommunityIcons
@@ -500,6 +532,13 @@ export default function ProfileScreen() {
           </Text>
         </View>
       </ScrollView>
+
+      {/* Farm Location Selection Modal */}
+      <LocationModal
+        visible={isLocationModalVisible}
+        onClose={() => setIsLocationModalVisible(false)}
+        theme={theme}
+      />
     </SafeAreaView>
   );
 }
@@ -627,6 +666,12 @@ const styles = StyleSheet.create({
   metaValue: {
     fontSize: 13,
     fontWeight: '700',
+  },
+  locationUpdateAction: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    maxWidth: '65%',
   },
   metaDivider: {
     height: 1,

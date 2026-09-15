@@ -1,6 +1,7 @@
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { SettingsProvider, useSettings } from '@/context/settings-context';
+import { LocationProvider } from '@/context/location-context';
 
 function RootLayoutNav() {
   const { theme, isDark } = useSettings();
@@ -18,6 +19,8 @@ function RootLayoutNav() {
         <Stack.Screen name="index" />
         <Stack.Screen name="profile" />
         <Stack.Screen name="slots" />
+        <Stack.Screen name="payments" />
+        <Stack.Screen name="crops" />
       </Stack>
     </>
   );
@@ -26,7 +29,10 @@ function RootLayoutNav() {
 export default function RootLayout() {
   return (
     <SettingsProvider>
-      <RootLayoutNav />
+      <LocationProvider>
+        <RootLayoutNav />
+      </LocationProvider>
     </SettingsProvider>
   );
 }
+
