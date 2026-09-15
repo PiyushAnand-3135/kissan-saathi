@@ -21,6 +21,7 @@ function RootLayoutNav() {
         <Stack.Screen name="slots" />
         <Stack.Screen name="payments" />
         <Stack.Screen name="crops" />
+        <Stack.Screen name="mandis" />
       </Stack>
     </>
   );

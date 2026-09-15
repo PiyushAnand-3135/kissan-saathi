@@ -1,0 +1,5158 @@
+{
+  "Andhra Pradesh": [
+    {
+      "mandi": "Adoni",
+      "district": "Kurnool",
+      "postal_address": "Agricultural Market Committee Adoni, Near Madavaram Road-518301",
+      "contact_number": "9182361164"
+    },
+    {
+      "mandi": "Anakapalli",
+      "district": "Visakhapatnam",
+      "postal_address": "Dr. N.T.R Market Yard, Ring Road, Anakapalli, 531001",
+      "contact_number": "9505517352"
+    },
+    {
+      "mandi": "Ananthapu",
+      "district": "ramu",
+      "postal_address": "Ananthapuramu Agriculture Marketyard, Gooty Road, Anantapur, A.P- 515005.",
+      "contact_number": "9182361161"
+    },
+    {
+      "mandi": "Bobbili",
+      "district": "APMC",
+      "postal_address": "Vizianagaram Agriculture Market Committee, Near Udha Stambam, Balijipeta Road, Bobbili-535558",
+      "contact_number": "9182361257"
+    },
+    {
+      "mandi": "Chilakaluri",
+      "district": "pet APMC",
+      "postal_address": "Guntur Agriculture Market Committee. Opp. Bus Stand, Chilakaluripet - 522616",
+      "contact_number": "9182361218"
+    },
+    {
+      "mandi": "Denduluru",
+      "district": "West Godavari",
+      "postal_address": "Pedavegi Road, Lakshmipuram - 534450",
+      "contact_number": "9182361205"
+    },
+    {
+      "mandi": "Duggirala",
+      "district": "Guntur",
+      "postal_address": "Near Railway Station Road, Duggirala, 522330",
+      "contact_number": "9966490878"
+    },
+    {
+      "mandi": "Eluru",
+      "district": "West Godavari",
+      "postal_address": "V.V. Nagar, Near Eastern Locks, Eluru - 534005",
+      "contact_number": "9182361206"
+    },
+    {
+      "mandi": "Gopalapur",
+      "district": "am",
+      "postal_address": "West Godavari 2-14, Gopalapuram - 534316",
+      "contact_number": "9182361459"
+    },
+    {
+      "mandi": "Guntur",
+      "district": "Guntur",
+      "postal_address": "Mirchi Yard Internal Rd,",
+      "contact_number": "9182361216"
+    },
+    {
+      "mandi": "Gurramko",
+      "district": "nda",
+      "postal_address": "Chittoor Tharigunda Road, Gurramkonda, 517297.",
+      "contact_number": "9182361495"
+    },
+    {
+      "mandi": "Hindupur",
+      "district": "Ananthapuramu",
+      "postal_address": "Opp. Lic Oﬃce, Rahamathpur, Hindupur- 515201",
+      "contact_number": "9182361162"
+    },
+    {
+      "mandi": "Ichapuram",
+      "district": "APMC",
+      "postal_address": "Srikakulam Agriculture Market Committee, Gorralapadu, Ichaparum- 532312",
+      "contact_number": "9177252600"
+    },
+    {
+      "mandi": "Jaggayyap",
+      "district": "et APMC",
+      "postal_address": "Krishna Agriculture Market Committee, Jaggayyapet- 521175",
+      "contact_number": "9182361470"
+    },
+    {
+      "mandi": "Kadapa",
+      "district": "YSR Kadapa",
+      "postal_address": "Market Yard Kadapa, Devunikadapa Road, Ganagapet, Kadapa-516001",
+      "contact_number": "9182361170"
+    },
+    {
+      "mandi": "Kalikiri",
+      "district": "Chittoor",
+      "postal_address": "Opp Andhra Bank, Tirupathi Road Kalikiri, 517234.",
+      "contact_number": "9182361495"
+    },
+    {
+      "mandi": "Kalyandur",
+      "district": "g",
+      "postal_address": "Ananthapuramu D.No.9B-202",
+      "contact_number": "9182361478"
+    },
+    {
+      "mandi": "Kurnool",
+      "district": "Kurnool",
+      "postal_address": "Opp To New Rtc Bus Stand, Kurnool -518004",
+      "contact_number": "9182361163"
+    },
+    {
+      "mandi": "Madanapa",
+      "district": "lle",
+      "postal_address": "Chittoor Agricultural Market Committee",
+      "contact_number": "9182361494"
+    },
+    {
+      "mandi": "Palamaner",
+      "district": "Chittoor",
+      "postal_address": "Tomato Market Yard, M.B.T.Road, Palamaner- 517408",
+      "contact_number": "9182361500"
+    },
+    {
+      "mandi": "Parchur",
+      "district": "APMC",
+      "postal_address": "Prakasam Agriculture Market Committee, Parchur-523169",
+      "contact_number": "9182361247"
+    },
+    {
+      "mandi": "Pattikonda",
+      "district": "Kurnool",
+      "postal_address": "Agricultural Market Committee, Gooty By Pass Road Pattikonda- 518380",
+      "contact_number": "9182361493"
+    },
+    {
+      "mandi": "Pidugurall",
+      "district": "a",
+      "postal_address": "Guntur Amc Dachepalli, Macherla Cross Road, Dachepalli, 522414",
+      "contact_number": "9182361220"
+    },
+    {
+      "mandi": "Punganur",
+      "district": "Chittoor",
+      "postal_address": "Chowdepalli Road, Melupata, Punganur- 517247",
+      "contact_number": "8581253035"
+    },
+    {
+      "mandi": "Rapur",
+      "district": "SPSR Nellore",
+      "postal_address": "Verampalli Road, Near Agriculture college road, Podhalakur- 524345",
+      "contact_number": "9182361439"
+    },
+    {
+      "mandi": "Ravulapal",
+      "district": "em APMC",
+      "postal_address": "East Godavari Near Nh16 Kenal Bridge, Ravulapalem- 533238",
+      "contact_number": "9182361140"
+    },
+    {
+      "mandi": "Rayadurg",
+      "district": "APMC",
+      "postal_address": "Ananthapuramu Agriculture Market Committee, Kanakal Road Rayadurg- 515865",
+      "contact_number": "9182361481"
+    },
+    {
+      "mandi": "Sattenapal",
+      "district": "le APMC",
+      "postal_address": "Guntur Near Sattenapalli Bus Stand, Sattenapalle - 522403",
+      "contact_number": "9182361219"
+    },
+    {
+      "mandi": "Tadikonda",
+      "district": "APMC",
+      "postal_address": "Guntur Tadikonda - 522236",
+      "contact_number": "9182361228"
+    },
+    {
+      "mandi": "Tenali",
+      "district": "Guntur",
+      "postal_address": "Sultanabad, Tenali, Pin:522202",
+      "contact_number": "9182361217,"
+    },
+    {
+      "mandi": "Vemuru",
+      "district": "Bhattiprolu",
+      "postal_address": "Guntur Agriculture Market Committee, Bhattiprolu- 522256",
+      "contact_number": "9182361544"
+    },
+    {
+      "mandi": "Vizianagar",
+      "district": "am APMC",
+      "postal_address": "Vizianagaram Agriculture Market Committee, Near Buchanna Koneru, Vizianagaram- 535003",
+      "contact_number": "9182361255"
+    }
+  ],
+  "Chandigarh": [
+    {
+      "mandi": "Balod",
+      "district": "Balod",
+      "postal_address": "Krishi Upaj Mandi Samiti, Balod 07701- 235174",
+      "contact_number": "9893111224"
+    },
+    {
+      "mandi": "Bhatapara",
+      "district": "Baloda Bazaar",
+      "postal_address": "Krishi Upaj mandi Samiti Bhatapara ( Link Road Nayaganjward Bhatapara) Dist- Balodabazar- Bhatapara CG Pin-493118",
+      "contact_number": "7000049039"
+    },
+    {
+      "mandi": "Dhamtari",
+      "district": "Dhamtari",
+      "postal_address": "Krishi Upaj Mandi Samiti Dhamtari, Gram- Shyamtarai (Batar Road)",
+      "contact_number": "9425509364"
+    },
+    {
+      "mandi": "Bhattakufa",
+      "district": "r dhalli",
+      "postal_address": "Shimla Fruit Mandi Bhattakufar, distt-Shimla (H.P) 171006 177- 2640287;",
+      "contact_number": "7018549556"
+    },
+    {
+      "mandi": "Bhuntar",
+      "district": "Kullu",
+      "postal_address": "PMY Bhuntar, tehsil-Bhuntar, distt-Kullu (H.P) 175125 190- 2222208;",
+      "contact_number": "9418182214"
+    },
+    {
+      "mandi": "Chamba",
+      "district": "Chamba",
+      "postal_address": "PMY Balu Chamba, Near Balu Bridge, P.O-Sultanpur, tehsil & distt- Chamba (H.P) 176314",
+      "contact_number": "1899225708;"
+    },
+    {
+      "mandi": "Dhalli",
+      "district": "shimla",
+      "postal_address": "Shimla Regulated Market Complex Dhalli, distt- Shimla (H.P) 171012",
+      "contact_number": "1772640287;"
+    },
+    {
+      "mandi": "Fruit mandi",
+      "district": "solan",
+      "postal_address": "Solan APMC Solan, By pass road, Kather, distt- Solan (H.P) 173213",
+      "contact_number": "1792230458;"
+    },
+    {
+      "mandi": "Hamirpur",
+      "district": "Hamirpur",
+      "postal_address": "PMY Hamirpur, Dosrka, distt- Hamirpur (H.P) 177030",
+      "contact_number": "1972258413;"
+    },
+    {
+      "mandi": "Kangra",
+      "district": "Kangra",
+      "postal_address": "APMC Kangra, Near Gupt Ganga Road, distt- Kangra, (H.P)176001",
+      "contact_number": "1892265195;"
+    },
+    {
+      "mandi": "Kangra",
+      "district": "Jassour",
+      "postal_address": "Kangra V.P.O-Jassur, tehsil-Nurpur, Distt-Kangra (H.P) 176201",
+      "contact_number": "1893226015;"
+    },
+    {
+      "mandi": "Palampur",
+      "district": "Kangra",
+      "postal_address": "New Sabji Mandi Palampur, Berachah, distt- Kangra (H.P) 176061",
+      "contact_number": "1894023040"
+    },
+    {
+      "mandi": "Poanta",
+      "district": "sahib",
+      "postal_address": "Sirmaur PMY Poanta sahib, Shamsherpur, distt-Sirmour (H.P) 173025",
+      "contact_number": "8219663716;"
+    },
+    {
+      "mandi": "Parala",
+      "district": "Shimla",
+      "postal_address": "Modern Fruit & Vegetable Market Yard Parala, distt- Shimla (H.P) 171220",
+      "contact_number": "1772640287;"
+    },
+    {
+      "mandi": "Patlikuhal",
+      "district": "Kullu",
+      "postal_address": "Sub Market Yard Patlikuhal, Jatehar bihal, Patlikuhal, distt- Kullu (H.P) 175129",
+      "contact_number": "1902222208;"
+    },
+    {
+      "mandi": "Rohru",
+      "district": "Shimla",
+      "postal_address": "Sub Market Yard Rohru, distt-Shimla (H.P) 171207",
+      "contact_number": "1772640287;"
+    },
+    {
+      "mandi": "Santoshga",
+      "district": "rh",
+      "postal_address": "Una SMY Santoshgarh, Near M.C Oﬃce Santoshgarh, tehsil& distt-Una (H.P) 174301",
+      "contact_number": "1975225097;"
+    },
+    {
+      "mandi": "Solan",
+      "district": "parwanoo",
+      "postal_address": "Solan Terminal Market Yard Parwanoo, Sector-6, distt- Solan (H.P) 173220",
+      "contact_number": "1792230458;"
+    },
+    {
+      "mandi": "Takoli",
+      "district": "Mandi",
+      "postal_address": "SMY Takoli, Vill- Takoli, P.O- Panarasa, distt-",
+      "contact_number": "1905287281;"
+    }
+  ],
+  "Chhattisgarh": [
+    {
+      "mandi": "Kurud",
+      "district": "Dhamtari",
+      "postal_address": "by pass road near JNV krishi upaj Mandi samiti kurud dist dhamtari c.g.",
+      "contact_number": "9406097388"
+    },
+    {
+      "mandi": "Mungeli",
+      "district": "Mungeli",
+      "postal_address": "Near New Bus Stand, Infront of Luniya Petrol Pump Mungeli Distt Mungeli (CG) Pin Code 495334",
+      "contact_number": "07752264086"
+    },
+    {
+      "mandi": "Nawapara",
+      "district": "Raipur",
+      "postal_address": "Krishi Upaj Mandi Samiti Ganj Raod, Nawapara Distt.- Raipur (C.G.) 493881 07701- 233817",
+      "contact_number": "9893155440"
+    },
+    {
+      "mandi": "Raipur",
+      "district": "Raipur",
+      "postal_address": "Krishi Upaj Mandi Samiti Pandri-Tarai (Kapa) Raipur Disstt. Raipur (C.G.) 0771- 2582011",
+      "contact_number": "9329112881"
+    },
+    {
+      "mandi": "Ahmedaba",
+      "district": "d",
+      "postal_address": "Ahmedabad Pandit Deen Dayal, Jetalpur 382426",
+      "contact_number": "932837683"
+    },
+    {
+      "mandi": "Amreli",
+      "district": "Amreli",
+      "postal_address": "Near Essar Mann Petrolium, Savarkundla Road - Amreli 365601",
+      "contact_number": "997987277"
+    },
+    {
+      "mandi": "Anand",
+      "district": "Anand",
+      "postal_address": "Behind Sardargunj, Anand.388001",
+      "contact_number": "9824510463"
+    },
+    {
+      "mandi": "Anjar",
+      "district": "Kutch",
+      "postal_address": "Varsamedi Gate, Near Railway Crossing, Anjar 370110",
+      "contact_number": "9712944058"
+    },
+    {
+      "mandi": "Babra",
+      "district": "Amreli",
+      "postal_address": "Rajkot- Bhavnagar High-",
+      "contact_number": "9099888800"
+    },
+    {
+      "mandi": "Bagasara",
+      "district": "Amreli",
+      "postal_address": "Near S.T.Depo Bagasar 365440",
+      "contact_number": "9979621998"
+    },
+    {
+      "mandi": "Bardoli",
+      "district": "Surat",
+      "postal_address": "At. Post. Madhi Surali, Ta. Bardoli, Dist. Surat -394340",
+      "contact_number": "9879385942"
+    },
+    {
+      "mandi": "Bavla",
+      "district": "Ahmedabad",
+      "postal_address": "National High Way - 8, Cotton Yard, Ta. Bavla, Dist. Ahmedabad - 382220",
+      "contact_number": "9825025189"
+    },
+    {
+      "mandi": "Bayad",
+      "district": "Aravalli",
+      "postal_address": "Market Yard, Bayad, Dist.Arvalli - 383325",
+      "contact_number": "9825067961"
+    },
+    {
+      "mandi": "Bhabhar",
+      "district": "Banaskantha",
+      "postal_address": "Sardar Patel Market Yard, Ring Road, Bhabhar. - 385320",
+      "contact_number": "9979927999"
+    },
+    {
+      "mandi": "Bharuch",
+      "district": "Bharuch",
+      "postal_address": "Sardar Patel Market Yard, Jambusar Bypass, Bharuch - 392001",
+      "contact_number": "9427115511"
+    },
+    {
+      "mandi": "Bhavnagar",
+      "district": "Bhavnagar",
+      "postal_address": "Market Yard, Bhavnagar, Dist.Bhavnagar - 364001",
+      "contact_number": "9426468511"
+    },
+    {
+      "mandi": "Bhesan",
+      "district": "Junagadh",
+      "postal_address": "Nr.Reﬀeral Hospital, At.Bhesan Ta.Bhesan Dist.Junagadh - 362020",
+      "contact_number": "9879767266"
+    },
+    {
+      "mandi": "Bhiloda",
+      "district": "Aravalli",
+      "postal_address": "Market Yard, Bhiloda. Dist. Arvalli. -383250",
+      "contact_number": "9428199498"
+    },
+    {
+      "mandi": "Bhuj",
+      "district": "Kutch",
+      "postal_address": "Sardar Patel",
+      "contact_number": "9879360142"
+    },
+    {
+      "mandi": "Bilimora",
+      "district": "Navsari",
+      "postal_address": "Markert Yard, Bilimora, Dist. Navsari -396321",
+      "contact_number": "9725747477"
+    },
+    {
+      "mandi": "Bodeli",
+      "district": "Chhota",
+      "postal_address": "Udaipur Market Yard Apmc Bodeli - 391135",
+      "contact_number": "9825855615"
+    },
+    {
+      "mandi": "Borsad",
+      "district": "Anand",
+      "postal_address": "Vasad Chowkdi, Borsad -388540",
+      "contact_number": "9998846371"
+    },
+    {
+      "mandi": "Botad",
+      "district": "Botad",
+      "postal_address": "At: Paliyad Road, Botad - 364710",
+      "contact_number": "9898754954"
+    },
+    {
+      "mandi": "Chikhli",
+      "district": "Navsari",
+      "postal_address": "Navsari Apmc Old Yard, Navsari -396521",
+      "contact_number": "9714346699"
+    },
+    {
+      "mandi": "Chotila",
+      "district": "Surendranagar",
+      "postal_address": "Market Yard, Chotila, Dist.Surendrana gar -363520",
+      "contact_number": "9925020778"
+    },
+    {
+      "mandi": "Dabhoi",
+      "district": "Vadodara",
+      "postal_address": "Dabhoi Market Yard, Dabhoi Vadodara Road Dabhoi -391110",
+      "contact_number": "9601039038"
+    },
+    {
+      "mandi": "Dahod",
+      "district": "Dahod",
+      "postal_address": "Mandavav Circle, Padav Road, Dahod Ta.Dist.Dahod - 389151",
+      "contact_number": "942984387"
+    },
+    {
+      "mandi": "Dediyapad",
+      "district": "a",
+      "postal_address": "Narmada Marktet Yard, Dediyapada, Dist.Narmada - 393040",
+      "contact_number": "9712424133"
+    },
+    {
+      "mandi": "Deesa",
+      "district": "Banaskantha",
+      "postal_address": "Sardar Bhavan, Main Market, Deesa. -385535",
+      "contact_number": "9428679314"
+    },
+    {
+      "mandi": "Dehgam",
+      "district": "Gandhinagar",
+      "postal_address": "Jawahar Market, Ta-Dahegam, Dist-Gandhinagr -382305",
+      "contact_number": "9898415664"
+    },
+    {
+      "mandi": "Devgadbar",
+      "district": "ia",
+      "postal_address": "Dahod Devgadhbaria Old Yard Road, Devgadhbariad Dahod -389380",
+      "contact_number": "9726466348"
+    },
+    {
+      "mandi": "Dhandhuk",
+      "district": "a",
+      "postal_address": "Ahmedabad College Road, Cotton Yard, Ta. Dhandhuka, Dist. Ahmedabad - 382460",
+      "contact_number": "942899122"
+    },
+    {
+      "mandi": "Dhanera",
+      "district": "Banaskantha",
+      "postal_address": "Market Yard, Dhanera, Dist.Banaskanth a -385537",
+      "contact_number": "972597990"
+    },
+    {
+      "mandi": "Dhari",
+      "district": "Amreli",
+      "postal_address": "Railway Station Raod, Dhari - 365640",
+      "contact_number": "9099345155"
+    },
+    {
+      "mandi": "Dhoalka",
+      "district": "Ahmedabad",
+      "postal_address": "Dhoalka Apmc, Dhoalka Ahmedabad Road, Dhoalka - 382225",
+      "contact_number": "9998396768"
+    },
+    {
+      "mandi": "Dhoraji",
+      "district": "Rajkot",
+      "postal_address": "National Highway 8B Bypass Dhoraji - 360410",
+      "contact_number": "9879024956"
+    },
+    {
+      "mandi": "Dhrol",
+      "district": "Jamnagar",
+      "postal_address": "Market Yard, Dhrol, Jamanagar Highway, Dist.Jamanagar",
+      "contact_number": "9979868226"
+    },
+    {
+      "mandi": "Fatehpura",
+      "district": "Dahod",
+      "postal_address": "Fatehpura Apmc, Fatehpura Dahod -389172",
+      "contact_number": "9879723719"
+    },
+    {
+      "mandi": "Gadhada",
+      "district": "Botad",
+      "postal_address": "Fatehpura Apmc, Fatehpura Dahod -364710",
+      "contact_number": "9427753290"
+    },
+    {
+      "mandi": "Gandhinag",
+      "district": "ar",
+      "postal_address": "Gandhinagar Market Yard, Randheja, Dist.Gandhinaga r. -382002",
+      "contact_number": "9979012203"
+    },
+    {
+      "mandi": "Gariyadhar",
+      "district": "Bhavnagar",
+      "postal_address": "Market Yard, Gariyadar, Dist. Bhavnagar - 364505",
+      "contact_number": "9426464909"
+    },
+    {
+      "mandi": "Godhra",
+      "district": "Panchamahal",
+      "postal_address": "Lal Baugh. Rana Society, Godhra, Dist. Panchmahals - 389001",
+      "contact_number": "9428512112"
+    },
+    {
+      "mandi": "Gondal",
+      "district": "Rajkot",
+      "postal_address": "Market Yard, Gondal By Pass, Gondal, Dist.Rajkot - 360311",
+      "contact_number": "9925136853"
+    },
+    {
+      "mandi": "Halvad",
+      "district": "Morbi",
+      "postal_address": "Near Gidc, Halvad -363330",
+      "contact_number": "9909446677"
+    },
+    {
+      "mandi": "Himmatna",
+      "district": "gar",
+      "postal_address": "Sabarkantha Apmc Himatnagar, Sabarkantha - 383001",
+      "contact_number": "9425634437"
+    },
+    {
+      "mandi": "Idar",
+      "district": "Sabarkantha",
+      "postal_address": "Market Yard, Idar. Dist.Sabarkanth a -383430",
+      "contact_number": "9978212690"
+    },
+    {
+      "mandi": "Jam",
+      "district": "Jodhpur",
+      "postal_address": "Jamnagar Sardar Patel Market Yard, Balva Road, Jamjodhpur 360530 Dist.Jamnagar. - 360530",
+      "contact_number": "9428266896"
+    },
+    {
+      "mandi": "Jamkandor",
+      "district": "na",
+      "postal_address": "Rajkot Jay Sardar Market Yard, Jamkandorna - 360405",
+      "contact_number": "9427214918"
+    },
+    {
+      "mandi": "Jamkhamb",
+      "district": "haliya",
+      "postal_address": "Devbhoomi Dwarka Jamnagar - Okha Highway, Jamkhambhliya -361305",
+      "contact_number": "9925042725"
+    },
+    {
+      "mandi": "Jamnagar",
+      "district": "Jamnagar",
+      "postal_address": "Market Yard, Happa, Dist. Jamnagar. - 361120",
+      "contact_number": "9824248787"
+    },
+    {
+      "mandi": "Jasdan",
+      "district": "Rajkot",
+      "postal_address": "Jasdan- Vinchhya By Pass Road, New Market Yard, Darbar Saheb Shri Shivrajkumar",
+      "contact_number": "9925171168"
+    },
+    {
+      "mandi": "Jetpur",
+      "district": "Rajkot",
+      "postal_address": "Apmc Jetpur, Jetpur Rajkot Road, Rajkot - 360370",
+      "contact_number": "9925786359"
+    },
+    {
+      "mandi": "Jhagadiya",
+      "district": "Bharuch",
+      "postal_address": "Near New Bus Depot, At Jhagdiya - 393110",
+      "contact_number": "7096895876"
+    },
+    {
+      "mandi": "Jhalod",
+      "district": "Dahod",
+      "postal_address": "Basavanda Road, Zalod Ta.Zalod Dist.Dahod - 389170",
+      "contact_number": "982542282"
+    },
+    {
+      "mandi": "Junagadh",
+      "district": "Junagadh",
+      "postal_address": "At.Dolatpara, Ta.Dist.Junagad h -362037",
+      "contact_number": "9879841707"
+    },
+    {
+      "mandi": "Kadi",
+      "district": "Mehsana",
+      "postal_address": "Apmc Kadi, At Post-Kadi 384440",
+      "contact_number": "9898628569"
+    },
+    {
+      "mandi": "Kalavad",
+      "district": "Jamnagar",
+      "postal_address": "Market Yard, Kalavad, Dist.Jamnagar. - 361160",
+      "contact_number": "9909912071"
+    },
+    {
+      "mandi": "Kalol",
+      "district": "Gandhinagar",
+      "postal_address": "Main Market Yard, Kalol East, Ta. Kalol, Dist. Gadhinagar- 382721",
+      "contact_number": "9898010567"
+    },
+    {
+      "mandi": "Kapadwanj",
+      "district": "Kheda",
+      "postal_address": "Main Market Yard Kapdvanj - 387620",
+      "contact_number": "9825013489"
+    },
+    {
+      "mandi": "Karjan",
+      "district": "Vadodara",
+      "postal_address": "Sardar Patel Main Market Yard Nava Bazar, Karjan- 391240",
+      "contact_number": "9825765335"
+    },
+    {
+      "mandi": "Kathlal",
+      "district": "Kheda",
+      "postal_address": "Main Market Yard Kathlal - 387630",
+      "contact_number": "9558403389"
+    },
+    {
+      "mandi": "Keshod",
+      "district": "Junagadh",
+      "postal_address": "Highway Road, Junagadh At.Keshod Ta, Keshod Dist, Junagadh - 362220",
+      "contact_number": "9824284649"
+    },
+    {
+      "mandi": "Khambhat",
+      "district": "Anand",
+      "postal_address": "Neja Road, Khambhat - 388620",
+      "contact_number": "9825374953"
+    },
+    {
+      "mandi": "Kodinar",
+      "district": "Gir Somnath",
+      "postal_address": "Near Railway Station Kodinar To Kodinar, Ta, Kodinar, Dist, Gir Somnath - 362720",
+      "contact_number": "9277251517"
+    },
+    {
+      "mandi": "Kosamba",
+      "district": "Surat",
+      "postal_address": "Mota Mandir Road, Tardsadi Kosamba, Ta. Magrol, Dist. Surat -394120",
+      "contact_number": "7202023000"
+    },
+    {
+      "mandi": "Lalpur",
+      "district": "Jamnagar",
+      "postal_address": "Market Yard, Lalpur, Dist.Jamnagar - 361170",
+      "contact_number": "9925019091"
+    },
+    {
+      "mandi": "Limkheda",
+      "district": "Dahod",
+      "postal_address": "Juna Dahod Road, Limkheda Ta.Limkheda Dist.Dahod - 389140",
+      "contact_number": "9429079124"
+    },
+    {
+      "mandi": "Lunawada",
+      "district": "Mahisagar",
+      "postal_address": "Apmc Lunawada Santrampur Rod, Lunavada Mahisagar - 389230",
+      "contact_number": "9979988878"
+    },
+    {
+      "mandi": "Mahemdav",
+      "district": "ad",
+      "postal_address": "Kheda Apmc Mahemdabad, Kheda -387130",
+      "contact_number": "9998796369"
+    },
+    {
+      "mandi": "Mahuva",
+      "district": "Bhavnagar",
+      "postal_address": "At. Post. Mahuva, Ta.",
+      "contact_number": "9687098424"
+    },
+    {
+      "mandi": "Mahuva",
+      "district": "Apmc Gj",
+      "postal_address": "SURAT At. Post. Mahuva, Ta. Mahuva, Dist. Surat -394250",
+      "contact_number": "9687098424"
+    },
+    {
+      "mandi": "Mandal",
+      "district": "Ahmedabad",
+      "postal_address": "Opp. Three Raod (Way), At. / Ta. Mandal, Dist. Ahmedabad 382130",
+      "contact_number": "9727771883"
+    },
+    {
+      "mandi": "Mandvi",
+      "district": "Kutch",
+      "postal_address": "Ambaji Road, At. Post. Mandavi, Ta. Mandavi, Dist. Surat - 394160",
+      "contact_number": "9825921404"
+    },
+    {
+      "mandi": "Matar",
+      "district": "Kheda",
+      "postal_address": "Main Market Yard Matar - 387530",
+      "contact_number": "9828647009"
+    },
+    {
+      "mandi": "Mehsana",
+      "district": "Mehsana",
+      "postal_address": "Mehsana - 384001",
+      "contact_number": "9427378909"
+    },
+    {
+      "mandi": "Modasa",
+      "district": "Aravalli",
+      "postal_address": "Market Yard, Modasa, Dist.Aravalli 383315",
+      "contact_number": "9998838200"
+    },
+    {
+      "mandi": "Morbi",
+      "district": "Morbi",
+      "postal_address": "Opp.G.H.Board, Sanala Road, Morbi - 363641",
+      "contact_number": "9879016792"
+    },
+    {
+      "mandi": "Nadiad",
+      "district": "Kheda",
+      "postal_address": "Valiyari Market Salun Bajar Nadiad 387001",
+      "contact_number": "9904453461"
+    },
+    {
+      "mandi": "Navsari",
+      "district": "Navsari",
+      "postal_address": "Market Yard, Navsari, Dist.Navsari - 396445",
+      "contact_number": "9913955305"
+    },
+    {
+      "mandi": "Nizar",
+      "district": "Tapi",
+      "postal_address": "At Post-Nizar,",
+      "contact_number": "9427478952"
+    },
+    {
+      "mandi": "Padara",
+      "district": "Vadodara",
+      "postal_address": "Saradar Patel Main Yard, Tajpura Road, Padra, District- Vadodara - 391440",
+      "contact_number": "9724757805"
+    },
+    {
+      "mandi": "Palanpur",
+      "district": "Banaskantha",
+      "postal_address": "Sardar Vallabhbhai Patel Market Yard, Palanpur. -385001",
+      "contact_number": "9427649151"
+    },
+    {
+      "mandi": "Palitana",
+      "district": "Bhavnagar",
+      "postal_address": "Market Yard, Palitana, Dist.Bhavanagar -364270",
+      "contact_number": "9909954154"
+    },
+    {
+      "mandi": "Panthawa",
+      "district": "da",
+      "postal_address": "Banaskantha Market Yard, Panthwada, Dist. B.K. 385135",
+      "contact_number": "9909305563"
+    },
+    {
+      "mandi": "Patan",
+      "district": "Patan",
+      "postal_address": "Market Yard, Patan, Dist. Patan 384265",
+      "contact_number": "9427356510"
+    },
+    {
+      "mandi": "Patdi",
+      "district": "Surendranagar",
+      "postal_address": "Market Yard, Dasada Patadi, Dist.Surendrana gar 382765",
+      "contact_number": "9824293785"
+    },
+    {
+      "mandi": "Pavi-",
+      "district": "Jetpur",
+      "postal_address": "Chhota Udaipur Market Yard Apmc Jetpurpavi 391160",
+      "contact_number": "9925786359"
+    },
+    {
+      "mandi": "Petalad",
+      "district": "Anand",
+      "postal_address": "College Chokdi, Petlad- 388450",
+      "contact_number": "7046622242"
+    },
+    {
+      "mandi": "Porbandar",
+      "district": "Porbandar",
+      "postal_address": "Opp. Rokadiya Hanuman Temple, Porbandar -",
+      "contact_number": "9427258399"
+    },
+    {
+      "mandi": "Prantij",
+      "district": "Sabarkantha",
+      "postal_address": "Prantij Apmc, Prantij Sabarkatha - 383205",
+      "contact_number": "9428770100"
+    },
+    {
+      "mandi": "Radhanpur",
+      "district": "Patan",
+      "postal_address": "Market Yard, Radhanpur. - 385340",
+      "contact_number": "942765441"
+    },
+    {
+      "mandi": "Rajkot",
+      "district": "Rajkot",
+      "postal_address": "Shree Sardar Vallabhbhai Patel Marketing Yard, Rajkot Morbi Highway, Bedi.Rajkot - 360003",
+      "contact_number": "987956744"
+    },
+    {
+      "mandi": "Rajpipla",
+      "district": "Narmada",
+      "postal_address": "Market Yard, Rajpippla, Dist. Narmada. - 393145",
+      "contact_number": "9099074552"
+    },
+    {
+      "mandi": "Rajula",
+      "district": "Amreli",
+      "postal_address": "Near. Bus Station, Rajula - 365560",
+      "contact_number": "9424655050"
+    },
+    {
+      "mandi": "Rapar",
+      "district": "Kutch",
+      "postal_address": "Market Yard, Nandasar Pragpar Ring Road, Mu. Rapar - Kutch - 370165",
+      "contact_number": "987987700"
+    },
+    {
+      "mandi": "Sanand",
+      "district": "Ahmedabad",
+      "postal_address": "Nr.Ghoda Gadistand, Sanand - Kadi High Way, Ta. Sanad, Ahmedabad - 382110.",
+      "contact_number": "9879592512"
+    },
+    {
+      "mandi": "Sanjeli",
+      "district": "Dahod",
+      "postal_address": "Zalod Road, Sanjeli, Ta.Sanjeli Dist.Dahod - 389175",
+      "contact_number": "9879592512"
+    },
+    {
+      "mandi": "Savarkund",
+      "district": "la",
+      "postal_address": "Amreli Mahuva Road, Nr.Rlwy Crosing, At.Savarkundla, Dist.Amreli - 364515",
+      "contact_number": "9825136215"
+    },
+    {
+      "mandi": "Savli",
+      "district": "Vadodara",
+      "postal_address": "At & Post. Savli, District- Vadodara- 391770",
+      "contact_number": "9825849446"
+    },
+    {
+      "mandi": "Selemba",
+      "district": "Narmada",
+      "postal_address": "Market Yard, Selemba, Dist.Bharuch - 390379",
+      "contact_number": "9510147632"
+    },
+    {
+      "mandi": "Siddhpur",
+      "district": "Patan",
+      "postal_address": "Market Yard, Siddhpur, Dist. Patan. - 384151",
+      "contact_number": "9638461572"
+    },
+    {
+      "mandi": "Sihor",
+      "district": "Bhavnagar",
+      "postal_address": "Apmc Sihor, Bhavbnagar - 364240",
+      "contact_number": "9712302622"
+    },
+    {
+      "mandi": "Songadh",
+      "district": "Tapi",
+      "postal_address": "At Post Songadh, Devjipura, Ta- Songadh - 394670",
+      "contact_number": "9726531588"
+    },
+    {
+      "mandi": "Talaja",
+      "district": "Bhavnagar",
+      "postal_address": "Near Palitana Chokdi Talaja - 364140",
+      "contact_number": "9624153494"
+    },
+    {
+      "mandi": "Talod",
+      "district": "Sabarkantha",
+      "postal_address": "Market Yard, Talod, Dist.Sabarkanth a - 383215",
+      "contact_number": "7359717672"
+    },
+    {
+      "mandi": "Tarapur",
+      "district": "Anand",
+      "postal_address": "Khambhat- Tarapur Road, Tarapur - 388180",
+      "contact_number": "9879511846"
+    },
+    {
+      "mandi": "Thara",
+      "district": "Banaskantha",
+      "postal_address": "Market Yard, Thara, Dist. Banaskantha - 385555",
+      "contact_number": "9427431468"
+    },
+    {
+      "mandi": "Tharad",
+      "district": "Banaskantha",
+      "postal_address": "Sardar Patel Market Yard, Tharad, Dist. B.K. -385365",
+      "contact_number": "9825057032"
+    },
+    {
+      "mandi": "Thasra",
+      "district": "Kheda",
+      "postal_address": "Main Market Yard Thasara - 388250",
+      "contact_number": "9426282334"
+    },
+    {
+      "mandi": "Tilakvada",
+      "district": "Narmada",
+      "postal_address": "Market Yard, Tilakwada, Dist. Narmada - 393121",
+      "contact_number": "9737696143"
+    },
+    {
+      "mandi": "Umrala",
+      "district": "Bhavnagar",
+      "postal_address": "Apmc Umrala, Umrala Bhavnagar - 364330",
+      "contact_number": "9904059212"
+    },
+    {
+      "mandi": "Una",
+      "district": "Gir Somnath",
+      "postal_address": "Opp Bus Stand, Una - 362560",
+      "contact_number": "9825713517"
+    },
+    {
+      "mandi": "Unava",
+      "district": "Mehsana",
+      "postal_address": "Hiway Road, At Unana - 384160",
+      "contact_number": "982546869"
+    },
+    {
+      "mandi": "Upleta",
+      "district": "Rajkot",
+      "postal_address": "Upleta Apmc, Upleta Rajkot - 360490",
+      "contact_number": "9904678108"
+    },
+    {
+      "mandi": "Vadali",
+      "district": "Sabarkantha",
+      "postal_address": "Market Yard, Vadali Dist.Sabarkanth a - 383235",
+      "contact_number": "9429323548"
+    },
+    {
+      "mandi": "Vadhvan",
+      "district": "Surendranagar",
+      "postal_address": "Market Yard, Wadhwan, Dist.Surendrana gar - 363040",
+      "contact_number": "8141782562"
+    },
+    {
+      "mandi": "Vadodara",
+      "district": "Vadodara",
+      "postal_address": "Sayajipura Market Yard, N.H-8 Nr. Ajwa Chowkdi, Sayajipura, Vadodara - 390019",
+      "contact_number": "9727761171"
+    },
+    {
+      "mandi": "Valabhipur",
+      "district": "Bhavnagar",
+      "postal_address": "Apmc Valabhipur,",
+      "contact_number": "8000996090"
+    },
+    {
+      "mandi": "Valia",
+      "district": "Bharuch",
+      "postal_address": "Market Yard, Valiya, Dist.Bharuch - 393135",
+      "contact_number": "9925694747"
+    },
+    {
+      "mandi": "Valsad",
+      "district": "Valsad",
+      "postal_address": "Desori Tekdi, Valsad -396001",
+      "contact_number": "9825558242"
+    },
+    {
+      "mandi": "Vijapur",
+      "district": "Mehsana",
+      "postal_address": "At :-Khatari Kuva Vijapur - 384570",
+      "contact_number": "9979929212"
+    },
+    {
+      "mandi": "Vinchhiya",
+      "district": "Rajkot",
+      "postal_address": "Shree Khetiwadi Utpann Bajar Samiti - Vinchhiya, Ahmedabd Highway, Vinchhiya - 360055",
+      "contact_number": "9924086405"
+    },
+    {
+      "mandi": "Visavadar",
+      "district": "Junagadh",
+      "postal_address": "At.Mandavad Ta.Vishavadar Dist.Junagadh - 362130",
+      "contact_number": "9426826426"
+    },
+    {
+      "mandi": "Visnagar",
+      "district": "Mehsana",
+      "postal_address": "Visnagar - 384315",
+      "contact_number": "7801961072"
+    },
+    {
+      "mandi": "Vyara",
+      "district": "Tapi",
+      "postal_address": "At Post Vyara, Near Busstaion, Ta-Vyaraa - 394650",
+      "contact_number": "9427125108"
+    },
+    {
+      "mandi": "Wankaner",
+      "district": "Morbi",
+      "postal_address": "At-Chandrapur, Ta-Wankaner, Di-Morbi - 363621",
+      "contact_number": "9974425486"
+    }
+  ],
+  "Haryana": [
+    {
+      "mandi": "Ambala",
+      "district": "Cantt.",
+      "postal_address": "Ambala New Grain Market, Ambala Cantt Village Bohawa, P.O. Kuldeep Nagar Pin code: 133004",
+      "contact_number": "9466266395"
+    },
+    {
+      "mandi": "Asandh",
+      "district": "Karnal",
+      "postal_address": "New Grain Market Assandh, Distt. Karnal PIN- 132039",
+      "contact_number": "9416325406"
+    },
+    {
+      "mandi": "Faridabad",
+      "district": "Faridabad",
+      "postal_address": "New Vegetable Market, Dabua, NIT, Faridabad 121001",
+      "contact_number": "9953554569"
+    },
+    {
+      "mandi": "Gohana",
+      "district": "Sonepat",
+      "postal_address": "Jind Road, New Grain Market Gohana (Sonepat) 131301",
+      "contact_number": "9728502815"
+    },
+    {
+      "mandi": "Indri",
+      "district": "Karnal",
+      "postal_address": "Market Committee Indri, Karnal Road, Distt- Karnal- 132041",
+      "contact_number": "9992870968"
+    },
+    {
+      "mandi": "Israna",
+      "district": "Panipat",
+      "postal_address": "New Grain Market Israna(Balana); Pin code: 132107",
+      "contact_number": "8813817788"
+    },
+    {
+      "mandi": "Jagadhari",
+      "district": "Yamuna",
+      "postal_address": "Nagar New Grain market Jagadhri opposite D.c. Oﬃce Jagadhri, pin code: 135003",
+      "contact_number": "9988610225"
+    },
+    {
+      "mandi": "Kosli",
+      "district": "Rewari",
+      "postal_address": "New Grain market Kosli, near bus stand Kosli, pin code:",
+      "contact_number": "9896108568"
+    },
+    {
+      "mandi": "Nighdu",
+      "district": "Karnal",
+      "postal_address": "New Grain Market, Nilokheri Karsa Road Nigdhu, Pin code: 132157",
+      "contact_number": "9813541363"
+    },
+    {
+      "mandi": "Nissing",
+      "district": "Karnal",
+      "postal_address": "New Grain Market Singhra Road Nissing, Distt. Karnal Pin Code 132024",
+      "contact_number": "9996919194"
+    },
+    {
+      "mandi": "Sadhaura",
+      "district": "Yamuna",
+      "postal_address": "Nagar New Grain Mandi Sadhaura, near Busstand, Naraingarh road, Pin code: 133204",
+      "contact_number": "9416855102"
+    },
+    {
+      "mandi": "Samalkha",
+      "district": "Panipat",
+      "postal_address": "Market Committee Samalkha, G.T Road, Dist Panipat- 132101",
+      "contact_number": "9468017000"
+    },
+    {
+      "mandi": "Taraori",
+      "district": "Karnal",
+      "postal_address": "Market Committee, Oﬃce New Grain Market Taraori, Sonkra Road, Tehsil Nilokheri, Distt. Karnal PIN- 132116 Ph. No.",
+      "contact_number": "01745-242042"
+    }
+  ],
+  "Jharkhand": [
+    {
+      "mandi": "Una",
+      "district": "Una",
+      "postal_address": "PMY Una, Near old bus stand, Amb Road Una, tehsil & distt- Una (H.P) 174303",
+      "contact_number": "1975225097;"
+    },
+    {
+      "mandi": "Bokaro",
+      "district": "Bokaro",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Near ITI More, Chas, Bokaro, 827013",
+      "contact_number": "9431120062"
+    },
+    {
+      "mandi": "Chaibasa",
+      "district": "West",
+      "postal_address": "Krishi Utpadan",
+      "contact_number": "9472797252"
+    },
+    {
+      "mandi": "Chakulia",
+      "district": "East",
+      "postal_address": "Singhbhum Krishi Utpadan Bazar Samiti, Vill- Dighi, PS+Post Chakulia, 832301",
+      "contact_number": "9798529907"
+    },
+    {
+      "mandi": "Daltonganj",
+      "district": "Palamu",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Near Bairiya Chowk, Daltonganj, 822102",
+      "contact_number": "8434183703"
+    },
+    {
+      "mandi": "Deoghar",
+      "district": "Deoghar",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Baidhnathpur, Dumka Deoghar Road, Deoghar, 814112",
+      "contact_number": "7004035816"
+    },
+    {
+      "mandi": "Dhanbad",
+      "district": "Dhanbad",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Barwadda, Dhanbad, 826004",
+      "contact_number": "9431120062"
+    },
+    {
+      "mandi": "Dumka",
+      "district": "Dumka",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Near Gandhi Maidan, Bada Hatt, Dumka, 814101",
+      "contact_number": "8863896932"
+    },
+    {
+      "mandi": "Garhwa",
+      "district": "Garhwa",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Uchari Garhwa, 822114",
+      "contact_number": "6203054216"
+    },
+    {
+      "mandi": "Giridih",
+      "district": "Giridih",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Bishanpur, Giridih, 815301",
+      "contact_number": "8797668008"
+    },
+    {
+      "mandi": "Gumla",
+      "district": "Gumla",
+      "postal_address": "Gumla, Krishi Utpadan Bazar Samiti, PS+Post",
+      "contact_number": "9905150242"
+    },
+    {
+      "mandi": "Hazaribagh",
+      "district": "Hazaribagh",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Sindur, Infront of Vinoba Bhave University, Hazaribagh, 825301",
+      "contact_number": "8210560793"
+    },
+    {
+      "mandi": "Jamshedpu",
+      "district": "r",
+      "postal_address": "East Singhbhum Krishi Utpadan Bazar Samiti, Parsudih, Near Railway Station, Jamshedpur, 831002",
+      "contact_number": "9431704860"
+    },
+    {
+      "mandi": "Koderma",
+      "district": "Koderma",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Adi Bangla Road, Jhumari Tilaiya, Koderma, 825410",
+      "contact_number": "9939758359"
+    },
+    {
+      "mandi": "Lohardaga",
+      "district": "Lohardaga",
+      "postal_address": ", 835302Krishi Utpadan Bazar Samiti, Post- Lohardaga, Lohardaga",
+      "contact_number": "8986777260"
+    },
+    {
+      "mandi": "Pakur",
+      "district": "Pakur",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Gokulpur, Pakur, 816107",
+      "contact_number": "9431354804"
+    },
+    {
+      "mandi": "Pandra",
+      "district": "Ranchi",
+      "postal_address": "Ranchi Pandra Krishi Utpadan Bazar Samiti, Pandra, Ranchi, 834005",
+      "contact_number": "9608584217"
+    },
+    {
+      "mandi": "Ramgarh",
+      "district": "Ramgarh",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Po-Kaitha, Ramgarh Gola Road, Ramgarh, 829122",
+      "contact_number": "8986659418"
+    },
+    {
+      "mandi": "Sahebganj",
+      "district": "Sahebganj",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Sahebganj, 816109",
+      "contact_number": "9431534978"
+    },
+    {
+      "mandi": "Simdega",
+      "district": "Simdega",
+      "postal_address": "Krishi Utpadan Bazar Samiti, Simdega, 835223",
+      "contact_number": "9905150242"
+    }
+  ],
+  "Karnataka": [
+    {
+      "mandi": "Chhincholi",
+      "district": "Kalaburagi",
+      "postal_address": "Agricultural Produce Market Committee Chincholi Near Tahsildar Oﬃce, Chincholi Pin: 585307",
+      "contact_number": "9945672784"
+    },
+    {
+      "mandi": "Kalaburag",
+      "district": "i",
+      "postal_address": "Kalaburagi Agricultural Produce Market Committee Gulbarga Nehru Ganj, District- Kalaburagi Pin: 585102",
+      "contact_number": "9844752193"
+    },
+    {
+      "mandi": "Muvattupu",
+      "district": "zha",
+      "postal_address": "Ernakulam The secretary, Agricultural Rural Wholesale market, muvattupuzha, Kerala-686668 0485- 2813200;",
+      "contact_number": "9447574513"
+    },
+    {
+      "mandi": "Neduaman",
+      "district": "gad",
+      "postal_address": "Thiruvanantha puram Secretary, Rural Agricultural Wholesale Market, Neduamangad,",
+      "contact_number": "9447113146"
+    }
+  ],
+  "Madhya Pradesh": [
+    {
+      "mandi": "Sulthan",
+      "district": "Bathery",
+      "postal_address": "Wayanad Secretary, Rural Agricultural Wholesale Market, Sulthan Bathery, Ammayipalam, Wayanad, Kerala- pin- 673592 04936 223192 ;",
+      "contact_number": "9446185668"
+    },
+    {
+      "mandi": "Anayara",
+      "district": "Thiruvanantha",
+      "postal_address": "puram Agricultural Urban Wholesale Market Venpalavattom, Anayara PO, Kerala -Pin 695029",
+      "contact_number": "0471274393"
+    },
+    {
+      "mandi": "Maradu",
+      "district": "Ernakulam",
+      "postal_address": "Secretary, Agricultural urban wholesale market maradu, Nettoor po - Kerala - PIN- 682040",
+      "contact_number": "0484270104"
+    },
+    {
+      "mandi": "Vengeri",
+      "district": "Kozhikode",
+      "postal_address": "Secretary, Urban Wholesale Market, Vengeri, Kozhikode, Kerala - PIN - 673010",
+      "contact_number": "0495237651"
+    },
+    {
+      "mandi": "Agar",
+      "district": "Agar Malwa",
+      "postal_address": "Krishi Upaj Mandi Samiti Agar Narwal Road Pin - 465441",
+      "contact_number": "9754048726"
+    },
+    {
+      "mandi": "Ashok Nagar",
+      "district": "Ashok Nagar",
+      "postal_address": "Krishi Upaj Mandi Samiti Ashoknagar Pin - 473338",
+      "contact_number": "9425133662"
+    },
+    {
+      "mandi": "Ashta",
+      "district": "Sehore",
+      "postal_address": "Krishi Upaj Mandi Samiti Kannod Road Ashta Pin - 466116",
+      "contact_number": "9826238648"
+    },
+    {
+      "mandi": "Badnagar",
+      "district": "Ujjain",
+      "postal_address": "Krishi Upaj Mandi Samiti Badnagar Pin - 456771",
+      "contact_number": "8889743673"
+    },
+    {
+      "mandi": "Badnawar",
+      "district": "Dhar",
+      "postal_address": "Krishi Upaj Mandi Samiti Badnawar Pin - 454660",
+      "contact_number": "9827729737"
+    },
+    {
+      "mandi": "Balaghat",
+      "district": "Balaghat",
+      "postal_address": "Krishi Upaj Mandi Samiti Balaghat Pin - 481001",
+      "contact_number": "9424888777"
+    },
+    {
+      "mandi": "Bareli",
+      "district": "Raisen",
+      "postal_address": "Krishi Upaj Mandi Samiti Bareli Pin - 464668",
+      "contact_number": "9098116849"
+    },
+    {
+      "mandi": "Berasia",
+      "district": "Bhopal",
+      "postal_address": "Krishi Upaj Mandi Samiti",
+      "contact_number": "9826835914"
+    },
+    {
+      "mandi": "Betul",
+      "district": "Betul",
+      "postal_address": "Krishi Upaj Mandi Samiti Betul Pin - 460001",
+      "contact_number": "8103858504"
+    },
+    {
+      "mandi": "Biaora",
+      "district": "Rajgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Biaora Pin - 465674",
+      "contact_number": "9926538805"
+    },
+    {
+      "mandi": "Bina",
+      "district": "Bina",
+      "postal_address": "Krishi Upaj Mandi Samiti Bina Pin - 470113",
+      "contact_number": "8770914882"
+    },
+    {
+      "mandi": "Burhanpur",
+      "district": "Burhanpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Renuka Mata Road Burhanpur Pin - 450331",
+      "contact_number": "7804820900"
+    },
+    {
+      "mandi": "Chhatarpur",
+      "district": "Chhatarpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Chhatarpur Pin - 471001",
+      "contact_number": "9893341050"
+    },
+    {
+      "mandi": "Chhindwara",
+      "district": "Chhindwara",
+      "postal_address": "Krishi Upaj Mandi Samiti",
+      "contact_number": "9424725597"
+    },
+    {
+      "mandi": "Dabra",
+      "district": "Gwalior",
+      "postal_address": "Krishi Upaj Mandi Samiti Dabra Pin - 4751110",
+      "contact_number": "9981314595"
+    },
+    {
+      "mandi": "Damoh",
+      "district": "Damoh",
+      "postal_address": "Krishi Upaj Mandi Samiti Damoh Sgar Naka Hirdepur Pin - 470661",
+      "contact_number": "8770260431"
+    },
+    {
+      "mandi": "Datia",
+      "district": "Datia",
+      "postal_address": "Krishi Upaj Mandi Samiti Datia Pin - 475661",
+      "contact_number": "9111186476"
+    },
+    {
+      "mandi": "Dewas",
+      "district": "Dewas",
+      "postal_address": "Krishi Upaj Mandi Samiti Dewas Pin - 455001",
+      "contact_number": "7415672300"
+    },
+    {
+      "mandi": "Dhar",
+      "district": "Dhar",
+      "postal_address": "Krishi Upaj Mandi Samiti Dhar Pin - 454001",
+      "contact_number": "9425475309"
+    },
+    {
+      "mandi": "Gadarwara",
+      "district": "Narsinghpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Gadarwara Aamgoan",
+      "contact_number": "7509402811"
+    },
+    {
+      "mandi": "Ganj Basoda",
+      "district": "Vidisha",
+      "postal_address": "Krishi Upaj Mandi Samiti Ganj Basoda Pin - 464221",
+      "contact_number": "9039588698"
+    },
+    {
+      "mandi": "Guna",
+      "district": "Guna",
+      "postal_address": "Krishi Upaj Mandi Samiti Guna Pin - 473001",
+      "contact_number": "7999175912"
+    },
+    {
+      "mandi": "Harda",
+      "district": "Harda",
+      "postal_address": "Krishi Upaj Mandi Samiti Harda Pin - 461331",
+      "contact_number": "9425041121"
+    },
+    {
+      "mandi": "Indore",
+      "district": "Indore",
+      "postal_address": "Krishi Upaj Mandi Samiti Indore Anaj Mandi Chhawni Pin - 452001",
+      "contact_number": "9111666009"
+    },
+    {
+      "mandi": "Itarsi",
+      "district": "Hoshangabad",
+      "postal_address": "Krishi Upaj Mandi Samiti Itarsi Pin - 461114",
+      "contact_number": "9893266337"
+    },
+    {
+      "mandi": "Jabalpur",
+      "district": "Jabalpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Jabalpur Manmohan Nagar Pin -",
+      "contact_number": "7879535100"
+    },
+    {
+      "mandi": "Jaora",
+      "district": "Ratlam",
+      "postal_address": "Krishi Upaj Mandi Samiti Jaora Pin - 457226",
+      "contact_number": "9926673935"
+    },
+    {
+      "mandi": "Karond",
+      "district": "Bhopal",
+      "postal_address": "Krishi Upaj Mandi Samiti Karond 80 Feet Road Pin - 462038",
+      "contact_number": "8770487530"
+    },
+    {
+      "mandi": "Katni",
+      "district": "Katni",
+      "postal_address": "Krishi Upaj Mandi Samiti Katni Pin - 483501",
+      "contact_number": "9425152195"
+    },
+    {
+      "mandi": "Khandwa",
+      "district": "Khandwa",
+      "postal_address": "Shree Dadaji Anaj Krishi Upaj Mandi Samiti Khandwa Pin - 450001",
+      "contact_number": "9754874547"
+    },
+    {
+      "mandi": "Khargone",
+      "district": "Khargone",
+      "postal_address": "Krishi Upaj Mandi Samiti Khargone Pin - 451001",
+      "contact_number": "8519075352"
+    },
+    {
+      "mandi": "Khategaon",
+      "district": "Dewas",
+      "postal_address": "Krishi Upaj Mandi Samiti Khategaon Pin - 455336",
+      "contact_number": "9926200828"
+    },
+    {
+      "mandi": "Khirkiya",
+      "district": "Harda",
+      "postal_address": "Krishi Upaj Mandi Samiti Khirkiya Pin - 462026",
+      "contact_number": "9752718742"
+    },
+    {
+      "mandi": "Krishi Upaj",
+      "district": "Mandi Samiti-",
+      "postal_address": "Anjad Barwani Krishi Upaj Mandi Samiti Anjad Pin - 451556",
+      "contact_number": "9425485696"
+    },
+    {
+      "mandi": "Mahidpur",
+      "district": "Ujjain",
+      "postal_address": "Krishi Upaj Mandi Samiti Mahidpur Pin - 456443",
+      "contact_number": "8965813169"
+    },
+    {
+      "mandi": "Mandla",
+      "district": "Mandla",
+      "postal_address": "Krishi Upaj Mandi Samiti Mandla Pin - 481661",
+      "contact_number": "8989128248"
+    },
+    {
+      "mandi": "Mandsaur",
+      "district": "Mandsaur",
+      "postal_address": "Krishi Upaj Mandi Samiti Mandsaur Pin - 458001",
+      "contact_number": "9926582922"
+    },
+    {
+      "mandi": "Mhow",
+      "district": "Indore",
+      "postal_address": "Krishi Upaj Mandi Samiti Old A B Road Mhow Pin - 453441",
+      "contact_number": "9425897044"
+    },
+    {
+      "mandi": "Morena",
+      "district": "Morena",
+      "postal_address": "Krishi Upaj Mandi Samiti Morena Pin - 476001",
+      "contact_number": "9827007280"
+    },
+    {
+      "mandi": "Neemuch",
+      "district": "Neemuch",
+      "postal_address": "Krishi Upaj Mandi Samiti Neemuch Pin - 458441",
+      "contact_number": "9977038455"
+    },
+    {
+      "mandi": "Obaidullaganj",
+      "district": "Raisen",
+      "postal_address": "Krishi Upaj Mandi Samiti Obaidullaganj Pin - 464993",
+      "contact_number": "9425036897"
+    },
+    {
+      "mandi": "Pipariya",
+      "district": "Hoshangabad",
+      "postal_address": "Krishi Upaj Mandi Samiti Pipariya Pin - 461775",
+      "contact_number": "7047887279"
+    },
+    {
+      "mandi": "Ratlam",
+      "district": "Ratlam",
+      "postal_address": "Krishi Upaj Mandi Samiti Mahu Neemuch Road Ratlam Pin -457001",
+      "contact_number": "9907133989"
+    },
+    {
+      "mandi": "Rewa",
+      "district": "Rewa",
+      "postal_address": "Krishi Upaj",
+      "contact_number": "9826724607"
+    },
+    {
+      "mandi": "Sagar",
+      "district": "Sagar",
+      "postal_address": "Krishi Upaj Mandi Samiti Sagar Pin - 470001",
+      "contact_number": "9009145604"
+    },
+    {
+      "mandi": "Sanwer",
+      "district": "Indore",
+      "postal_address": "Krishi Upaj Mandi Samiti Dashahra Maidan Sanwer Pin - 453551",
+      "contact_number": "8889452990"
+    },
+    {
+      "mandi": "Satna",
+      "district": "Satna",
+      "postal_address": "Krishi Upaj Mandi Samiti Birla Road Satna Pin - 485005",
+      "contact_number": "9893653289"
+    },
+    {
+      "mandi": "Sehora",
+      "district": "Krishi Upaj",
+      "postal_address": "Mandi Samiti Khitola Bajar Sehora Pin - 483225",
+      "contact_number": "9516771401"
+    },
+    {
+      "mandi": "Sehore",
+      "district": "Sehore",
+      "postal_address": "Krishi Upaj Mandi Samiti Sehore Pin - 466001",
+      "contact_number": "9827376707"
+    },
+    {
+      "mandi": "Sendhwa",
+      "district": "Barwani",
+      "postal_address": "Krishi Upaj Mandi Samiti Sendhwa Pin - 451666",
+      "contact_number": "7746846749"
+    },
+    {
+      "mandi": "Seoni",
+      "district": "Seoni",
+      "postal_address": "Krishi Upaj Mandi Samiti Seoni Pin - 480661",
+      "contact_number": "8319507023"
+    },
+    {
+      "mandi": "Shahpura-",
+      "district": "Bhitoni",
+      "postal_address": "Jabalpur Krishi Upaj Mandi Samiti Shahpura- Bhitoni Pin - 482007",
+      "contact_number": "9009075689"
+    },
+    {
+      "mandi": "Shajapur",
+      "district": "Shajapur",
+      "postal_address": "Krishi Upaj Mandi Samiti Shajapur Pin - 465001",
+      "contact_number": "9893251232"
+    },
+    {
+      "mandi": "Sheopurkalan",
+      "district": "Sheopur",
+      "postal_address": "Krishi Upaj Mandi Samiti Sheopurkalan Pin - 476337",
+      "contact_number": "9977558506"
+    },
+    {
+      "mandi": "Shujalpur",
+      "district": "Shajapur",
+      "postal_address": "Krishi Upaj Mandi Samiti Shujalpur Pin - 465333",
+      "contact_number": "9425479972"
+    },
+    {
+      "mandi": "Tikamgarh",
+      "district": "Tikamgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Dhonga Rod Tikamgarh Pin - 472001",
+      "contact_number": "9131667981"
+    }
+  ],
+  "Maharashtra": [
+    {
+      "mandi": "Timarni",
+      "district": "Harda",
+      "postal_address": "Krishi Upaj Mandi Samiti Timarni Pin - 461228",
+      "contact_number": "9977793562"
+    },
+    {
+      "mandi": "Ujjain",
+      "district": "Ujjain",
+      "postal_address": "Krishi Upaj Mandi Samiti Ujjain Pin - 456001",
+      "contact_number": "9479416365"
+    },
+    {
+      "mandi": "Vidisha",
+      "district": "Vidisha",
+      "postal_address": "Krishi Upaj Mandi Samiti Vidisha Pin - 464001",
+      "contact_number": "9340522694"
+    },
+    {
+      "mandi": "Amgoan",
+      "district": "Gondiya",
+      "postal_address": "Apmc Amgaon, Dist, Gondia, Pin - 441902",
+      "contact_number": "9423673187"
+    },
+    {
+      "mandi": "Achalpur",
+      "district": "Amrawati",
+      "postal_address": "Apmc Achalpur, Tal.Achalpur, Dist.Amrawati Pin-444 805 07223",
+      "contact_number": "220142/9763"
+    },
+    {
+      "mandi": "Aheri",
+      "district": "Gadchiroli",
+      "postal_address": "The Secretary, Agricultural Market Committee, (Apmc), Aheri, Dist. Gadchiroli, Pin 442705",
+      "contact_number": "9403819410/"
+    },
+    {
+      "mandi": "Ahmednaga",
+      "district": "r",
+      "postal_address": "Ahmednagar Kisan-Kranti Building, Market Yard, Ahmednagar Pin-414 001",
+      "contact_number": "7350012305/("
+    },
+    {
+      "mandi": "Akola",
+      "district": "Akola",
+      "postal_address": "Apmc Akola, Mohta Mill Road, Akola",
+      "contact_number": "7875993233/"
+    },
+    {
+      "mandi": "Akot",
+      "district": "Akola",
+      "postal_address": "Agricultural Income Market Committee, Akot, Dist., Pin - 444101",
+      "contact_number": "8888451808"
+    },
+    {
+      "mandi": "Amalner",
+      "district": "Jalgaon",
+      "postal_address": "Apmc Amalner, Dhule Road, Amalner",
+      "contact_number": "7588816801/"
+    },
+    {
+      "mandi": "Amrawati",
+      "district": "Amrawati",
+      "postal_address": "The Secretary Agricultural Produce Market Committee (Apmc), Amrawati Tal. Amrawati, Dist. Amrawati",
+      "contact_number": "9764249852/"
+    },
+    {
+      "mandi": "Ambejogai",
+      "district": "Beed",
+      "postal_address": "Mondha Market Yard, Ambajogai, Dist. Bead, Pin - 431517",
+      "contact_number": "9970741186/"
+    },
+    {
+      "mandi": "Anjangoan",
+      "district": "Surji",
+      "postal_address": "Amrawati Apmc Anjangaonsurji, Akot Road, Anjangaon Surji",
+      "contact_number": "9823694336/"
+    },
+    {
+      "mandi": "Arjuni",
+      "district": "Morgaon",
+      "postal_address": "Gondiya At. Arjuni/Morgaon Dist. Gondia 441701",
+      "contact_number": "7066502088/"
+    },
+    {
+      "mandi": "Arvi",
+      "district": "Wardha",
+      "postal_address": "Arvi Agricultural Income Market Committee, Arvi Dist. Wardha, Pin - 442201",
+      "contact_number": "9422904501"
+    },
+    {
+      "mandi": "Aurangabad",
+      "district": "Aurangabad",
+      "postal_address": "Jadhavwadi Jalgaon Road Aurangabad",
+      "contact_number": "9766671110/"
+    },
+    {
+      "mandi": "Ausa",
+      "district": "Latur",
+      "postal_address": "Near By Nilanga Vase Marketyard Ausa, Pin - 413520",
+      "contact_number": "9970130025"
+    },
+    {
+      "mandi": "Baramati",
+      "district": "Pune",
+      "postal_address": "S. No. 15 Market Yard Indapur Road Baramati Ta. Baramati Pune, Pin - 413102",
+      "contact_number": "9860305093"
+    },
+    {
+      "mandi": "Barshi",
+      "district": "Solapur",
+      "postal_address": "The Secretary, (Apmc), Barshi, Tal. Barshi, Dist. Solapurpin 413401",
+      "contact_number": "8888526933/"
+    },
+    {
+      "mandi": "Basmat",
+      "district": "Hingoli",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee ( Apmc), Basmat, Tal. Basmat Dist Hingoli,",
+      "contact_number": "9422872972/"
+    },
+    {
+      "mandi": "Beed",
+      "district": "Beed",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee (Apmc) Beed, Tal. Beed, Dist.Beed",
+      "contact_number": "9423716074/"
+    },
+    {
+      "mandi": "Bhiwapur",
+      "district": "Nagpur",
+      "postal_address": "At Taluka -",
+      "contact_number": "9423634017/"
+    },
+    {
+      "mandi": "Bhokar",
+      "district": "Nanded",
+      "postal_address": "Apmc, At Post Bhokar Dist. Nanded",
+      "contact_number": "9765659675/"
+    },
+    {
+      "mandi": "Calisgoan",
+      "district": "Jalgaon",
+      "postal_address": "Agricultural Income Market Committee, Ghat Road, Chalisgaon District Jalgaon, Pin - 424101",
+      "contact_number": "9011707411/"
+    },
+    {
+      "mandi": "Chamorshi",
+      "district": "Gadchiroli",
+      "postal_address": "At.Post.Ta.Cha morshi Dist.Gadchiroli, Pin - 442603",
+      "contact_number": "9423595000"
+    },
+    {
+      "mandi": "Chandrapur",
+      "district": "Chandrapur",
+      "postal_address": "Ramnagar Market Yard, Chandrapurpin- 442401",
+      "contact_number": "9822711612/"
+    },
+    {
+      "mandi": "Chandur",
+      "district": "Bazar",
+      "postal_address": "Amrawati Madhan Road, Chandur Bazar Ta Chandur Bazaar Amravati, Pin - 444704",
+      "contact_number": "8806376370"
+    },
+    {
+      "mandi": "Chandvad",
+      "district": "Nashik",
+      "postal_address": "Near Chandavad- Manmad Road, Near Bus Station, Chandwad Md. Pota Chandwad Dist., Pin - 423101",
+      "contact_number": "9422753944"
+    },
+    {
+      "mandi": "Chikhali",
+      "district": "Buldhana",
+      "postal_address": "Jaystamb Chauk Old Mehekar Raod Chikhali, Pin - 443201",
+      "contact_number": "9423739941"
+    },
+    {
+      "mandi": "Chopada",
+      "district": "Jalgaon",
+      "postal_address": "Apmc Chopda, Near Chopda Bus Standpin- 425107",
+      "contact_number": "9881220421"
+    },
+    {
+      "mandi": "Daryapur",
+      "district": "Amrawati",
+      "postal_address": "Apmc Daryapur, Akot Road, Dariyapurpin- 444803",
+      "contact_number": "9657240391/"
+    },
+    {
+      "mandi": "Deola",
+      "district": "Nashik",
+      "postal_address": "Agriculture Produce Market",
+      "contact_number": "7588015021"
+    },
+    {
+      "mandi": "Dhamangoa",
+      "district": "n Railway",
+      "postal_address": "Amrawati Dhammagaon Railway Dhamangaon Railway District - Amravati, Pin - 444709",
+      "contact_number": "9975204875/"
+    },
+    {
+      "mandi": "Digras",
+      "district": "Yawatmal",
+      "postal_address": "Agricultural Income Market Committee, Digress M.P. Digras District Yavatmal, Pin - 445203",
+      "contact_number": "9422167294"
+    },
+    {
+      "mandi": "Dindori",
+      "district": "Nashik",
+      "postal_address": "Near Swami Samrth Kendra, Nilwandi Road, Dindori, Pin - 422202",
+      "contact_number": "9423556611"
+    },
+    {
+      "mandi": "Dondaicha",
+      "district": "Dhule",
+      "postal_address": "Nandurbar Road, Dondaicha Tal. Shindkheda Dist. Dhule",
+      "contact_number": "9423917202/"
+    },
+    {
+      "mandi": "Dound",
+      "district": "Pune",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee, (Apmc), Dound, Tal.Dound, Distt. Pune",
+      "contact_number": "9970317849/"
+    },
+    {
+      "mandi": "Gangapur-",
+      "district": "MH",
+      "postal_address": "Aurangabad Agriculture Produce Market Committee, Gangapur Tal- Gangapur, Pin - 431109",
+      "contact_number": "9403081915"
+    },
+    {
+      "mandi": "Gvrai",
+      "district": "Beed",
+      "postal_address": "Modhanaka, Apmc Gevraipin- 431127",
+      "contact_number": "9405452039/"
+    },
+    {
+      "mandi": "Gondiya",
+      "district": "Gondiya",
+      "postal_address": "Apmc, Gondiyapin- 441601",
+      "contact_number": "9423385144"
+    },
+    {
+      "mandi": "Hinganghat",
+      "district": "Wardha",
+      "postal_address": "Agriculture Produce Market Committee, Chh. Shivaji",
+      "contact_number": "9860864627"
+    },
+    {
+      "mandi": "Hingoli",
+      "district": "Hingoli",
+      "postal_address": "Apmc Hingoli, Cotton Market Yard Railway Station Road Hingoli",
+      "contact_number": "9881315625"
+    },
+    {
+      "mandi": "Indapur",
+      "district": "Pune",
+      "postal_address": "Gate No. 108, Indapur-Akluj Road, Dalimb Market, Indapur Tal Indapur Dist Pune, Pin - 413106",
+      "contact_number": "9421902890"
+    },
+    {
+      "mandi": "Jalgoan",
+      "district": "Jalgaon",
+      "postal_address": "Agricultuer Produce Market Commiti Jalgaon Ajintha Road ( Ms) Jalgaon 425003, Pin - 425003",
+      "contact_number": "9421541983"
+    },
+    {
+      "mandi": "Jalna",
+      "district": "Jalna",
+      "postal_address": "Apmc Jalna, New Market Yard, New Mondha, Jalna, Pin - 431203",
+      "contact_number": "9405737392"
+    },
+    {
+      "mandi": "Jitur",
+      "district": "Parbhani",
+      "postal_address": "Market Yard Jintur, Maharashtra, Pin 431509, Pin - 431509",
+      "contact_number": "9021193826"
+    },
+    {
+      "mandi": "Junnar",
+      "district": "Pune",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee, (Apmc), Junnar, Tal.Junnar, Distt. Pune",
+      "contact_number": "9975496921/"
+    },
+    {
+      "mandi": "Kalamb",
+      "district": "Osmanabad",
+      "postal_address": "Agricultural Income Market Committee,, Pin - 413507",
+      "contact_number": "7350519652/"
+    },
+    {
+      "mandi": "Kannad",
+      "district": "Aurangabad",
+      "postal_address": "Market Kamiti Kannad",
+      "contact_number": "9503435584/"
+    },
+    {
+      "mandi": "Karad",
+      "district": "Satara",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee, (Apmc), Karad, Tal.Karad",
+      "contact_number": "9822191903/"
+    },
+    {
+      "mandi": "Karanja",
+      "district": "Washim",
+      "postal_address": "Yard No. 1 Market Yard, Maimn Road, Karanja Lad, Dist.Washim, Pin - 444105",
+      "contact_number": "7588500175"
+    },
+    {
+      "mandi": "Karmala",
+      "district": "Solapur",
+      "postal_address": "Apmc Karmala Ahamdnagar Road, Dist . Solapur, Maharashtra, Pin - 413203",
+      "contact_number": "9881653436"
+    },
+    {
+      "mandi": "Katol",
+      "district": "Nagpur",
+      "postal_address": "Apmc Katol, Main Road Katolpin- 441302",
+      "contact_number": "9422457572,"
+    },
+    {
+      "mandi": "Khamgoan",
+      "district": "Buldhana",
+      "postal_address": "Akola Road, Khamgaon Ta. Khamgaon, Dist. Buldhana",
+      "contact_number": "7720039561/"
+    },
+    {
+      "mandi": "Khed",
+      "district": "Pune",
+      "postal_address": "Apmc, Khed, A/P-Rajgurunar Tal-Khed",
+      "contact_number": "9822318382/"
+    },
+    {
+      "mandi": "Kolhapur",
+      "district": "Kolhapur",
+      "postal_address": "Shree Shahu Market Yard, Kolhapur Pin- 416005",
+      "contact_number": "9860075454/"
+    },
+    {
+      "mandi": "Lasalgoan",
+      "district": "Nashik",
+      "postal_address": "Lasalgaon, Tal Niphad Dist Nashik, Pin - 422306",
+      "contact_number": "9922644424"
+    },
+    {
+      "mandi": "Lasur",
+      "district": "Sation",
+      "postal_address": "Aurangabad Lasur Station Tq. Gangapur Dist.",
+      "contact_number": "9657711023/"
+    },
+    {
+      "mandi": "Latur",
+      "district": "Latur",
+      "postal_address": "The Secretary Agricultural Produce Market Committee(Ap mc), Market Yard, Kawa Road Pin- 413512.",
+      "contact_number": "9921089911/"
+    },
+    {
+      "mandi": "Lonand",
+      "district": "Satara",
+      "postal_address": "Apmc Lonand, Tal. Khandala Pin-415 521",
+      "contact_number": "9890578541/"
+    },
+    {
+      "mandi": "Lonar",
+      "district": "Buldhana",
+      "postal_address": "Hirdag Road, Apmc Lonarpin- 443302",
+      "contact_number": "9890464825"
+    },
+    {
+      "mandi": "Majalgaon",
+      "district": "Beed",
+      "postal_address": "Fule Pimpalgaon Market Yard Tq.Majalgaon Dist Beed - 431131 Maharashtra, Pin - 431131",
+      "contact_number": "9422628754"
+    },
+    {
+      "mandi": "Malegaon",
+      "district": "Nashik",
+      "postal_address": "Camp Road, Malegaon Tal.Malegaon Dist.Nashik",
+      "contact_number": "9890017166/"
+    },
+    {
+      "mandi": "Malkapur",
+      "district": "Buldhana",
+      "postal_address": "Agricultural Produce Market Committee, Malkapur",
+      "contact_number": "7267222066"
+    },
+    {
+      "mandi": "Mangalwed",
+      "district": "ha",
+      "postal_address": "Solapur Mangalwedha Phandhpur Road Mangalwedha, Pin - 413305",
+      "contact_number": "9096924678"
+    },
+    {
+      "mandi": "Mangrulpee",
+      "district": "r",
+      "postal_address": "Washim The Secretary, Agricultural Produce Market Committee(Ap mc), Mangrulpeer, Tal.Mangrulpee r",
+      "contact_number": "9011470514/"
+    },
+    {
+      "mandi": "Manora",
+      "district": "Washim",
+      "postal_address": "Apmc Manora, Digras Road, Manora, Dist. Washim 444404, Pin - 444404",
+      "contact_number": "8806688955"
+    },
+    {
+      "mandi": "Morshi",
+      "district": "Amrawati",
+      "postal_address": "Nh353K, Amravati Road, Morshi Dist.Amravati",
+      "contact_number": "9673414140"
+    },
+    {
+      "mandi": "Mul",
+      "district": "Chandrapur",
+      "postal_address": "Apmc Mahatma Jyotiba Fule Market Yard Mul Tah. Mul Dist. Chandrapur, Pin - 441224",
+      "contact_number": "7588884002"
+    },
+    {
+      "mandi": "Mumbai",
+      "district": "Mumbai",
+      "postal_address": "The Secretary Agricultural Produce Mkt, (Apmc) Mumbai Central Building, 3 Rd Floor",
+      "contact_number": "8087394774/"
+    },
+    {
+      "mandi": "Murtizapur",
+      "district": "Akola",
+      "postal_address": "Apmc, Martizapur, Yard No-2, National No-6, Amaravati Bypasspin- 444107",
+      "contact_number": "9604986906/"
+    },
+    {
+      "mandi": "Murum",
+      "district": "Osmanabad",
+      "postal_address": "Akkalkoat Road, Market Yard Murum Tq, Omerga Dist- Osmanabad Pin 413605 Mhatastra., Pin - 413605",
+      "contact_number": "8459841718/"
+    },
+    {
+      "mandi": "9561002965/",
+      "district": "0712-",
+      "postal_address": "",
+      "contact_number": "2680280/268"
+    },
+    {
+      "mandi": "Nampur",
+      "district": "Nashik",
+      "postal_address": "Nampur, Ntr Market Kamiti, Nampur, Maharashtra, 423204, Pin - 423204",
+      "contact_number": "9922787676/"
+    },
+    {
+      "mandi": "Nanded",
+      "district": "Nanded",
+      "postal_address": "New Mondha, Nanded,",
+      "contact_number": "9921299885/"
+    },
+    {
+      "mandi": "Nandgaon",
+      "district": "Nashik",
+      "postal_address": "Yeola Road Nandgaon Dist Nashik, Pin - 423106",
+      "contact_number": "9823973104"
+    },
+    {
+      "mandi": "Nandurbar",
+      "district": "Nandurbar",
+      "postal_address": "The Secretary, (Apmc), Nandurbar, Market Yard Road Tal. Nandurbarpin- 425412",
+      "contact_number": "8999675098/"
+    },
+    {
+      "mandi": "Nashik",
+      "district": "Nashik",
+      "postal_address": "Agriculture Produce Market Committee, Nashik Dindori Road, Market Yard, Panchawati, Nashik",
+      "contact_number": "9881174646/"
+    },
+    {
+      "mandi": "Ner",
+      "district": "Parasopant",
+      "postal_address": "Yawatmal At.Po.Ner Parasopant Tq.Ner Dist.Yavatmal Pin-445102, Pin - 445102",
+      "contact_number": "7378500692/"
+    },
+    {
+      "mandi": "Newasa",
+      "district": "Ahmednagar",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee (Apmc) Newasa, Tal. Newasa, Dist. Ahmednagar",
+      "contact_number": "9881819700/"
+    },
+    {
+      "mandi": "Pandharpur",
+      "district": "Solapur",
+      "postal_address": "Apmc Pandharpur,, Pin - 413304",
+      "contact_number": "9689821861"
+    },
+    {
+      "mandi": "Parbhani",
+      "district": "Parbhani",
+      "postal_address": "Agriculture Produce Market Committee, New Mondha, Parbhani Pin- 431401",
+      "contact_number": "9422179609/"
+    },
+    {
+      "mandi": "Parli",
+      "district": "Vaijyanath",
+      "postal_address": "Beed Apmc Parali Vaijayanth, Pin - 431515",
+      "contact_number": "9422233795/"
+    },
+    {
+      "mandi": "Partur",
+      "district": "Jalna",
+      "postal_address": "New Mondaha Partur, Tq.Partur, Pin - 431501",
+      "contact_number": "9421663307"
+    },
+    {
+      "mandi": "Phaltan",
+      "district": "Satara",
+      "postal_address": "Market Yard, Mahad- Pandharpur",
+      "contact_number": "9623889988"
+    },
+    {
+      "mandi": "Pimpalgaon",
+      "district": "Baswant",
+      "postal_address": "Nashik The Secretary, Agricultural Produce Market Committee, (Apmc), Tal. Nifad, Pin- 422209",
+      "contact_number": "9822457688/"
+    },
+    {
+      "mandi": "Pune",
+      "district": "Pune",
+      "postal_address": "Pune Krushi Utpanna Bajar Samiti Pune, Near Chatrapati Shivaji Market Yard, Pune Pin- 411037 020-",
+      "contact_number": "24262349/02"
+    },
+    {
+      "mandi": "Rahata",
+      "district": "Ahmednagar",
+      "postal_address": "Nagar Manmad Road, Sakuri Vasahat, Pin - 423107",
+      "contact_number": "9850953015"
+    },
+    {
+      "mandi": "Rahuri",
+      "district": "Ahmednagar",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee (Apmc), Rahuri, Tal. Rahuri, Dst Ahmednagar",
+      "contact_number": "9226125894/"
+    },
+    {
+      "mandi": "Risod",
+      "district": "Washim",
+      "postal_address": "Civil Line Risod, Pin - 444506",
+      "contact_number": "9404347484"
+    },
+    {
+      "mandi": "Sangamner",
+      "district": "Ahmednagar",
+      "postal_address": "Pune Nashik Highway Sangamner Tal- Sangamner, Dist- Ahemadnagar, Pin - 422605",
+      "contact_number": "9822090373/"
+    },
+    {
+      "mandi": "Sangli",
+      "district": "Sangli",
+      "postal_address": "Agricultural Produce Market Committee, Sangli Vasantdada Market Yard, Sangli Pin- 416416",
+      "contact_number": "9422684465/"
+    },
+    {
+      "mandi": "Sangola",
+      "district": "Solapur",
+      "postal_address": "Main Market Yard Near Sangola Pandharpur Road Sangola, Pin - 413307",
+      "contact_number": "9860350178"
+    },
+    {
+      "mandi": "Satana",
+      "district": "Nashik",
+      "postal_address": "Market Yard Satana- Malegaon",
+      "contact_number": "8788878747/"
+    },
+    {
+      "mandi": "Saoner",
+      "district": "Nagpur",
+      "postal_address": "Main Road Saoner, Ta. Saoner, Dist - Nagpur, Pin - 441107",
+      "contact_number": "9923081851"
+    },
+    {
+      "mandi": "Selu",
+      "district": "Parbhani",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee (Apmc)Selu, Tal.Selu",
+      "contact_number": "9822819276/"
+    },
+    {
+      "mandi": "Sengoan",
+      "district": "Hingoli",
+      "postal_address": "Apmc Sengaon, Taluka- Sengaon",
+      "contact_number": "9923000855/"
+    },
+    {
+      "mandi": "Shahada",
+      "district": "Nandurbar",
+      "postal_address": "Agricultural Produce Market Committee Shahada, Tal.Shahada, Distt.Nandurbar",
+      "contact_number": "9422792287/"
+    },
+    {
+      "mandi": "Shegoan",
+      "district": "Buldhana",
+      "postal_address": "The Secretary Agricultural Produce Market Committee Apmc Shegaon Tal Shegaon Distt.Buldana",
+      "contact_number": "8149774441/"
+    },
+    {
+      "mandi": "Shirpur",
+      "district": "Dhule",
+      "postal_address": "Ambika Nagar Market Yard Shirpurpin- 428405",
+      "contact_number": "9657545042/"
+    },
+    {
+      "mandi": "Shirur",
+      "district": "Pune",
+      "postal_address": "Agricultural Produce Market Committee(Ap mc), Shirur, Tal.Shirupin- 412210.",
+      "contact_number": "9921224490/"
+    },
+    {
+      "mandi": "Shrirampur",
+      "district": "Ahmednagar",
+      "postal_address": "Agriculture Utpanna Bazar Committee, Shrirampur, Nevasa Road, Shrirampur, District - Ahmednagar, Pin - 413709",
+      "contact_number": "9850266041"
+    },
+    {
+      "mandi": "Sindewahi",
+      "district": "Chandrapur",
+      "postal_address": "Apmc Sindewahi, Main Road Saoner, Ta. Saoner, Pin - 441107",
+      "contact_number": "9923081851/"
+    },
+    {
+      "mandi": "Sindi",
+      "district": "Wardha",
+      "postal_address": "Gran Market Yard, Pipara Road, Sindi, Maharashtra, 442105, Pin - 442105",
+      "contact_number": "9975629375/"
+    },
+    {
+      "mandi": "Sinnar",
+      "district": "Nashik",
+      "postal_address": "At Post Wavi Ves, Baragaon Pimpri Road, Sinnar, Nashik- 422103, Pin - 422103",
+      "contact_number": "7588024812"
+    },
+    {
+      "mandi": "Solaur",
+      "district": "Solapur",
+      "postal_address": "Shri Siddheshwar Bajar Peth, Hydrabad Road, Nh65, Old Rangraj Nagar Pin- 413005",
+      "contact_number": "8485064455/"
+    },
+    {
+      "mandi": "Tiroda",
+      "district": "Gondiya",
+      "postal_address": "Dr. Zakir Hussain Ward, Tiroda, Pin - 441911",
+      "contact_number": "9545749103"
+    },
+    {
+      "mandi": "Tumsar",
+      "district": "Bhandara",
+      "postal_address": "Agril Produce Market Committee, Tumsar, Dist Bhandara",
+      "contact_number": "9422132916/"
+    },
+    {
+      "mandi": "Udgir",
+      "district": "Latur",
+      "postal_address": "Navamoundha Roard, Ramchandra Nagarpin- 413517",
+      "contact_number": "9881436828/"
+    },
+    {
+      "mandi": "Umrane",
+      "district": "Nashik",
+      "postal_address": "Main Market Yard Umrane Near Flyover Nh-3, Pin - 423110",
+      "contact_number": "7875500391"
+    },
+    {
+      "mandi": "Wai",
+      "district": "Satara",
+      "postal_address": "Kisan Veer Market Yard, Yashwant Nager Wai Tal- Wai, Dist- Satara, Pin - 412803",
+      "contact_number": "9975192104"
+    },
+    {
+      "mandi": "Vaijapur",
+      "district": "Aurangabad",
+      "postal_address": "The Secretary,",
+      "contact_number": "9421433759/"
+    }
+  ],
+  "Odisha": [
+    {
+      "mandi": "Vani",
+      "district": "Yawatmal",
+      "postal_address": "A.P.M.C.Wani Railway Station Road, Vani Dist.Yavatmal",
+      "contact_number": "9764580820/"
+    },
+    {
+      "mandi": "Varora",
+      "district": "Chandrapur",
+      "postal_address": "Agricultural Produce Market Committee, Warora, Tal. Warora, Dist. Chandrapurpin- 442907",
+      "contact_number": "9764063688/"
+    },
+    {
+      "mandi": "Wardha",
+      "district": "Wardha",
+      "postal_address": "The Secretary, Agricultural Produce Market Committee, (Apmc), Wardha, Tal. Wardha, Dist. Wardha",
+      "contact_number": "9881194402/"
+    },
+    {
+      "mandi": "Washim",
+      "district": "Washim",
+      "postal_address": "Apmc Washim Yard Hingoli Naka Washim 444505, Pin - 444505",
+      "contact_number": "7744955000"
+    },
+    {
+      "mandi": "Yawatmal",
+      "district": "Yawatmal",
+      "postal_address": "Dhamangaon Road, Cotton Market Chowk, Yawatmal, Pin - 445001",
+      "contact_number": "8793603494/"
+    },
+    {
+      "mandi": "Yeola",
+      "district": "Nashik",
+      "postal_address": "Yeola Road Dist Nashik, Pin - 423106",
+      "contact_number": "9423478313"
+    },
+    {
+      "mandi": "Anandapur",
+      "district": "Keonjhar",
+      "postal_address": "Regulated Market Committee, Anandapur, At/Po - Anandapur(Gh asipura), Dist - Keonjhar",
+      "contact_number": "9438340720"
+    },
+    {
+      "mandi": "Angul",
+      "district": "Angul",
+      "postal_address": "Regulated Market Committee, Angul, At/Po - Hakimpara, Dist - Angul",
+      "contact_number": "8917214569/"
+    },
+    {
+      "mandi": "Attabira",
+      "district": "Bargarh",
+      "postal_address": "Regulated Market Committee, Attabira, At/Po - Attabira, Dist - Bargarh",
+      "contact_number": "7978268179/"
+    },
+    {
+      "mandi": "Bahadajhol",
+      "district": "a",
+      "postal_address": "Nayagarh Multi- Commodity Market Yard Campus, Khandapada Road, Hatapada, Plot No:178, Nayagarh",
+      "contact_number": "9777185020/"
+    },
+    {
+      "mandi": "Balasore",
+      "district": "Balasore",
+      "postal_address": "Regulated Market Committee, Balasore, At - Bampada(Nea r Industrial P.S), Po -",
+      "contact_number": "9439702148/"
+    },
+    {
+      "mandi": "Balugaon",
+      "district": "Khorda",
+      "postal_address": "Regulated Market Committee, Balugaon, At - Shanti Nagar, Near New J.T Wild Life, Oﬃce Road, At/Po - Balugaon, Dist - Khurda",
+      "contact_number": "6371832762"
+    },
+    {
+      "mandi": "Bargarh",
+      "district": "Bargarh",
+      "postal_address": "Regulated Market Committee, At/Po - Bargarh, Dist - Bargarh",
+      "contact_number": "9937244484"
+    },
+    {
+      "mandi": "Baripada",
+      "district": "Mayurbhanj",
+      "postal_address": "Regulated Market Committee, Baripada, At - Takatpur, Ward No - 24, Dist - Mayurbhanj",
+      "contact_number": "7008821487/"
+    },
+    {
+      "mandi": "Betnoti",
+      "district": "Mayurbhanj",
+      "postal_address": "Regulated Market Committee, Betnoti, At/Po - Betnoti, Dist - Mayurbhanj",
+      "contact_number": "7008821487/"
+    },
+    {
+      "mandi": "Bhadrak",
+      "district": "Bhadrak",
+      "postal_address": "Regulated Market Committee, At/Po - Bhadrak, Dist - Bhadrak",
+      "contact_number": "7008306242"
+    },
+    {
+      "mandi": "Bhawanipat",
+      "district": "na",
+      "postal_address": "Kalahandi Regulated Market Committee, Bhawanipatna, At/Po - Bhawanipatna, Near College Road, In Front Of Central School, Dist -",
+      "contact_number": "9437294196"
+    },
+    {
+      "mandi": "Bonai",
+      "district": "Sundargarh",
+      "postal_address": "Regulated Market Committee, Bonaigarh, Subcollector Oﬃce, Bonaigarh At/Po - Bonaigarh, Dist - Sundargarh",
+      "contact_number": "9438298592"
+    },
+    {
+      "mandi": "Chandbali",
+      "district": "Bhadrak",
+      "postal_address": "Regulated Market Committee, Chandbali, At/Po - Chandbali, Dist - Bhadrak",
+      "contact_number": "8117042870"
+    },
+    {
+      "mandi": "Deogarh",
+      "district": "Deogarh",
+      "postal_address": "At- Hatisal Po- Purnagarh Dist -Deogarh Odisha Pin- 768119",
+      "contact_number": "9438638420/"
+    },
+    {
+      "mandi": "Digapahan",
+      "district": "di",
+      "postal_address": "Ganjam Regulated Market Committee, Digapahandi, At - Cotton Market Yard, Po - Digapahandi Dist - Ganjam",
+      "contact_number": "9090508808"
+    },
+    {
+      "mandi": "Dunguripali",
+      "district": "Sonepur",
+      "postal_address": "Regulated Market Committee, Dunguri Palli, At/Po - Dunguri Palli, Dist - Subarnapur",
+      "contact_number": "9437153808"
+    },
+    {
+      "mandi": "Gunupur",
+      "district": "Rayagada",
+      "postal_address": "Main Market Yard, Old Gunupur Square, Gunupur- 765022, Dist. Rayagada",
+      "contact_number": "9437641699"
+    },
+    {
+      "mandi": "Hindol",
+      "district": "Dhenkanal",
+      "postal_address": "Regulated Market Committee, Hindol, At - Sub Collector Oﬃce, Hindol, Dist - Dhenkanal",
+      "contact_number": "8917404010"
+    },
+    {
+      "mandi": "Jagatsingh",
+      "district": "pur",
+      "postal_address": "Jagatsinghpur Regulated Market Committee, Jagatsinghpur, At - Gopal Sagar, Po - Jagatsinghpur, Dist - Jagatsinghpur",
+      "contact_number": "8763192068/"
+    },
+    {
+      "mandi": "Jajpur",
+      "district": "Jajpur",
+      "postal_address": "Regulated Market",
+      "contact_number": "9583795185/"
+    },
+    {
+      "mandi": "Jaleswar",
+      "district": "Balasore",
+      "postal_address": "Regulated Market Committee, Jaleswar, At - Sekhbard, Po - Jaleswar, Dist - Balasore",
+      "contact_number": "7978016475/"
+    },
+    {
+      "mandi": "Jatni",
+      "district": "Khorda",
+      "postal_address": "Regulated Market Committee, Jatni, At/Po - Jatni, Dist - Khurda",
+      "contact_number": "9439575923/"
+    },
+    {
+      "mandi": "Jeypore",
+      "district": "Koraput",
+      "postal_address": "Regulated Market Committee, Jeypore, At/Po - Jeypore(R.S. Road), Dist - Koraput",
+      "contact_number": "9437236421"
+    },
+    {
+      "mandi": "Kandhamal",
+      "district": "Kandhamal",
+      "postal_address": "Regulated Market Committee, Kandhamal, At/Po - Kandhamal, Dist - Kandhamal",
+      "contact_number": "9438424241"
+    },
+    {
+      "mandi": "Kantabanji",
+      "district": "Balangir",
+      "postal_address": "Rmc Kantabanji, At/Po: Kantabanji, Dist: Balangir",
+      "contact_number": "7978814149"
+    },
+    {
+      "mandi": "Kendrapara",
+      "district": "Kendrapara",
+      "postal_address": "Regulated Market Committee, Kendrapara, At/Po - Jamodhara, Dist - Kendrapara",
+      "contact_number": "9438331103"
+    },
+    {
+      "mandi": "Kendupatn",
+      "district": "a",
+      "postal_address": "Cuttack Rmc Kendupatna, At/Post: Kulia, Nischintakoili, Cuttack",
+      "contact_number": "9348220048"
+    },
+    {
+      "mandi": "Kesinga",
+      "district": "Kalahandi",
+      "postal_address": "Regulated Market Committee, Kesinga, At/Po - Kesinga, Dist - Kalahandi",
+      "contact_number": "9437735679"
+    },
+    {
+      "mandi": "Koraput",
+      "district": "Koraput",
+      "postal_address": "Rmc Kunduli, At/Post: Kunduli, Semiliguda, Koraput",
+      "contact_number": "9439459692"
+    },
+    {
+      "mandi": "Kuchinda",
+      "district": "Sambalpur",
+      "postal_address": "Rmc Kuchinda, At/Po: Kuchinda, Sambalpur",
+      "contact_number": "9438638420/"
+    },
+    {
+      "mandi": "Malkangiri",
+      "district": "Malkangiri",
+      "postal_address": "Regulated Market Committee, Malkangiri, At/Po - Motu Road, Dist - Malkangiri",
+      "contact_number": "8895697348/"
+    },
+    {
+      "mandi": "Nabarangp",
+      "district": "ur",
+      "postal_address": "Nabarangapur Rmc Nabarangpur, At: Gandhi Nagar, Po/Dist: Nabarangpur",
+      "contact_number": "8339943017"
+    },
+    {
+      "mandi": "Nimapara",
+      "district": "Puri",
+      "postal_address": "Regulated",
+      "contact_number": "9937159025"
+    },
+    {
+      "mandi": "Padampur",
+      "district": "Bargarh",
+      "postal_address": "Regulated Market Committee, Padampur, At/Po - Rajbora - Sambar, Dist - Bargarh",
+      "contact_number": "7077980992"
+    },
+    {
+      "mandi": "Panposh",
+      "district": "Sundargarh",
+      "postal_address": "Regulated Market Committee, Panposh, Vedvyas Market Yard, Vedvyas, In Front Of Pahadi Bar Restaurant, Dist - Sundargarh",
+      "contact_number": "9853160706/"
+    },
+    {
+      "mandi": "Rahama",
+      "district": "Jagatsinghpur",
+      "postal_address": "Regulated Market Committee, Rahama, At/Po - Rahama, Dist - Jagatsinghpur",
+      "contact_number": "7504555240"
+    },
+    {
+      "mandi": "Rayagada",
+      "district": "Rayagada",
+      "postal_address": "Rmc Rayagada, At- Tumbhiguda, Po/Dist: Rayagada",
+      "contact_number": "7008545327"
+    },
+    {
+      "mandi": "Sakhigopal",
+      "district": "Puri",
+      "postal_address": "Rmc Sakhigopal, At/Po: Sakhogopal, Dist: Puri",
+      "contact_number": "9668585234"
+    },
+    {
+      "mandi": "Tikabali",
+      "district": "Kandhamal",
+      "postal_address": "Rmc Tikabali, At/Post: Varadakia, Via- Raikia, Phulbani",
+      "contact_number": "8328893721"
+    },
+    {
+      "mandi": "Udala",
+      "district": "Mayurbhanj",
+      "postal_address": "Regulated Market Committee, Udala, At/Po - Udala, Dist - Mayurbhanj",
+      "contact_number": "9437929292"
+    }
+  ],
+  "Puducherry": [
+    {
+      "mandi": "Karaikal",
+      "district": "Karaikal",
+      "postal_address": "Karaikal Market Committee, Thirunallar Road Pin- 609602",
+      "contact_number": "6381597618"
+    },
+    {
+      "mandi": "Amloh",
+      "district": "Fathegarh",
+      "postal_address": "Sahib New Grain Market Opp. New Bus 01765- 230082",
+      "contact_number": "9914414170"
+    },
+    {
+      "mandi": "Bhatinda",
+      "district": "Bhatinda",
+      "postal_address": "New Grain Market Bathinda 151001 0164- 2219611",
+      "contact_number": "9914422950"
+    },
+    {
+      "mandi": "Faridkot",
+      "district": "Faridkot",
+      "postal_address": "New Grain Market Sadiq Road Faridkot 151203 01635- 220074",
+      "contact_number": "9914703939"
+    },
+    {
+      "mandi": "Fathegarh",
+      "district": "Sahib",
+      "postal_address": "Fathegarh Sahib Grain-Sabji Mandi Sirhind 140406 01763- 227161",
+      "contact_number": "9464292474"
+    },
+    {
+      "mandi": "Fazilka",
+      "district": "Fazilka",
+      "postal_address": "New Grain Market, Market Committee Fazilka 152123 01638- 263906",
+      "contact_number": "9501000250"
+    },
+    {
+      "mandi": "Goniana",
+      "district": "Bhatinda",
+      "postal_address": "New Grain Maket Goniana 151201 0164- 2262036",
+      "contact_number": "9915218503"
+    },
+    {
+      "mandi": "Hoshiarpur",
+      "district": "Hoshiarpur",
+      "postal_address": "New Grain Market, Rahimpur Road, Hoshiarpur 146001 01882- 248547",
+      "contact_number": "9781500051"
+    },
+    {
+      "mandi": "Mansa",
+      "district": "Mansa",
+      "postal_address": "Sirsa Road, New Grain Market. Mansa 151505 01652- 235042",
+      "contact_number": "7837105612"
+    },
+    {
+      "mandi": "Rampura",
+      "district": "Phul",
+      "postal_address": "Bhatinda New Grain Market, Rampura Phull 151103 01651- 201209,",
+      "contact_number": "9338100007"
+    }
+  ],
+  "Rajasthan": [
+    {
+      "mandi": "Tarn Taran",
+      "district": "Tarn Taran",
+      "postal_address": "New Grain Market, Tarn Taran 143401 01633- 500148,",
+      "contact_number": "9872490977"
+    },
+    {
+      "mandi": "Aabu Road",
+      "district": "Sirohi",
+      "postal_address": "Krishi Upaj Mandi Samiti Abu Road",
+      "contact_number": "(2974)29420"
+    },
+    {
+      "mandi": "Ajmer",
+      "district": "(F&V)",
+      "postal_address": "Ajmer Krishi Upaj Mandi Samiti Abu Road",
+      "contact_number": "(2974)29420"
+    },
+    {
+      "mandi": "Ajmer",
+      "district": "(Grain)",
+      "postal_address": "Ajmer Krishi Upaj Mandi Samiti Ajmer",
+      "contact_number": "(145)244071"
+    },
+    {
+      "mandi": "Alwar",
+      "district": "Alwar",
+      "postal_address": "Krishi Upaj Mandi Samiti Alwar",
+      "contact_number": "(144)237207"
+    },
+    {
+      "mandi": "Anoopgarh",
+      "district": "Sri",
+      "postal_address": "Ganganagar Krishi Upaj Mandi Samiti Anoopgarh",
+      "contact_number": "(1498)25206"
+    },
+    {
+      "mandi": "Anta",
+      "district": "Baran",
+      "postal_address": "Krishi Upaj Mandi Samiti Anta",
+      "contact_number": "(7457)24422"
+    },
+    {
+      "mandi": "Atru",
+      "district": "Baran",
+      "postal_address": "Krishi Upaj Mandi Samiti, Atru - 325218, Teh. Atru, Distt. - Baran",
+      "contact_number": "(7451)24023"
+    },
+    {
+      "mandi": "Bajju",
+      "district": "Bikaner",
+      "postal_address": "Krishi Upaj Mandi Samiti Bajju",
+      "contact_number": "(1535)29425"
+    },
+    {
+      "mandi": "Balotra",
+      "district": "Barmer",
+      "postal_address": "Krishi Upaj Mandi Samiti Balotara",
+      "contact_number": "(2988)22005"
+    },
+    {
+      "mandi": "Bandikui",
+      "district": "Dausa",
+      "postal_address": "Krishi Upaj Mandi Samiti Bandikui",
+      "contact_number": "(1420)22206"
+    },
+    {
+      "mandi": "Banswara",
+      "district": "Banswara",
+      "postal_address": "Krishi Upaj Mandi Samiti Banswara",
+      "contact_number": "(2962)24325"
+    },
+    {
+      "mandi": "Baran",
+      "district": "Baran",
+      "postal_address": "Krishi Upaj Mandi Samiti Baran",
+      "contact_number": "(7453)23008"
+    },
+    {
+      "mandi": "Barisadri",
+      "district": "Chittorgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Barisadri",
+      "contact_number": "(1473)26424"
+    },
+    {
+      "mandi": "Barmer",
+      "district": "Barmer",
+      "postal_address": "Krishi Upaj Mandi Samiti Barmer",
+      "contact_number": "(2982)22050"
+    },
+    {
+      "mandi": "Barodamev",
+      "district": "Alwar",
+      "postal_address": "Krishi Upaj Mandi Samiti Barodamev",
+      "contact_number": "(1492)23200"
+    },
+    {
+      "mandi": "Bassi",
+      "district": "Jaipur",
+      "postal_address": "Krishi Upaj Mandi Samiti Bassi",
+      "contact_number": "(1429)22628"
+    },
+    {
+      "mandi": "Bayana",
+      "district": "Bharatpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Bayana",
+      "contact_number": "(5648)22204"
+    },
+    {
+      "mandi": "Beawar",
+      "district": "Ajmer",
+      "postal_address": "Krishi Upaj Mandi Samiti Beawar",
+      "contact_number": "(1462)22489"
+    },
+    {
+      "mandi": "Begu",
+      "district": "Chittorgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Begu",
+      "contact_number": "(1474)22011"
+    },
+    {
+      "mandi": "Bhadra",
+      "district": "Hanumangarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Bhadra",
+      "contact_number": "(1504)22205"
+    },
+    {
+      "mandi": "Bhagat Ki",
+      "district": "Kothi",
+      "postal_address": "Jodhpur Krishi Upaj Mandi Samiti Bhagat Ki Kothi",
+      "contact_number": "(291)257199"
+    },
+    {
+      "mandi": "Bharatpur",
+      "district": "Bharatpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Bharatpur",
+      "contact_number": "(5644)23872"
+    },
+    {
+      "mandi": "Bhawani",
+      "district": "Mandi",
+      "postal_address": "Jhalawar Krishi Upaj Mandi Samiti Bhawani Mandi",
+      "contact_number": "(7433)22218"
+    },
+    {
+      "mandi": "Bhilwara",
+      "district": "Bhilwara",
+      "postal_address": "Krishi Upaj Mandi Samiti Bhilwara",
+      "contact_number": "(1482)22016"
+    },
+    {
+      "mandi": "Bhinmal",
+      "district": "Jalore",
+      "postal_address": "Krishi Upaj Mandi Samiti Bhinmal",
+      "contact_number": "(2969)22009"
+    },
+    {
+      "mandi": "Bijaynagar",
+      "district": "Ajmer",
+      "postal_address": "Krishi Upaj Mandi Samiti Bijay Nagar",
+      "contact_number": "(1462)23003"
+    },
+    {
+      "mandi": "Bijoliya",
+      "district": "Bhilwara",
+      "postal_address": "Krishi Upaj Mandi Samiti Bijoliya",
+      "contact_number": "(1489)23603"
+    },
+    {
+      "mandi": "Bikaner",
+      "district": "(F&V)",
+      "postal_address": "Bikaner Krishi Upaj Mandi Samiti Bikaner",
+      "contact_number": "(151)221280"
+    },
+    {
+      "mandi": "Bikaner",
+      "district": "(Grain)",
+      "postal_address": "Bikaner Krishi Upaj Mandi Samiti (Grain) Bikaner",
+      "contact_number": "(151)222696"
+    },
+    {
+      "mandi": "Bilara",
+      "district": "Jodhpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Bilara",
+      "contact_number": "(2930)22206"
+    },
+    {
+      "mandi": "Bundi",
+      "district": "Bundi",
+      "postal_address": "Krishi Upaj Mandi Samiti Bundi",
+      "contact_number": "(747)244370"
+    },
+    {
+      "mandi": "Chabra",
+      "district": "Baran",
+      "postal_address": "Krishi Upaj Mandi Samiti Chabra",
+      "contact_number": "(7452)22225"
+    },
+    {
+      "mandi": "Chaksu",
+      "district": "Jaipur",
+      "postal_address": "Krishi Upaj Mandi Samiti Chaksu",
+      "contact_number": "(1429)24362"
+    },
+    {
+      "mandi": "Chirawa",
+      "district": "Jhunjhunu",
+      "postal_address": "Krishi Upaj Mandi Samiti Chirawa",
+      "contact_number": "(1596)22007"
+    },
+    {
+      "mandi": "Chittorgarh",
+      "district": "Chittorgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Chittorgarh",
+      "contact_number": "(1472)24127"
+    },
+    {
+      "mandi": "Chomehla",
+      "district": "Jhalawar",
+      "postal_address": "Krishi Upaj Mandi Samiti Chomela",
+      "contact_number": "(7435)28424"
+    },
+    {
+      "mandi": "Chomu",
+      "district": "(F&V)",
+      "postal_address": "Jaipur Krishi Upaj Mandi Samiti Chomu",
+      "contact_number": "(1423)22004"
+    },
+    {
+      "mandi": "Chomu",
+      "district": "Grain",
+      "postal_address": "Jaipur Krishi Upaj Mandi Samiti Chomu",
+      "contact_number": "(1423)22004"
+    },
+    {
+      "mandi": "Chottisadri",
+      "district": "Pratapgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Chotisadri",
+      "contact_number": "(1437)26244"
+    },
+    {
+      "mandi": "Churu",
+      "district": "Churu",
+      "postal_address": "Krishi Upaj Mandi Samiti Churu",
+      "contact_number": "(1562)25024"
+    },
+    {
+      "mandi": "Dausa",
+      "district": "Dausa",
+      "postal_address": "Krishi Upaj Mandi Samiti Dausa",
+      "contact_number": "(1427)23007"
+    },
+    {
+      "mandi": "Deedwana",
+      "district": "Nagaur",
+      "postal_address": "Krishi Upaj Mandi Samiti Deedwana",
+      "contact_number": "(1580)22001"
+    },
+    {
+      "mandi": "Deeg",
+      "district": "Bharatpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Deeg",
+      "contact_number": "(5641)22004"
+    },
+    {
+      "mandi": "Degana",
+      "district": "Nagaur",
+      "postal_address": "Krishi Upaj Mandi Degana",
+      "contact_number": "(1587)22293"
+    },
+    {
+      "mandi": "Dei",
+      "district": "Bundi",
+      "postal_address": "Krishi Upaj Mandi Samiti Dei",
+      "contact_number": "(7437)25516"
+    },
+    {
+      "mandi": "Deoli",
+      "district": "Tonk",
+      "postal_address": "Krishi Upaj Mandi Samiti Deoli",
+      "contact_number": "(1434)23023"
+    },
+    {
+      "mandi": "Dholpur",
+      "district": "Dholpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Dholpur",
+      "contact_number": "(5642)24068"
+    },
+    {
+      "mandi": "Dooni",
+      "district": "Tonk",
+      "postal_address": "Krishi Upaj Mandi Samiti Dooni",
+      "contact_number": "(1434)23563"
+    },
+    {
+      "mandi": "Dungarpur",
+      "district": "Dungarpur",
+      "postal_address": "Krishi Upaj Mandi Dungarpur",
+      "contact_number": "(2964)23257"
+    },
+    {
+      "mandi": "Fatehnagar",
+      "district": "Udaipur",
+      "postal_address": "Krishi Upaj Mandi Samiti Fatehnagar",
+      "contact_number": "(2955)22005"
+    },
+    {
+      "mandi": "Fatehpur-Rj",
+      "district": "Sikar",
+      "postal_address": "Krishi Upaj Mandi Samiti Fatehpur",
+      "contact_number": "(1571)23008"
+    },
+    {
+      "mandi": "Gajsinghpu",
+      "district": "r",
+      "postal_address": "Sri Ganganagar Krishi Upaj Mandi Samiti Gajsinghpur",
+      "contact_number": "(1505)23012"
+    },
+    {
+      "mandi": "Gangapur",
+      "district": "City",
+      "postal_address": "Sawai Madhopur Krishi Upaj Mandi Samiti Gangapur City",
+      "contact_number": "(7463)23245"
+    },
+    {
+      "mandi": "Gangapur",
+      "district": "Rj",
+      "postal_address": "Bhilwara Krishi Upaj Mandi Samiti Gangapur",
+      "contact_number": "(1481)22008"
+    },
+    {
+      "mandi": "Gharsana",
+      "district": "Sri",
+      "postal_address": "Ganganagar Krishi Upaj Mandi Samiti Gharsana",
+      "contact_number": "(1506)22006"
+    },
+    {
+      "mandi": "Goluwala",
+      "district": "Hanumangarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Goluwala",
+      "contact_number": "(1508)25000"
+    },
+    {
+      "mandi": "Gudhagorji",
+      "district": "Jhunjhunu",
+      "postal_address": "Krishi Upaj Mandi Guda Gorji",
+      "contact_number": "(1594)26300"
+    },
+    {
+      "mandi": "Hanumang",
+      "district": "arh",
+      "postal_address": "Hanumangarh Krishi Upaj Mandi Samiti Hanumangarh",
+      "contact_number": "(1552)26056"
+    },
+    {
+      "mandi": "Hindoun",
+      "district": "Karauli",
+      "postal_address": "Krishi Upaj Mandi Samiti Hindoun, Kailash Nagar Hindoun City",
+      "contact_number": "(7469)23009"
+    },
+    {
+      "mandi": "Iklera",
+      "district": "Baran",
+      "postal_address": "Krishi Upaj Mandi Samiti Iklera",
+      "contact_number": "(7431)27320"
+    },
+    {
+      "mandi": "Itawa",
+      "district": "Kota",
+      "postal_address": "Krishi Upaj Mandi Samiti Itawa",
+      "contact_number": "(7458)22522"
+    },
+    {
+      "mandi": "Jaipur",
+      "district": "(F&V)",
+      "postal_address": "Muhana Jaipur Krishi Upaj Mandi Samiti Muhana Mandi Saganer",
+      "contact_number": "(141)273903"
+    },
+    {
+      "mandi": "Jaipur",
+      "district": "(Grain)",
+      "postal_address": "Jaipur Krishi Upaj Mandi Samiti Delhi Road Jaipur",
+      "contact_number": "(141)264074"
+    },
+    {
+      "mandi": "Jaisalmer",
+      "district": "Jaisalmer",
+      "postal_address": "Krishi Upaj Mandi Samiti Jaisalmer",
+      "contact_number": "(2992)25273"
+    },
+    {
+      "mandi": "Jaitaran",
+      "district": "Pali",
+      "postal_address": "Krishi Upaj Mandi Samiti Jaitaran",
+      "contact_number": "(2939)22224"
+    },
+    {
+      "mandi": "Jaitsar",
+      "district": "Sri",
+      "postal_address": "Ganganagar Krishi Upaj Mandi Samiti Jaitsar",
+      "contact_number": "(1498)26434"
+    },
+    {
+      "mandi": "Jalore",
+      "district": "Jalore",
+      "postal_address": "Krishi Upaj Mandi Samiti Jalore",
+      "contact_number": "(2973)22234"
+    },
+    {
+      "mandi": "Jhalrapatan",
+      "district": "Jhalawar",
+      "postal_address": "Krishi Upaj Mandi Samiti Jhalrapatan",
+      "contact_number": "(7432)24002"
+    },
+    {
+      "mandi": "Jhunjhunu",
+      "district": "Jhunjhunu",
+      "postal_address": "Krishi Upaj Mandi Samiti Jhunjunu",
+      "contact_number": "(1592)23936"
+    },
+    {
+      "mandi": "Jodhpur",
+      "district": "(F&V)",
+      "postal_address": "Jodhpur Krishi Upaj Mandi Samiti Jodhpur F&V",
+      "contact_number": "(291)257017"
+    },
+    {
+      "mandi": "Jodhpur",
+      "district": "(Grain)",
+      "postal_address": "Jodhpur Krishi Upaj Mandi Samiti (Grain) Jodhpur",
+      "contact_number": "(291)257199"
+    },
+    {
+      "mandi": "Kaman",
+      "district": "Bharatpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Kaman",
+      "contact_number": "(5640)25002"
+    },
+    {
+      "mandi": "Kapasan",
+      "district": "Chittorgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Kapasan",
+      "contact_number": "(1476)23023"
+    },
+    {
+      "mandi": "Kekri",
+      "district": "Ajmer",
+      "postal_address": "Krishi Upaj Mandi Samiti",
+      "contact_number": "(1467)22012"
+    },
+    {
+      "mandi": "Keshoraipat",
+      "district": "an",
+      "postal_address": "Bundi Krishi Upaj Mandi Samiti Keshoraipatan",
+      "contact_number": "(7438)26424"
+    },
+    {
+      "mandi": "Kesrisinghp",
+      "district": "ur",
+      "postal_address": "Sri Ganganagar Krishi Upaj Mandi Samiti Kesarisinghpur",
+      "contact_number": "(1501)23205"
+    },
+    {
+      "mandi": "Khairthal",
+      "district": "Alwar",
+      "postal_address": "Krishi Upaj Mandi Samiti Khairthal",
+      "contact_number": "(1460)22211"
+    },
+    {
+      "mandi": "Khajuwala",
+      "district": "Bikaner",
+      "postal_address": "Krishi Upaj Mandi Samiti Khajuwala",
+      "contact_number": "(1520)23226"
+    },
+    {
+      "mandi": "Khanpur",
+      "district": "Jhalawar",
+      "postal_address": "Krishi Upaj Mandi Samiti Khanpur",
+      "contact_number": "(7430)26122"
+    },
+    {
+      "mandi": "Kherli",
+      "district": "Alwar",
+      "postal_address": "Krishi Upaj Mandi Samiti Kherli",
+      "contact_number": "(1492)28006"
+    },
+    {
+      "mandi": "Kishangarh",
+      "district": "Renwal",
+      "postal_address": "Jaipur Krishi Upaj Mandi Samiti",
+      "contact_number": "(1424)22021"
+    },
+    {
+      "mandi": "Kota",
+      "district": "(Grain)",
+      "postal_address": "Kota Krishi Upaj Mandi Samiti New Grain Mandi Kota",
+      "contact_number": "(744)249047"
+    },
+    {
+      "mandi": "Kota (F&V)",
+      "district": "Kota",
+      "postal_address": "Krishi Upaj Mandi Samiti Kota F&V",
+      "contact_number": "(744)236018"
+    },
+    {
+      "mandi": "Kotputli",
+      "district": "Jaipur",
+      "postal_address": "Krishi Upaj Mandi Samiti Kotputli",
+      "contact_number": "(1421)22209"
+    },
+    {
+      "mandi": "Kuchaman",
+      "district": "City",
+      "postal_address": "Nagaur Krishi Upaj Mandi Samiti Kuchaman City",
+      "contact_number": "(1586)22006"
+    },
+    {
+      "mandi": "Lalsot",
+      "district": "Dausa",
+      "postal_address": "Krishi Upaj Mandi Samiti Lalsot",
+      "contact_number": "(1431)26001"
+    },
+    {
+      "mandi": "Lunkaransa",
+      "district": "r",
+      "postal_address": "Bikaner Krishi Upaj Mandi Samiti Lunkarnshar",
+      "contact_number": "(1428)27207"
+    },
+    {
+      "mandi": "Madanganj",
+      "district": "Kishangarh",
+      "postal_address": "Ajmer Krishi Upaj Mandi Samiti Kishangarh",
+      "contact_number": "(1463)24331"
+    },
+    {
+      "mandi": "Mahuwa",
+      "district": "Mandawar",
+      "postal_address": "Dausa Krishi Upaj Mandi Samiti Mandawar",
+      "contact_number": "(7461)26043"
+    },
+    {
+      "mandi": "Mahuwa Rj",
+      "district": "Dausa",
+      "postal_address": "Krishi Upaj Mandi Samiti Mahua",
+      "contact_number": "(1431)26419"
+    },
+    {
+      "mandi": "Malpura",
+      "district": "Tonk",
+      "postal_address": "Krishi Upaj Mandi Samiti Malpura",
+      "contact_number": "(1437)22571"
+    },
+    {
+      "mandi": "Mandalgarh",
+      "district": "Bhilwara",
+      "postal_address": "Krishi Upaj Mandi Samiti Mandalgarh",
+      "contact_number": "(1489)23003"
+    },
+    {
+      "mandi": "Mandawari",
+      "district": "Dausa",
+      "postal_address": "Krishi Upaj Mandi Samiti V/Po.",
+      "contact_number": "(1431)26419"
+    },
+    {
+      "mandi": "Merta City",
+      "district": "Nagaur",
+      "postal_address": "Krishi Upaj Mandi Samiti Merta Ctiy (Nagaur) Raj",
+      "contact_number": "(1590)22003"
+    },
+    {
+      "mandi": "Nadbai",
+      "district": "Bharatpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Dist Bharatpur",
+      "contact_number": "(5643)27646"
+    },
+    {
+      "mandi": "Nagar",
+      "district": "Bharatpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Nagar",
+      "contact_number": "(5641)21141"
+    },
+    {
+      "mandi": "Nagaur",
+      "district": "Nagaur",
+      "postal_address": "Krishi Upaj Mandi Samiti Nagour",
+      "contact_number": "(1582)24084"
+    },
+    {
+      "mandi": "Nawalgarh",
+      "district": "Jhunjhunu",
+      "postal_address": "Krishi Upaj Mandi Samiti Nawalgarh",
+      "contact_number": "(1594)22205"
+    },
+    {
+      "mandi": "Neem Ka",
+      "district": "Thana",
+      "postal_address": "Sikar Krishi Upaj Mandi Samiti Neem Ka Thana",
+      "contact_number": "(1574)23006"
+    },
+    {
+      "mandi": "Nimbahera",
+      "district": "Chittorgarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Nimbahera",
+      "contact_number": "(1477)22004"
+    },
+    {
+      "mandi": "Niwai",
+      "district": "Tonk",
+      "postal_address": "Krishi Upaj Mandi Samiti Niwai",
+      "contact_number": "(1438)22203"
+    },
+    {
+      "mandi": "Nohar",
+      "district": "Hanumangarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Nohar",
+      "contact_number": "(1555)22000"
+    },
+    {
+      "mandi": "Nokha",
+      "district": "Bikaner",
+      "postal_address": "Krishi Upaj Mandi Samiti Nokha",
+      "contact_number": "(1531)22003"
+    },
+    {
+      "mandi": "Padampur",
+      "district": "Bargarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Padampur",
+      "contact_number": "(1505)23202"
+    },
+    {
+      "mandi": "Pali",
+      "district": "Pali",
+      "postal_address": "Krishi Upaj Mandi Samiti Pali",
+      "contact_number": "(2932)25713"
+    },
+    {
+      "mandi": "Palsana",
+      "district": "Sikar",
+      "postal_address": "Krishi Upaj Mandi Samiti Palsana",
+      "contact_number": "(1576)29430"
+    },
+    {
+      "mandi": "Phalodi",
+      "district": "Jodhpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Phalodi",
+      "contact_number": "(2925)22206"
+    },
+    {
+      "mandi": "Pilibanga",
+      "district": "Hanumangarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Pilibanga",
+      "contact_number": "(1508)23306"
+    },
+    {
+      "mandi": "Piparcity",
+      "district": "Jodhpur",
+      "postal_address": "Krishi Upaj Mandi Samiti Pipar City",
+      "contact_number": "(290)233074"
+    },
+    {
+      "mandi": "Pratapgarh",
+      "district": "Rj",
+      "postal_address": "Pratapgarh Krishi Upaj Mandi Samiti Pratapgarh",
+      "contact_number": "(1478)22209"
+    },
+    {
+      "mandi": "Raisinghna",
+      "district": "gar",
+      "postal_address": "Sri Ganganagar Krishi Upaj Mandi Samiti Raisinghnagar",
+      "contact_number": "(1507)22005"
+    },
+    {
+      "mandi": "Rajdhani",
+      "district": "Mandi",
+      "postal_address": "Kukerkheda Jaipur Krishi Upaj Mandi Kukarkheda",
+      "contact_number": "(141)242105"
+    },
+    {
+      "mandi": "Rajsamand",
+      "district": "Rajsamand",
+      "postal_address": "Krishi Upaj Mandi Samiti Rajsamand",
+      "contact_number": "(2952)23024"
+    },
+    {
+      "mandi": "Ramganj",
+      "district": "Mandi",
+      "postal_address": "Kota Krishi Upaj Mandi Samiti Ramganj Mandi",
+      "contact_number": "(7459)22005"
+    },
+    {
+      "mandi": "Rani",
+      "district": "Pali",
+      "postal_address": "Krishi Upaj Mandi Samiti Rani",
+      "contact_number": "(2934)22208"
+    },
+    {
+      "mandi": "Raniwara",
+      "district": "Jalore",
+      "postal_address": "Krishi Upaj Mandi Samiti Raniwara",
+      "contact_number": "(2990)23206"
+    },
+    {
+      "mandi": "Ratangarh",
+      "district": "Churu",
+      "postal_address": "Krishi Upaj Mandi Samiti Ratangarh",
+      "contact_number": "(1567)22212"
+    },
+    {
+      "mandi": "Rawatsar",
+      "district": "Hanumangarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Rawatshar",
+      "contact_number": "(1537)25005"
+    },
+    {
+      "mandi": "Rawla",
+      "district": "Sri",
+      "postal_address": "Ganganagar Krishi Upaj Mandi Rawla",
+      "contact_number": "(1506)26304"
+    },
+    {
+      "mandi": "Ridmalsar",
+      "district": "Sri",
+      "postal_address": "Ganganagar Krishi Upaj Mandi Ridmalshar",
+      "contact_number": "(150)241239"
+    },
+    {
+      "mandi": "Sadulpur",
+      "district": "Churu",
+      "postal_address": "Krishi Upaj Mandi Sadulpur",
+      "contact_number": "(1559)22207"
+    },
+    {
+      "mandi": "Sadulshaha",
+      "district": "r",
+      "postal_address": "Sri Ganganagar Krishi Upaj Mandi Samiti Sadulsahar",
+      "contact_number": "(1503)22203"
+    },
+    {
+      "mandi": "Sanchore",
+      "district": "Jalore",
+      "postal_address": "Krishi Upaj Mandi Samiti Sanchor",
+      "contact_number": "(2979)22201"
+    },
+    {
+      "mandi": "Sangariya",
+      "district": "Hanumangarh",
+      "postal_address": "Krishi Upaj Mandi Samiti Sangariya",
+      "contact_number": "(1499)25006"
+    },
+    {
+      "mandi": "Sardar",
+      "district": "Shahar",
+      "postal_address": "Churu Krishi Upaj Mandi Samiti Sardarsahar",
+      "contact_number": "(1564)22000"
+    },
+    {
+      "mandi": "Sawai",
+      "district": "Madhopur",
+      "postal_address": "Sawai Madhopur Krishi Upaj Mandi Samiti Sawaimadhop ur",
+      "contact_number": "(7462)23414"
+    },
+    {
+      "mandi": "Shahpura",
+      "district": "Bhilwara",
+      "postal_address": "Krishi Upaj Mandi Samiti Shahpura",
+      "contact_number": "(1484)22224"
+    },
+    {
+      "mandi": "Sikar",
+      "district": "Sikar",
+      "postal_address": "Krishi Upaj Mandi Samiti Sikar",
+      "contact_number": "(1572)24556"
+    },
+    {
+      "mandi": "Sojat Road",
+      "district": "Pali",
+      "postal_address": "Krishi Upaj Mandi Samiti Sikar",
+      "contact_number": "(2932)25713"
+    },
+    {
+      "mandi": "Sri",
+      "district": "Dungargarh",
+      "postal_address": "Bikaner Krishi Upaj Mandi Samiti Sridungarh",
+      "contact_number": "(1565)22204"
+    },
+    {
+      "mandi": "Sri",
+      "district": "Ganganaga",
+      "postal_address": "r (Grain) Sri Ganganagar Krishi Upaj Mandi Samiti, New Dhan Mandi Sri Ganagnagar",
+      "contact_number": "(154)247062"
+    },
+    {
+      "mandi": "Srimadhop",
+      "district": "ur",
+      "postal_address": "Sikar Krishi Upaj Mandi Samiti Shrimadhopur Sikar (Raj.)",
+      "contact_number": "(1575)25004"
+    },
+    {
+      "mandi": "Sri",
+      "district": "Vijaynagar",
+      "postal_address": "Sri Ganganagar Krishi Upaj Mandi Samiti Vijaynagar",
+      "contact_number": "(1498)23173"
+    },
+    {
+      "mandi": "Sri",
+      "district": "Ganaganag",
+      "postal_address": "ar (F&V) Sri Ganganagar Krishi Upaj Mandi Samiti Sri Ganganagr F&V",
+      "contact_number": "(154)248462"
+    },
+    {
+      "mandi": "Sri",
+      "district": "Karanpur",
+      "postal_address": "Sri Ganganagar Krishi Upaj Mandi Samiti Karanpur",
+      "contact_number": "(1501)22833"
+    },
+    {
+      "mandi": "Sujangarh",
+      "district": "Churu",
+      "postal_address": "Krishi Upaj Mandi Samiti Sujangarh",
+      "contact_number": "(1568)22014"
+    },
+    {
+      "mandi": "Sumerganj",
+      "district": "Bundi",
+      "postal_address": "Krishi Upaj Mandi Samiti Sumerganj",
+      "contact_number": "(7458)25381"
+    },
+    {
+      "mandi": "Sumerpur",
+      "district": "Pali",
+      "postal_address": "Krishi Upaj Mandi Samiti Sumerpur",
+      "contact_number": "(2933)25824"
+    },
+    {
+      "mandi": "Surajgarh",
+      "district": "Jhunjhunu",
+      "postal_address": "Krishi Upaj Mandi Samiti Surajgarh",
+      "contact_number": "(1596)23730"
+    },
+    {
+      "mandi": "Suratgarh",
+      "district": "Sri",
+      "postal_address": "Ganganagar Krishi Upaj Mandi Samiti Suratgarh",
+      "contact_number": "(1509)22014"
+    },
+    {
+      "mandi": "Tonk",
+      "district": "Tonk",
+      "postal_address": "Krishi Upaj Mandi Samiti Tonk",
+      "contact_number": "(1432)24675"
+    },
+    {
+      "mandi": "Udaipur F",
+      "district": "And V",
+      "postal_address": "Udaipur Krishi Upaj Mandi Samiti Udaipur F&V",
+      "contact_number": "(294)258405"
+    }
+  ],
+  "Telangana": [
+    {
+      "mandi": "Udaipur",
+      "district": "Grain",
+      "postal_address": "Udaipur Krishi Upaj Mandi Samiti Udaipur",
+      "contact_number": "(294)248612"
+    },
+    {
+      "mandi": "Uniyara",
+      "district": "Tonk",
+      "postal_address": "Krishi Upaj Mandi Samiti Uniyara",
+      "contact_number": "(1436)26034"
+    },
+    {
+      "mandi": "Achampet",
+      "district": "Nagarkurnool",
+      "postal_address": "Agricultural Market Committee, Achampet, Uppununthla Road, Achampet 509375",
+      "contact_number": "7330733282"
+    },
+    {
+      "mandi": "Adilabad",
+      "district": "Adilabad",
+      "postal_address": "Agricultural Market Committee, Adilabad, Adilabad District.",
+      "contact_number": "7330733416"
+    },
+    {
+      "mandi": "Athmakur",
+      "district": "Wanaparthy",
+      "postal_address": "Agricultural Market Committee, Atmakur, Wanaparthy District.",
+      "contact_number": "7330733290"
+    },
+    {
+      "mandi": "Badepally",
+      "district": "Mahbubnagar",
+      "postal_address": "Agricultural Market Committee, Badepally, Jadcherla, Mahabubnagar District.",
+      "contact_number": "7330733263"
+    },
+    {
+      "mandi": "Bhainsa",
+      "district": "Nirmal",
+      "postal_address": "Agricultural Market Committee, Bhainsa, Gandhi Gunj, Nirmal.",
+      "contact_number": "7330733427"
+    },
+    {
+      "mandi": "Bowenpally",
+      "district": "Secundrabad",
+      "postal_address": "Agricultural Market Committee, Bowenpally, Near Diamond Point, Bowenpally, Secunderabad",
+      "contact_number": "7330733789"
+    },
+    {
+      "mandi": "Choppadan",
+      "district": "di",
+      "postal_address": "Karimnagar Agricultural Market Committee, Choppadani, Dist. Karimnagar 505415",
+      "contact_number": "7330733321"
+    },
+    {
+      "mandi": "Devarakadr",
+      "district": "a",
+      "postal_address": "Mahbubnagar Agricultural Market Committee, Devarakadra, Koil Sagar Road Devarakadra, Mahabubnagar .",
+      "contact_number": "7330733303"
+    },
+    {
+      "mandi": "Deverakond",
+      "district": "a",
+      "postal_address": "Nalgonda Agricultural Market Committee,, Devarakonda,",
+      "contact_number": "7330733589"
+    },
+    {
+      "mandi": "Echoda",
+      "district": "Adilabad",
+      "postal_address": "Agricultural Market Committee, Echoda, Opp: Church, Main Road Echoda, Adilabad District.",
+      "contact_number": "7330733443"
+    },
+    {
+      "mandi": "Enkoor",
+      "district": "Khammam",
+      "postal_address": "Agricultural Market",
+      "contact_number": "7330733406"
+    },
+    {
+      "mandi": "Gaddiannar",
+      "district": "am",
+      "postal_address": "Rangareddy (Rajendranaga r) Agricultural Market Committee, Gaddiannaram , Fruit Market, Gaddiannaram , Kothapet, Hyderabad, Ranga Reddy District.",
+      "contact_number": "7330733141"
+    },
+    {
+      "mandi": "Gadwal",
+      "district": "Jogulamba",
+      "postal_address": "Gadwal Agril.Market Committee, Gadwal, New Gunj (Near) RailWay Station Road, Gadwal District.",
+      "contact_number": "7330733269"
+    },
+    {
+      "mandi": "Gajwel",
+      "district": "Siddipet",
+      "postal_address": "Agril.Market Committee Gajwel, Toopran Road, Siddipet Dist. Pin code :502278",
+      "contact_number": "7330733540"
+    },
+    {
+      "mandi": "Gangadhar",
+      "district": "a",
+      "postal_address": "Karimnagar Agricultural Market Committee, Gangadhara, Karimnagar Dist., Pin Code, 505445",
+      "contact_number": "7330733354"
+    },
+    {
+      "mandi": "Gollapally",
+      "district": "Jagtial",
+      "postal_address": "Agricultural Market Committee, Gollapally, Jagitial District.",
+      "contact_number": "7330733351"
+    },
+    {
+      "mandi": "Gudimalkap",
+      "district": "ur",
+      "postal_address": "Hyderabad Agricultural Market Committee, Gudimalkapur, Gudimalkapur, Mehdipatnam, Hyderabad.",
+      "contact_number": "9440480313"
+    },
+    {
+      "mandi": "Husnabad",
+      "district": "Siddipet",
+      "postal_address": "Agricultural Market Committee, Husnabad, Siddipet District.",
+      "contact_number": "7330733349"
+    },
+    {
+      "mandi": "Hyderabad",
+      "district": "HYDERABAD",
+      "postal_address": "Agricultural Market",
+      "contact_number": "7330733142"
+    },
+    {
+      "mandi": "Jammikunta",
+      "district": "Karimnagar",
+      "postal_address": "Agricultural Market Committee, Jammikunta, Karimnagar District.",
+      "contact_number": "7330733314"
+    },
+    {
+      "mandi": "Jangoan",
+      "district": "Jangaon",
+      "postal_address": "Agricultural Market Committee, Jangaon, Jangaon District.",
+      "contact_number": "7330733499"
+    },
+    {
+      "mandi": "Jogipet",
+      "district": "Sanga Reddy",
+      "postal_address": "Agril.Market Committee, Jogipet",
+      "contact_number": "7330733541"
+    },
+    {
+      "mandi": "Kalwakurth",
+      "district": "y",
+      "postal_address": "Nagarkurnool Agricultural Market Committee,, Kalwakurthy, Nagarkurnool District.",
+      "contact_number": "7330733285"
+    },
+    {
+      "mandi": "Kamareddy",
+      "district": "Kamareddy",
+      "postal_address": "Agricultural Market Committee, Kamareddy, Gandhi Gunj, Kamareddy.",
+      "contact_number": "7330733235"
+    },
+    {
+      "mandi": "Karimnagar",
+      "district": "Karimnagar",
+      "postal_address": "Agricultural Market Committee, Karimnagar, H.no.6-4-102 to 105, Kharkhana Gadda, Karimnagar District.",
+      "contact_number": "7330733309"
+    },
+    {
+      "mandi": "Kesamudra",
+      "district": "m",
+      "postal_address": "Mahabubabad Agricultural Market Committee, Kesamudram, Mahabubabad District.",
+      "contact_number": "7330733495"
+    },
+    {
+      "mandi": "Khammam",
+      "district": "Khammam",
+      "postal_address": "Agricultural Market Committee, Khammam, Khammam District.",
+      "contact_number": "7330733375"
+    },
+    {
+      "mandi": "Madnoor",
+      "district": "Kamareddy",
+      "postal_address": "Agricultural Market Committee, Madnoor, Degloor Road, Madnoor, Kamareddy District.",
+      "contact_number": "7330733231"
+    },
+    {
+      "mandi": "Mahabubab",
+      "district": "ad",
+      "postal_address": "Mahabubabad Agricultural Market Committee,, Mahabubabad, Ellandu By- pass Road, Mahabubabad Dist.",
+      "contact_number": "7330733504"
+    },
+    {
+      "mandi": "Mahbubnag",
+      "district": "ar",
+      "postal_address": "Mahbubnagar Agricultural Market Committee, Mahabubnagar , New Gunj,",
+      "contact_number": "7330733259"
+    },
+    {
+      "mandi": "Makthal",
+      "district": "Narayanpet",
+      "postal_address": "Agricultural Market Committee, Makthal, Narayanpet District.",
+      "contact_number": "7330733294"
+    },
+    {
+      "mandi": "Metpally",
+      "district": "Jagtial",
+      "postal_address": "Agril. Market Committee, Metpally, Jagtial-Dist. Pincode: 505325",
+      "contact_number": "7330733346"
+    },
+    {
+      "mandi": "Miryalagud",
+      "district": "a",
+      "postal_address": "Nalgonda Agricultural Market Committee,, Miryalaguda,",
+      "contact_number": "7330733557"
+    },
+    {
+      "mandi": "Nagarkurno",
+      "district": "ol",
+      "postal_address": "Nagarkurnool Agricultural Market Committee, Nagarkurnool,",
+      "contact_number": "7330733275"
+    },
+    {
+      "mandi": "Nakrekal",
+      "district": "Nalgonda",
+      "postal_address": "Agricultural Market Committee, Nakrekal, Nalgonda District.",
+      "contact_number": "7330733581"
+    },
+    {
+      "mandi": "Nalgonda",
+      "district": "Nalgonda",
+      "postal_address": "Agricultural Market Committee, Nalgonda, Hyderabad Road, Nalgonda, Nalgonda District.",
+      "contact_number": "7330733578"
+    },
+    {
+      "mandi": "Narayanpet",
+      "district": "Narayanpet",
+      "postal_address": "Agricultural Market Committee, Narayanpet, New Gunj, Narayanpet District..",
+      "contact_number": "7330733288"
+    },
+    {
+      "mandi": "Narsanpet",
+      "district": "Warangal",
+      "postal_address": "Rural Agricultural Market Committee,, Narsampet,",
+      "contact_number": "7330733492"
+    },
+    {
+      "mandi": "Nawabpet",
+      "district": "Mahbubnagar",
+      "postal_address": "Agricultural Market Committee, Nawabpet, Mahabubnagar District.",
+      "contact_number": "7330733305"
+    },
+    {
+      "mandi": "Nizamabad",
+      "district": "Nizamabad",
+      "postal_address": "Agricultural Market Committee, Nizamabad, Shradhanand Gunj, Gurbabadi Road, Nizamabad District.",
+      "contact_number": "7330733218"
+    },
+    {
+      "mandi": "Pargi",
+      "district": "Vikarabad",
+      "postal_address": "Agricultural Market Committee, Pagi, Vikarabad District.",
+      "contact_number": "7330733625"
+    },
+    {
+      "mandi": "Parkal",
+      "district": "Warangal",
+      "postal_address": "Rural Agricultural Market",
+      "contact_number": "7330733508"
+    },
+    {
+      "mandi": "Peddapalli",
+      "district": "Peddapalli",
+      "postal_address": "Agricultural Market Committee, Peddapally, Peddapally District.",
+      "contact_number": "7330733318"
+    },
+    {
+      "mandi": "Sadasivpet",
+      "district": "Sanga Reddy",
+      "postal_address": "Agricultural Market Committee, Sadasivpet, Sardar Vallabhai Patel Gunj, Sadasivpet, Sangareddy Dist.",
+      "contact_number": "7330733549"
+    },
+    {
+      "mandi": "Shadnagar",
+      "district": "Rangareddy",
+      "postal_address": "(Rajendranaga r) Agricultural Market Committee, Shadnagar,",
+      "contact_number": "7330733273"
+    },
+    {
+      "mandi": "Shankarapa",
+      "district": "lly",
+      "postal_address": "Rangareddy (Rajendranaga r) Agricultural Market Committee, Shankarpally, Rangareddy District.",
+      "contact_number": "7330733627"
+    },
+    {
+      "mandi": "Siddipet",
+      "district": "Siddipet",
+      "postal_address": "Agril.Market Committee, Siddipet Siddipet District.",
+      "contact_number": "7330733537"
+    },
+    {
+      "mandi": "Suryapet",
+      "district": "Suryapet",
+      "postal_address": "Agricultural Market Committee, Suryapet, New Market Yard, Ambedkar Nagar, Suryapet District.",
+      "contact_number": "7330733563"
+    },
+    {
+      "mandi": "Tandur",
+      "district": "Vikarabad",
+      "postal_address": "Agricultural Market Committee, Tandur, Nehru Gunj, Tandur, Vikarabad District. .",
+      "contact_number": "7330733618"
+    }
+  ],
+  "Tamil Nadu": [
+    {
+      "mandi": "Tirumalgiri",
+      "district": "Suryapet",
+      "postal_address": "Agricultural Market Committee, Thirumalgiri, Suryapet District.",
+      "contact_number": "7330733584"
+    },
+    {
+      "mandi": "Vatpally",
+      "district": "Sanga Reddy",
+      "postal_address": "Agricultural Market Committee, Vatpally, Sangareddy District.",
+      "contact_number": "7330733547"
+    },
+    {
+      "mandi": "Vikarabad",
+      "district": "Vikarabad",
+      "postal_address": "Agricultural Market Committee, Vikarabad,",
+      "contact_number": "7330733623"
+    },
+    {
+      "mandi": "Wanaparthy",
+      "district": "Road",
+      "postal_address": "Wanaparthy Agricultural Market Committee, Wanaparthy Road, Wanaparthy District.",
+      "contact_number": "7330733278"
+    },
+    {
+      "mandi": "Wanaparthy",
+      "district": "Twn",
+      "postal_address": "Wanaparthy Agricultural Market Committee, Wanaparthy Town, Wanaparthy District.",
+      "contact_number": "7330733292"
+    },
+    {
+      "mandi": "Warangal",
+      "district": "Warangal",
+      "postal_address": "Urban Agricultural Market Committee,, Warangal,",
+      "contact_number": "7330733470"
+    },
+    {
+      "mandi": "Zaheerabad",
+      "district": "Sanga Reddy",
+      "postal_address": "Agricultural Market Committee, Zaheerabad, Sangareddy District.",
+      "contact_number": "7330733538"
+    },
+    {
+      "mandi": "Ammoor",
+      "district": "Vellore",
+      "postal_address": "Market committee, Ammoor 04172- 253321",
+      "contact_number": "9486170453"
+    },
+    {
+      "mandi": "Anaimalai",
+      "district": "Coimbatore",
+      "postal_address": "Anaimalai Regulated market, 84 Pollachi main road, 642104",
+      "contact_number": "4253-262223"
+    },
+    {
+      "mandi": "Annur",
+      "district": "Coimbatore",
+      "postal_address": "Market Committee, Nagammapud ur, Sathyamangal am Road, Annur-64163 04254- 262440",
+      "contact_number": "8883639999"
+    },
+    {
+      "mandi": "Anthiyur",
+      "district": "Erode",
+      "postal_address": "Regulated Market, Erode Market Committee, Opposite to Weekly Market, Anthiyur, 638501 04256 - 260265",
+      "contact_number": "9095274110"
+    },
+    {
+      "mandi": "Arani",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Regulated Market Arni, Millers Road, Arni, Pin - 632301",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Avalurpet",
+      "district": "Villupuram",
+      "postal_address": "Regulated Market, Chetpet Main Road, Avalurpet, Pin - 604201",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Chetpet",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Regulated Market Chetpet, No.1, Nallathannikul am St, Pazhampet, Chetpet, Pin - 606801 04181 - 247023",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Cheyyar",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Reguated Market Cheyyar, Arcot Road, Cheyyar, Pin - 603001 04182- 222266",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Cumbum",
+      "district": "Theni",
+      "postal_address": "Regulated Market, LF road, Uthamapalaya m 04554- 270718",
+      "contact_number": "9843625889"
+    },
+    {
+      "mandi": "Desur",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Regulated Market Desur, Main Road, Desur Village, Pin - 631501 04183- 247023",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Dinigul",
+      "district": "Dindigul",
+      "postal_address": "Market Committee, Poonmandurai Road, Periya Pallapatti, Begampur, Dindigul",
+      "contact_number": "0451-400959"
+    },
+    {
+      "mandi": "Erode",
+      "district": "Erode",
+      "postal_address": "Superintenden t Of Market, 85 Manjal Valagam, Sembampalya am, Nasiyanur Road, Erode - 638 107, Pin - 638107",
+      "contact_number": "0424-212113"
+    },
+    {
+      "mandi": "Gingee",
+      "district": "Villupuram",
+      "postal_address": "Regulated Market Dhindivanam Main Road 04145- 222048",
+      "contact_number": "9786101242"
+    },
+    {
+      "mandi": "Gudiyatham",
+      "district": "Vellore",
+      "postal_address": "Superintenden t, Regulated Market Committee, Katpadi Road, Gudiyatham., Pin - 632602",
+      "contact_number": "9751333818"
+    },
+    {
+      "mandi": "Harur",
+      "district": "Dharmapuri",
+      "postal_address": "Superintenden t, Harur Regulated Market, Tirupathur Main Road, Near By Roundana, Harur - 636903, Pin - 636903 04346- 222219",
+      "contact_number": "9894546039"
+    },
+    {
+      "mandi": "Kalavai",
+      "district": "Vellore",
+      "postal_address": "velloremarket committee, vazhaipandalr oad, kalavai 04173- 242236",
+      "contact_number": "9944730056"
+    },
+    {
+      "mandi": "Kallakurichi",
+      "district": "Villupuram",
+      "postal_address": "Kallakuruchi Regulated market committee, kachrayapalliy am road, kallakurichi- 606213 04151- 222359",
+      "contact_number": "787500653"
+    },
+    {
+      "mandi": "Kamuthi",
+      "district": "Ramanathapu",
+      "postal_address": "ram Secretary, Agricultual Market Committee, Ramanathapur am Market Committee, 2B, Lathems Buglow Road, Ramanathapur am, Pin - 626112 04576- 223239",
+      "contact_number": "9443316641"
+    },
+    {
+      "mandi": "am",
+      "district": "m",
+      "postal_address": "Vellore Main Road, Sirukaveripakk am, Near J.J. Nagar, Kancheepura m., Pin - 631502",
+      "contact_number": "27222811"
+    },
+    {
+      "mandi": "Kipennathur",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Tiruvannamala i Main Road, Pin - 604601",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Kuthalam",
+      "district": "Nagapattinam",
+      "postal_address": "Superintenden t Of Market, Regulated Market, Rajagopalapur am, Kuthalam- 609801, Pin - 609801 04364- 234349",
+      "contact_number": "9360999666"
+    },
+    {
+      "mandi": "Lalgudi",
+      "district": "Tiruchirapalli",
+      "postal_address": "Regulated Market, Mummudi chola mangalam, Pin-621601",
+      "contact_number": "98940-58759"
+    },
+    {
+      "mandi": "Maurai",
+      "district": "Madurai",
+      "postal_address": "Regulated market, paddy complex, ﬂower market, mattuthavani-7 0452- 2580379",
+      "contact_number": "9976313418"
+    },
+    {
+      "mandi": "Maduranath",
+      "district": "angam",
+      "postal_address": "Kancheepura m G.S.T. Road, Sirugalathur, Silavattam Post, Madurantakam ., Pin - 603306 0452- 2580379",
+      "contact_number": "9976313418"
+    },
+    {
+      "mandi": "Mayiladuthu",
+      "district": "rai",
+      "postal_address": "Nagapattinam Superintenden t Of Market, Regulated Market, Rimariyamman Koil Street, Kornad, Mayiladuthurai",
+      "contact_number": "9360999666"
+    },
+    {
+      "mandi": "Moolanur",
+      "district": "Tiruppur",
+      "postal_address": "Superintenden t Of Market, Moolanur Regulated Market,",
+      "contact_number": "10/243-245"
+    },
+    {
+      "mandi": "Mudhukalat",
+      "district": "hur",
+      "postal_address": "Ramanathapu ram Secretary, Agricultual Market Committee, Ramanathapur am Market Committee, 2B,, Pin - 623704",
+      "contact_number": "9443316641"
+    },
+    {
+      "mandi": "Natham",
+      "district": "Dindigul",
+      "postal_address": "Regulated Market Natham, Ghandhi Nagar Main Road Natham 624401, Pin - 624401",
+      "contact_number": "9443752530"
+    },
+    {
+      "mandi": "Negamam",
+      "district": "Coimbatore",
+      "postal_address": "Regulated Market Negamam, Coimbatore Market Committee, Dharapuram Road, Negamam, Pin - 642120",
+      "contact_number": "9894687827"
+    },
+    {
+      "mandi": "Oddanchatr",
+      "district": "am",
+      "postal_address": "Dindigul Regulated Market Oddanchatram , Naganampatti Bypass Road, Near Checkpost, Oddachatram- 624619, Pin - 624619",
+      "contact_number": "9443752530"
+    },
+    {
+      "mandi": "Palani",
+      "district": "Dindigul",
+      "postal_address": "Superintenden t, Regulated Market, Dindigul Road, Palani - 624 601., Pin - 624601",
+      "contact_number": "9443752530"
+    },
+    {
+      "mandi": "Panruti",
+      "district": "Cuddalore",
+      "postal_address": "Regulated Market, Diversion Road, Panruti- 607106, Cuddalore District, Tamil Nadu, Pin - 607106",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Paramakudi",
+      "district": "Ramanathapu",
+      "postal_address": "ram Regulated Market Committee, Madurai- Rameshwaram Road, Paramakudi- Pin-623707 04564- 231349",
+      "contact_number": "9626439882"
+    },
+    {
+      "mandi": "Paramathi",
+      "district": "Velur",
+      "postal_address": "Namakkal Rm Paramathi Velur, Vengamedu Market, Vengamedu, Pothanur- 638182",
+      "contact_number": "9566647333"
+    },
+    {
+      "mandi": "Perumdurai",
+      "district": "Erode",
+      "postal_address": "Turmeric Market Complex, Karumandiselli palayam, Near Salem-Kochi Highway, Slater Nager- 638053",
+      "contact_number": "9715216058"
+    },
+    {
+      "mandi": "Pethappam",
+      "district": "patti",
+      "postal_address": "Tiruppur Agricultural Regulated Market Committee, Dhrapuram Road, Rathinamal Nagar-642205",
+      "contact_number": "9786665152"
+    },
+    {
+      "mandi": "Pollachi",
+      "district": "Coimbatore",
+      "postal_address": "Regulated",
+      "contact_number": "9626047530"
+    },
+    {
+      "mandi": "Polur",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Regulated Market Polur, Vellore Main Road, Polur, Pin - 606803",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Rajapalaya",
+      "district": "m",
+      "postal_address": "Virudhunagar Superindenten t, Pin - 626117",
+      "contact_number": "9952341770"
+    },
+    {
+      "mandi": "Rajasingam",
+      "district": "angalam",
+      "postal_address": "Ramanathapu ram Secretary, Agricultual Market Committee, Ramanathapur am Market Committee, 2B, Lathems Buglow Road, Ramanathapur am, Pin - 623501",
+      "contact_number": "9443316641"
+    },
+    {
+      "mandi": "Sankarapur",
+      "district": "am",
+      "postal_address": "Villupuram Regulated Market, Kallakurichi Main Road, Sankarapuram , Pin - 606401",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Sathyaman",
+      "district": "galam",
+      "postal_address": "Erode Sathyamangal am Regulated Market, Mettupalayam Road, Pin- 638402 04295- 233346",
+      "contact_number": "7502402545"
+    },
+    {
+      "mandi": "Sembanark",
+      "district": "oil",
+      "postal_address": "Nagapattinam Supervisor, Regulated Market, Nagapattinam Market Committee, Mudi Thiruchampalli",
+      "contact_number": "9360999666"
+    },
+    {
+      "mandi": "Sirkali",
+      "district": "Nagapattinam",
+      "postal_address": "Superintenden t, Regulated Market, 3/92, Chidambaram Main Road, Erukur, Sirkali.(Tk), Pin - 609108",
+      "contact_number": "9360999666"
+    },
+    {
+      "mandi": "Theni",
+      "district": "Theni",
+      "postal_address": "215, Regulated Market Complex, Opp Yasotha Motors, Periyakulam Main Road, Theni, Pin - 625531",
+      "contact_number": "9843625889"
+    },
+    {
+      "mandi": "Thirukovilur",
+      "district": "Villupuram",
+      "postal_address": "Thirukoilur Regulated Market Committee, 257, Kamarajar Road, Arakandanallur , Pin-605752 04153- 224223",
+      "contact_number": "9790113079"
+    },
+    {
+      "mandi": "Thirupathur",
+      "district": "Vellore",
+      "postal_address": "Superintenden t, Regulated Market Committee, No.70-C Chairman Arumugam Sreet, Thirupattur., Pin - 635602",
+      "contact_number": "9500751036"
+    },
+    {
+      "mandi": "Thiruppur",
+      "district": "Tiruppur",
+      "postal_address": "Tirupur Market Committee, Palladam Road, Cotton Market Post, 04212- 212141,",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Thiyagadur",
+      "district": "gam",
+      "postal_address": "Villupuram Regulated Market, Thirukoilur Main Road, Thyagaduruga m, Pin - 606206",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Tindivanam",
+      "district": "Villupuram",
+      "postal_address": "Regulated Market, Gingee Main Road, Tindivanam, Pin - 604001",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Udumalpet",
+      "district": "Tiruppur",
+      "postal_address": "Market Committee, Pollachi Road, Opp To Fire Station Pin- 642128 04252- 223138",
+      "contact_number": "9940919150"
+    },
+    {
+      "mandi": "Ulundurpett",
+      "district": "ai",
+      "postal_address": "Villupuram Superintenden t, Regulated Market, Trichy- Chennai Main Road, Ulundurpet, Pin-606107 04149- 222231",
+      "contact_number": "9047155282"
+    },
+    {
+      "mandi": "Usilampatti",
+      "district": "Madurai",
+      "postal_address": "Madurai Road, Usilampatti., Pin - 625532",
+      "contact_number": "9486257484"
+    },
+    {
+      "mandi": "Vandavasi",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Opposite To Gh, Melmaruvathur Road, Pin - 604408",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Vaniyamba",
+      "district": "di",
+      "postal_address": "Vellore Superintenden t, Regulated Market Committee, Janathapuram Bus Stop,",
+      "contact_number": "7904413817"
+    },
+    {
+      "mandi": "Vellakoil",
+      "district": "Tiruppur",
+      "postal_address": "Regulated Market, Kovi Mani Road, Near Old Bus Stand Vellakovil, Kangayam (Tk), Tiruppur (Dt) Pin- 638111.",
+      "contact_number": "4257260504"
+    },
+    {
+      "mandi": "Vellore",
+      "district": "Vellore",
+      "postal_address": "Superintenden t, Regulated Market Committee, Oﬃcers Line, Tolgate, Vellore, Pin - 632001",
+      "contact_number": "9789299174"
+    },
+    {
+      "mandi": "Vettavalam",
+      "district": "Tiruvannamal",
+      "postal_address": "ai Regulated Market Vettavalam, Tiruvannamala i Road, Anna Nagar, Vettavalam, Pin - 606754",
+      "contact_number": "9443800954"
+    },
+    {
+      "mandi": "Vikiravandi",
+      "district": "Villupuram",
+      "postal_address": "Regulated Market, Chennai Main Road, Vikkiravandi, Pin - 605652",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Villupuram",
+      "district": "Villupuram",
+      "postal_address": "Regulated Market, Nehruji Road, Villupuram, Pin - 605602",
+      "contact_number": "8825601614"
+    },
+    {
+      "mandi": "Virudhachal",
+      "district": "am",
+      "postal_address": "Cuddalore Superintenden t Of Market, 105-A, Madurai Road, Virudhunagar, Pin - 626001",
+      "contact_number": "9003753160"
+    }
+  ],
+  "Uttar Pradesh": [
+    {
+      "mandi": "Virudhunag",
+      "district": "ar",
+      "postal_address": "Virudhunagar Superintenden t Of Market, 105-A, Madurai Road, Virudhunagar, Pin - 626001",
+      "contact_number": "9003753160"
+    },
+    {
+      "mandi": "Achhalda",
+      "district": "Auraiya",
+      "postal_address": "Krishi Utpadan Mandi Samiti Achhalda",
+      "contact_number": "8765956892"
+    },
+    {
+      "mandi": "Achhnara",
+      "district": "Agra",
+      "postal_address": "Krishi Utpadan Mandi Samiti Achhnara",
+      "contact_number": "8765956747"
+    },
+    {
+      "mandi": "Agra",
+      "district": "Agra",
+      "postal_address": "Krishi Utpadan Mandi Samiti Agra",
+      "contact_number": "8765957745"
+    },
+    {
+      "mandi": "Ajuha",
+      "district": "Kaushambi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Ajuha",
+      "contact_number": "8765958455"
+    },
+    {
+      "mandi": "Akbarpur",
+      "district": "Ambedkar",
+      "postal_address": "Nagar Krishi Utpadan Mandi Samiti",
+      "contact_number": "8765956873"
+    },
+    {
+      "mandi": "Aligarh",
+      "district": "Aligarh",
+      "postal_address": "Krishi Utpadan Mandi Samiti Aligarh",
+      "contact_number": "9456476511"
+    },
+    {
+      "mandi": "Amroha",
+      "district": "Amroha",
+      "postal_address": "Krishi Utpadan Mandi Samiti Amroha",
+      "contact_number": "8765956936"
+    },
+    {
+      "mandi": "Anand",
+      "district": "Nagar",
+      "postal_address": "Maharajganj Krishi Utpadan Mandi Samiti Anand Nagar",
+      "contact_number": "8765956822"
+    },
+    {
+      "mandi": "Atarra",
+      "district": "Banda",
+      "postal_address": "Krishi Utpadan Mandi Samiti Atarra",
+      "contact_number": "8765956997"
+    },
+    {
+      "mandi": "Auraiya",
+      "district": "Auraiya",
+      "postal_address": "Krishi Utpadan Mandi Samiti",
+      "contact_number": "8765956891"
+    },
+    {
+      "mandi": "Ayodhya",
+      "district": "Ayodhya",
+      "postal_address": "Krishi Utpadan Mandi Samiti Ayodhya",
+      "contact_number": "8765956859"
+    },
+    {
+      "mandi": "Azamgarh",
+      "district": "Azamgarh",
+      "postal_address": "Krishi Utpadan Mandi Samiti Azamgarh",
+      "contact_number": "8765958166"
+    },
+    {
+      "mandi": "Badaun",
+      "district": "Badaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Badaun",
+      "contact_number": "8765973625"
+    },
+    {
+      "mandi": "Bahraich",
+      "district": "Bahraich",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bahraich",
+      "contact_number": "8765956864"
+    },
+    {
+      "mandi": "Ballia",
+      "district": "Ballia",
+      "postal_address": "Krishi Utpadan Mandi Samiti Ballia",
+      "contact_number": "8765956729"
+    },
+    {
+      "mandi": "Balrampur",
+      "district": "Balrampur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Balrampur",
+      "contact_number": "8765957003"
+    },
+    {
+      "mandi": "Banda",
+      "district": "Banda",
+      "postal_address": "Krishi Utpadan Mandi Samiti Banda",
+      "contact_number": "8765956996"
+    },
+    {
+      "mandi": "Bangarmau",
+      "district": "Unnao",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bangarmau",
+      "contact_number": "8765956788"
+    },
+    {
+      "mandi": "Barabanki",
+      "district": "Barabanki",
+      "postal_address": "Krishi Utpadan Mandi Samiti Barabanki",
+      "contact_number": "8765956871"
+    },
+    {
+      "mandi": "Bareilly",
+      "district": "Bareilly",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bareilly",
+      "contact_number": "8765956836"
+    },
+    {
+      "mandi": "Basti",
+      "district": "Basti",
+      "postal_address": "Krishi Utpadan Mandi Samiti Basti",
+      "contact_number": "8765957002"
+    },
+    {
+      "mandi": "Bharthana",
+      "district": "Etawah",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bharthana",
+      "contact_number": "8765956889"
+    },
+    {
+      "mandi": "Bharuasum",
+      "district": "erpur",
+      "postal_address": "Hamirpur Krishi Utpadan Mandi Samiti Bharuasumerp ur",
+      "contact_number": "8765956993"
+    },
+    {
+      "mandi": "Bilsi",
+      "district": "Badaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bilsi",
+      "contact_number": "9808961817"
+    },
+    {
+      "mandi": "Bindki",
+      "district": "Fatehpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bindki",
+      "contact_number": "8765956718"
+    },
+    {
+      "mandi": "Bisalpur",
+      "district": "Pilibhit",
+      "postal_address": "Krishi Utpadan Mandi Samiti Bisalpur",
+      "contact_number": "8765956852"
+    },
+    {
+      "mandi": "Bulandshah",
+      "district": "r",
+      "postal_address": "Bulandshahr Krishi Utpadan Mandi Samiti Bulandshahr",
+      "contact_number": "8765956773"
+    },
+    {
+      "mandi": "Chandauli",
+      "district": "Chandauli",
+      "postal_address": "Krishi Utpadan Mandi Samiti Chandauli",
+      "contact_number": "8765956828"
+    },
+    {
+      "mandi": "Chandausi",
+      "district": "Moradabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Chandausi",
+      "contact_number": "8765956925"
+    },
+    {
+      "mandi": "Chharra",
+      "district": "Aligarh",
+      "postal_address": "Krishi Utpadan Mandi Samiti Chharra",
+      "contact_number": "8765956735"
+    },
+    {
+      "mandi": "Chaubepur",
+      "district": "Kanpur Nagar",
+      "postal_address": "Krishi Utpadan Mandi Samiti Chaubepur",
+      "contact_number": "8765956876"
+    },
+    {
+      "mandi": "Chibramau",
+      "district": "Kannauj",
+      "postal_address": "Krishi Utpadan",
+      "contact_number": "8765956876"
+    },
+    {
+      "mandi": "Dadri UP",
+      "district": "Gautam",
+      "postal_address": "Buddh Nagar Krishi Utpadan Mandi Samiti Dadri Up",
+      "contact_number": "8449973534"
+    },
+    {
+      "mandi": "Deoria",
+      "district": "Deoria",
+      "postal_address": "Krishi Utpadan Mandi Samiti Deoria",
+      "contact_number": "8765956820"
+    },
+    {
+      "mandi": "Etah",
+      "district": "Mainpuri",
+      "postal_address": "Krishi Utpadan Mandi Samiti Etah",
+      "contact_number": "8765956740"
+    },
+    {
+      "mandi": "Etawah",
+      "district": "Etawah",
+      "postal_address": "Krishi Utpadan Mandi Samiti Etawah",
+      "contact_number": "8765956887"
+    },
+    {
+      "mandi": "Farrukhaba",
+      "district": "d",
+      "postal_address": "Farrukhabad Krishi Utpadan Mandi Samiti Farrukhabad",
+      "contact_number": "9451172018"
+    },
+    {
+      "mandi": "Fatehpur",
+      "district": "FATEHPUR",
+      "postal_address": "Krishi Utpadan Mandi Samiti Fatehpur",
+      "contact_number": "8765956717"
+    },
+    {
+      "mandi": "Fatehpur",
+      "district": "Sikri",
+      "postal_address": "Agra Krishi Utpadan Mandi Samiti Fatehpur Sikri",
+      "contact_number": "9412442826"
+    },
+    {
+      "mandi": "Firozabad",
+      "district": "Firozabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Firozabad",
+      "contact_number": "8765956759"
+    },
+    {
+      "mandi": "Ghaziabad",
+      "district": "Ghaziabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Ghaziabad",
+      "contact_number": "8765956766"
+    },
+    {
+      "mandi": "Ghiror",
+      "district": "Mainpuri",
+      "postal_address": "Krishi Utpadan Mandi Samiti Ghiror",
+      "contact_number": "8765956756"
+    },
+    {
+      "mandi": "Golagokarn",
+      "district": "ath",
+      "postal_address": "Lakhimpur Kheri Krishi Utpadan Mandi Samiti Golagokarnnat h",
+      "contact_number": "8765956810"
+    },
+    {
+      "mandi": "Gonda",
+      "district": "Gonda",
+      "postal_address": "Krishi Utpadan Mandi Samiti Gonda",
+      "contact_number": "8765956861"
+    },
+    {
+      "mandi": "Gorakhpur",
+      "district": "Gorakhpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti",
+      "contact_number": "8765956816"
+    },
+    {
+      "mandi": "Hapur",
+      "district": "Hapur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Hapur",
+      "contact_number": "8765956767"
+    },
+    {
+      "mandi": "Hardoi",
+      "district": "Hardoi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Hardoi",
+      "contact_number": "8765956804"
+    },
+    {
+      "mandi": "Hasanpur",
+      "district": "Amroha",
+      "postal_address": "Krishi Utpadan",
+      "contact_number": "8765956935"
+    },
+    {
+      "mandi": "Hathas",
+      "district": "Hathras",
+      "postal_address": "Krishi Utpadan Mandi Samiti Hathras",
+      "contact_number": "8765956737"
+    },
+    {
+      "mandi": "Jahangirab",
+      "district": "ad",
+      "postal_address": "Bulandshahr Krishi Utpadan Mandi Samiti Jahangirabad",
+      "contact_number": "8765956771"
+    },
+    {
+      "mandi": "Jais",
+      "district": "Amethi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Jais",
+      "contact_number": "8765956792"
+    },
+    {
+      "mandi": "Jalalabad",
+      "district": "Shahjahanpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Jalalabad",
+      "contact_number": "9412345117"
+    },
+    {
+      "mandi": "Jalaun",
+      "district": "Jalaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Jalaun",
+      "contact_number": "9554705050"
+    },
+    {
+      "mandi": "Jangipura",
+      "district": "Ghazipur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Jangipura",
+      "contact_number": "8765958405"
+    },
+    {
+      "mandi": "Jaunpur",
+      "district": "Jaunpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Jaunpur",
+      "contact_number": "8765958422"
+    },
+    {
+      "mandi": "Jhansi",
+      "district": "Jhansi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Jhansi",
+      "contact_number": "8765956972"
+    },
+    {
+      "mandi": "Kaimganj",
+      "district": "Farrukhabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Kaimganj",
+      "contact_number": "8077667927"
+    },
+    {
+      "mandi": "Kannauj",
+      "district": "Kannauj",
+      "postal_address": "Krishi Utpadan Mandi Samiti Kannauj",
+      "contact_number": "8765956876"
+    },
+    {
+      "mandi": "Kanpur",
+      "district": "Kanpur Nagar",
+      "postal_address": "Krishi Utpadan Mandi Samiti Kanpur",
+      "contact_number": "8765956875"
+    },
+    {
+      "mandi": "Karwi",
+      "district": "Chitrakoot",
+      "postal_address": "Krishi Utpadan Mandi Samiti Karwi",
+      "contact_number": "8765956978"
+    },
+    {
+      "mandi": "Kasganj",
+      "district": "Kasganj",
+      "postal_address": "Krishi Utpadan Mandi Samiti Kasganj",
+      "contact_number": "9412432162"
+    },
+    {
+      "mandi": "Khair",
+      "district": "Aligarh",
+      "postal_address": "Krishi Utpadan",
+      "contact_number": "8765956734"
+    },
+    {
+      "mandi": "Khalilabad",
+      "district": "Sant Kabir",
+      "postal_address": "Nagar Krishi Utpadan Mandi Samiti Khalilabad",
+      "contact_number": "9369055444"
+    },
+    {
+      "mandi": "Khurja",
+      "district": "Bulandshahr",
+      "postal_address": "Krishi Utpadan Mandi Samiti Khurja",
+      "contact_number": "8765956772"
+    },
+    {
+      "mandi": "Konch",
+      "district": "Jalaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Konch",
+      "contact_number": "8765956983"
+    },
+    {
+      "mandi": "Kopaganj",
+      "district": "Mau",
+      "postal_address": "Krishi Utpadan Mandi Samiti Kopaganj",
+      "contact_number": "8765956727"
+    },
+    {
+      "mandi": "Koskalan",
+      "district": "Mathura",
+      "postal_address": "Krishi Utpadan Mandi Samiti Kosikalan",
+      "contact_number": "8765956754"
+    },
+    {
+      "mandi": "Lakhimpur",
+      "district": "Kheri",
+      "postal_address": "Lakhimpur Kheri Krishi Utpadan Mandi Samiti Lakhimpur Kheri",
+      "contact_number": "8765956809"
+    },
+    {
+      "mandi": "Lalitpur",
+      "district": "Lalitpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Lalitpur",
+      "contact_number": "8765956980"
+    },
+    {
+      "mandi": "Lucknow",
+      "district": "Lucknow",
+      "postal_address": "Krishi Utpadan Mandi Samiti Lucknow",
+      "contact_number": "8765956847"
+    },
+    {
+      "mandi": "Madhoganj",
+      "district": "Hardoi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Madhoganj",
+      "contact_number": "8765956806"
+    },
+    {
+      "mandi": "Mahmudab",
+      "district": "ad",
+      "postal_address": "Sitapur Krishi Utpadan Mandi Samiti Mahmudabad",
+      "contact_number": "8765956787"
+    },
+    {
+      "mandi": "Mahoba",
+      "district": "Mahoba",
+      "postal_address": "Krishi Utpadan Mandi Samiti Mahoba",
+      "contact_number": "8765958507"
+    },
+    {
+      "mandi": "Mainpuri",
+      "district": "Mainpuri",
+      "postal_address": "Krishi Utpadan Mandi Samiti Mainpuri",
+      "contact_number": "8765956755"
+    },
+    {
+      "mandi": "Mathura",
+      "district": "Mathura",
+      "postal_address": "Krishi Utpadan Mandi Samiti Mathura",
+      "contact_number": "8765956753"
+    },
+    {
+      "mandi": "Mauranipur",
+      "district": "Jhansi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Mauranipur",
+      "contact_number": "9450926627"
+    },
+    {
+      "mandi": "Meerut",
+      "district": "Meerut",
+      "postal_address": "Krishi Utpadan Mandi Samiti Meerut",
+      "contact_number": "8765956762"
+    },
+    {
+      "mandi": "Milak",
+      "district": "Rampur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Milak",
+      "contact_number": "8765996942"
+    },
+    {
+      "mandi": "Mirzapur",
+      "district": "Mirzapur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Mirzapur",
+      "contact_number": "8765957012"
+    },
+    {
+      "mandi": "Mohmadab",
+      "district": "ad",
+      "postal_address": "Farrukhabad Krishi Utpadan Mandi Samiti Mohmadabad",
+      "contact_number": "7007471181"
+    },
+    {
+      "mandi": "Moradabad",
+      "district": "Moradabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Moradabad",
+      "contact_number": "8765956924"
+    },
+    {
+      "mandi": "Muskera",
+      "district": "Hamirpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Muskera",
+      "contact_number": "8765956994"
+    },
+    {
+      "mandi": "Muzaﬀarna",
+      "district": "gar",
+      "postal_address": "Muzaﬀarnagar Krishi Utpadan Mandi Samiti Muzaﬀarnagar",
+      "contact_number": "8765956905"
+    },
+    {
+      "mandi": "Nanpara",
+      "district": "Bahraich",
+      "postal_address": "Krishi Utpadan Mandi Samiti Nanpara",
+      "contact_number": "8765956865"
+    },
+    {
+      "mandi": "Najibabad",
+      "district": "Bijnor",
+      "postal_address": "Krishi Utpadan Mandi Samiti Najibabad",
+      "contact_number": "8765956929"
+    },
+    {
+      "mandi": "Naugarh",
+      "district": "Siddharth",
+      "postal_address": "Nagar Krishi Utpadan Mandi Samiti Naugarh",
+      "contact_number": "8765957010"
+    },
+    {
+      "mandi": "Nautanwa",
+      "district": "Maharajganj",
+      "postal_address": "Krishi Utpadan Mandi Samiti Nautanwa",
+      "contact_number": "8765956824"
+    },
+    {
+      "mandi": "Nawabganj",
+      "district": "Gonda",
+      "postal_address": "Krishi Utpadan Mandi Samiti Nawabganj",
+      "contact_number": "8765956863"
+    },
+    {
+      "mandi": "Noida",
+      "district": "Gautam",
+      "postal_address": "Buddh Nagar Krishi Utpadan Mandi Samiti",
+      "contact_number": "8279704207"
+    },
+    {
+      "mandi": "Palia Kalan",
+      "district": "Lakhimpur",
+      "postal_address": "Kheri Krishi Utpadan Mandi Samiti Palia Kalan",
+      "contact_number": "8765956812"
+    },
+    {
+      "mandi": "Partawal",
+      "district": "Maharajganj",
+      "postal_address": "Krishi Utpadan Mandi Samiti Partawal",
+      "contact_number": "9648608686"
+    },
+    {
+      "mandi": "Pilibhit",
+      "district": "Pilibhit",
+      "postal_address": "Krishi Utpadan Mandi Samiti Pilibhit",
+      "contact_number": "8765956852"
+    },
+    {
+      "mandi": "Powayan",
+      "district": "Shahjahanpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Powayan",
+      "contact_number": "8765956848"
+    },
+    {
+      "mandi": "Pratapgarh",
+      "district": "Pratapgarh",
+      "postal_address": "Krishi Utpadan Mandi Samiti Pratapgarh",
+      "contact_number": "8765958469"
+    },
+    {
+      "mandi": "Prayagraj",
+      "district": "Prayagraj",
+      "postal_address": "Krishi Utpadan Mandi Samiti Prayagraj",
+      "contact_number": "9415792386"
+    },
+    {
+      "mandi": "Puranpur",
+      "district": "Pilibhit",
+      "postal_address": "Krishi Utpadan Mandi Samiti Puranpur",
+      "contact_number": "8765956853"
+    },
+    {
+      "mandi": "Rae Bareli",
+      "district": "Rae Bareli",
+      "postal_address": "Krishi Utpadan Mandi Samiti Rae Bareli",
+      "contact_number": "8765956793"
+    },
+    {
+      "mandi": "Rampur",
+      "district": "Rampur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Rampur",
+      "contact_number": "8765956939"
+    },
+    {
+      "mandi": "Rampur",
+      "district": "Bilaspur",
+      "postal_address": "Rampur Krishi Utpadan Mandi Samiti Rampur Bilaspur",
+      "contact_number": "8765956938"
+    },
+    {
+      "mandi": "Rasra",
+      "district": "Ballia",
+      "postal_address": "Krishi Utpadan Mandi Samiti Rasra",
+      "contact_number": "9451389336"
+    },
+    {
+      "mandi": "Rath",
+      "district": "Hamirpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Rath",
+      "contact_number": "8765956991"
+    },
+    {
+      "mandi": "Robertsgan",
+      "district": "j",
+      "postal_address": "Sonbhadra Krishi Utpadan Mandi Samiti",
+      "contact_number": "8765957014"
+    },
+    {
+      "mandi": "Sadabad",
+      "district": "Hathras",
+      "postal_address": "Krishi Utpadan Mandi Samiti Sadabad",
+      "contact_number": "8765956872"
+    },
+    {
+      "mandi": "Safdarganj",
+      "district": "Barabanki",
+      "postal_address": "Krishi Utpadan Mandi Samiti Safdarganj",
+      "contact_number": "8765956872"
+    },
+    {
+      "mandi": "Saharanpur",
+      "district": "Saharanpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Saharanpur",
+      "contact_number": "8765956897"
+    },
+    {
+      "mandi": "Sahiyapur",
+      "district": "Siddharth",
+      "postal_address": "Nagar Krishi Utpadan Mandi Samiti Sahiyapur",
+      "contact_number": "8765958156"
+    },
+    {
+      "mandi": "Sahjanwa",
+      "district": "Gorakhpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Sahjanwa",
+      "contact_number": "8765958235"
+    },
+    {
+      "mandi": "Sambhal",
+      "district": "Sambhal",
+      "postal_address": "Krishi Utpadan Mandi Samiti Sambhal",
+      "contact_number": "9457109025"
+    },
+    {
+      "mandi": "Sandila",
+      "district": "Hardoi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Sandila",
+      "contact_number": "8765956805"
+    },
+    {
+      "mandi": "Shaganj",
+      "district": "Jaunpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Shaganj",
+      "contact_number": "9415156507"
+    },
+    {
+      "mandi": "Shahbad",
+      "district": "Hardoi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Shahbad",
+      "contact_number": "9412679921"
+    },
+    {
+      "mandi": "Shahjahan",
+      "district": "pur",
+      "postal_address": "Shahjahanpur Krishi Utpadan Mandi Samiti Shahjahanpur",
+      "contact_number": "8765956787"
+    },
+    {
+      "mandi": "Shamli",
+      "district": "Shamli",
+      "postal_address": "Krishi Utpadan Mandi Samiti Shamli",
+      "contact_number": "8765956906"
+    },
+    {
+      "mandi": "Shikohabad",
+      "district": "Firozabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Shikohabad",
+      "contact_number": "8765956760"
+    },
+    {
+      "mandi": "Sirsaganj",
+      "district": "Firozabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Sirsaganj",
+      "contact_number": "8765956758"
+    },
+    {
+      "mandi": "Sitapur",
+      "district": "Sitapur",
+      "postal_address": "Krishi Utpadan Mandi Samiti",
+      "contact_number": "8765956797"
+    },
+    {
+      "mandi": "Sultanpur",
+      "district": "Sultanpur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Sultanpur",
+      "contact_number": "8765956792"
+    },
+    {
+      "mandi": "Tikuniya",
+      "district": "Lakhimpur",
+      "postal_address": "Kheri Krishi Utpadan Mandi Samiti Tikuniya",
+      "contact_number": "8765956811"
+    },
+    {
+      "mandi": "Tulsipur",
+      "district": "Balrampur",
+      "postal_address": "Krishi Utpadan Mandi Samiti Tulsipur",
+      "contact_number": "8765957004"
+    },
+    {
+      "mandi": "Tundla",
+      "district": "Firozabad",
+      "postal_address": "Krishi Utpadan Mandi Samiti Tundla",
+      "contact_number": "8765956761"
+    },
+    {
+      "mandi": "Ujhani",
+      "district": "Badaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Ujhani",
+      "contact_number": "9412067286"
+    },
+    {
+      "mandi": "Unnao",
+      "district": "Unnao",
+      "postal_address": "Krishi Utpadan Mandi Samiti Unnao",
+      "contact_number": "8765956790"
+    },
+    {
+      "mandi": "Urai",
+      "district": "Jalaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Urai",
+      "contact_number": "8765956986"
+    },
+    {
+      "mandi": "Varanasi",
+      "district": "Varanasi",
+      "postal_address": "Krishi Utpadan Mandi Samiti Varanasi",
+      "contact_number": "8765956827"
+    },
+    {
+      "mandi": "Wazirganj",
+      "district": "Badaun",
+      "postal_address": "Krishi Utpadan Mandi Samiti Wazirganj",
+      "contact_number": "8765956843"
+    }
+  ],
+  "Uttarakhand": [
+    {
+      "mandi": "Bazpur",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Naveen Mandi Sthal, Ram raj Road, Bazpur Pin-262401",
+      "contact_number": "7351003142"
+    },
+    {
+      "mandi": "Dehradun",
+      "district": "Dehradun",
+      "postal_address": "Naveen mandi sthal, Saharanpur road, Niranjanpur (Dehradun), Pin-248001",
+      "contact_number": "9997416318"
+    },
+    {
+      "mandi": "Gadarpur",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Krishi utpadan mandi samiti Gadarpur(udha m singh nagar) Pin-263152",
+      "contact_number": "7351003141"
+    },
+    {
+      "mandi": "Haldwani",
+      "district": "Nainital",
+      "postal_address": "Naveen mandi sthal, Bareilly Road Haldwani pin-263139",
+      "contact_number": "9897554444"
+    },
+    {
+      "mandi": "Haridwar",
+      "district": "Haridwar",
+      "postal_address": "Krishi utpadan mandi samiti, sarai road, jwalapur, haridwar Pin- 249407",
+      "contact_number": "9997913123"
+    },
+    {
+      "mandi": "Jaspur",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Naveen mandi sthal, paturampur road jaspur Pin-244712",
+      "contact_number": "9997544251"
+    },
+    {
+      "mandi": "Kashipur",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Krishi Utpadan Mandi Samiti, Naveen Mandi Sthal, Muradabad Road, kashipur, U.S.Nagar Pin- 244713",
+      "contact_number": "8864825086"
+    },
+    {
+      "mandi": "Khatima",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Naveen mandi sthal, Bypass road Khatima Pin-262308",
+      "contact_number": "7351003138"
+    },
+    {
+      "mandi": "Kichha",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Naveen mandi sthal, Bareilly Road, kichha Pin-263148",
+      "contact_number": "7351003140"
+    },
+    {
+      "mandi": "Nankamatt",
+      "district": "a",
+      "postal_address": "Udham Singh Nagar Naveen Mandi Sthal, Sitarganj road, nanakmatta Pin-262311",
+      "contact_number": "9411324257"
+    },
+    {
+      "mandi": "Ramnagar",
+      "district": "Nainital",
+      "postal_address": "Naveen mandi sthal, Shivlal",
+      "contact_number": "8954705399"
+    },
+    {
+      "mandi": "Rishikesh",
+      "district": "Dehradun",
+      "postal_address": "Naveen mandi sthal, Barrage road, Rishikesh, Pin- 249201",
+      "contact_number": "7351003145"
+    },
+    {
+      "mandi": "Roorkee",
+      "district": "Haridwar",
+      "postal_address": "Naveen mandi sthal, dehradoon road Rudkee, Haridwar Pin- 247667",
+      "contact_number": "9456352611"
+    },
+    {
+      "mandi": "Rudrapur",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Naveen mandi sthal, Kichha Road Bagwada Pin- 263153",
+      "contact_number": "7351003134"
+    },
+    {
+      "mandi": "Sitarganj",
+      "district": "Udham Singh",
+      "postal_address": "Nagar Krishi Utpadan Mandi Samiti, Pilibhit Road, Sitarganj Pin- 262405",
+      "contact_number": "7906128787"
+    },
+    {
+      "mandi": "Vikasnagar",
+      "district": "Dehradun",
+      "postal_address": "Naveen mandi sthal, Babugarh Vikasnagar Pin-248198",
+      "contact_number": "8384851871"
+    }
+  ],
+  "West Bengal": [
+    {
+      "mandi": "Bethuadah",
+      "district": "ari Principal",
+      "postal_address": "Market Yard Nadia Bethuadahari Principal Market, Nichubazar, Bethuadahari, Vill & P.O - Bethuadahari, P.S - Nakashipara, Dist - Nadia, Pin - 741126",
+      "contact_number": "9932998965"
+    },
+    {
+      "mandi": "Bishnupur 2",
+      "district": "Krishak",
+      "postal_address": "Bazar South 24 Paraganas Bishnupur II Krishak Bazar, Baruipur Road, Ghosh Para, Amtala, P.O - Kanyanagar, P.S - Bishnupur, Dist. South 24 Pgs.,",
+      "contact_number": "8617040801"
+    },
+    {
+      "mandi": "Dhupguri",
+      "district": "Principal",
+      "postal_address": "Market Yar Jalpaiguri Dhupguri Super Market (Dhupguri Principal Market Yard), Ward No.4 P.O. Dhupguri. P.S. Dhupguri. District. Jalpaiguri, Pin- 735210, West Bengal",
+      "contact_number": "8179069819"
+    },
+    {
+      "mandi": "Falakata",
+      "district": "Krishak",
+      "postal_address": "Bazar Alipurduar Falakata Krishak Bazar, Raichenga, Amar Pally,",
+      "contact_number": "9434750619"
+    },
+    {
+      "mandi": "Gangaramp",
+      "district": "ur Krishak",
+      "postal_address": "Bazar Dkshin Dinajpur Gangarampur Krishak Bazar, Vill: Ratanmala(Ra ghunathbati), PO.Kaldighi, PS. Gangarampur, Dist:- Dakshin Dinajpur, Pin:- 733124, West Bengal",
+      "contact_number": "9932167220"
+    },
+    {
+      "mandi": "Islampur",
+      "district": "Principal",
+      "postal_address": "Market Yard Uttar Dinajpur Islampur Principal Market Yard, Teenpull, PO+PS.Islamp ur, Dist. Uttar Dinajpur, Pin- 733202, West Bengal",
+      "contact_number": "9732967045"
+    },
+    {
+      "mandi": "Samsi Sub",
+      "district": "Market",
+      "postal_address": "Yard Malda Samsi Sub Market Yard, Vill+Post- Samsi, PS. Ratua, Dist. Malda, Pin- 732139, West Bengal",
+      "contact_number": "8370813704/"
+    },
+    {
+      "mandi": "Sheoaphuli",
+      "district": "Hoogly",
+      "postal_address": "Sheoraphuli Market Yard, Sasmal Para,",
+      "contact_number": "9051847228/"
+    }
+  ]
+}

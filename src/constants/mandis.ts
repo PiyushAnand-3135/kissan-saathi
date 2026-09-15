@@ -1,3 +1,120 @@
+import mandisRawJson from '@/dataset/mandis.json';
+
+export interface MandiDatasetItem {
+  mandi: string;
+  district: string;
+  postal_address: string;
+  contact_number: string;
+  state?: string;
+}
+
+export type MandisDatasetType = Record<string, MandiDatasetItem[]>;
+export const MANDIS_DATASET = mandisRawJson as MandisDatasetType;
+
+export function getAllDatasetStates(): string[] {
+  return Object.keys(MANDIS_DATASET).sort((a, b) => a.localeCompare(b));
+}
+
+export function getDistrictsForState(state: string): string[] {
+  if (!state || typeof state !== 'string' || state.trim().length === 0) return [];
+  const exactState = Object.keys(MANDIS_DATASET).find(
+    (s) => s.toLowerCase() === state.toLowerCase().trim()
+  );
+  if (!exactState) return [];
+  const mandis = MANDIS_DATASET[exactState];
+  if (!mandis || !Array.isArray(mandis)) return [];
+  const districtsSet = new Set<string>();
+  for (const item of mandis) {
+    const d = (item.district || '').trim();
+    if (d && d.length > 1) {
+      districtsSet.add(d);
+    }
+  }
+  return Array.from(districtsSet).sort((a, b) => a.localeCompare(b));
+}
+
+export function getMandisFromDataset(
+  state: string,
+  district?: string,
+  searchQuery?: string
+): MandiDatasetItem[] {
+  const mandis = MANDIS_DATASET[state];
+  if (!mandis || !Array.isArray(mandis)) return [];
+
+  let results = mandis.map((m) => ({
+    ...m,
+    state,
+  }));
+
+  if (district && district !== 'ALL') {
+    const dLower = district.toLowerCase().trim();
+    results = results.filter(
+      (m) => (m.district || '').toLowerCase().trim() === dLower
+    );
+  }
+
+  if (searchQuery && searchQuery.trim().length > 0) {
+    const q = searchQuery.toLowerCase().trim();
+    results = results.filter(
+      (m) =>
+        (m.mandi || '').toLowerCase().includes(q) ||
+        (m.district || '').toLowerCase().includes(q) ||
+        (m.postal_address || '').toLowerCase().includes(q) ||
+        (m.contact_number || '').includes(q)
+    );
+  }
+
+  return results;
+}
+
+export function getNearbyMandisFromDataset(
+  userState?: string,
+  userDistrict?: string,
+  userCity?: string
+): MandiDatasetItem[] {
+  const allStates = getAllDatasetStates();
+  if (allStates.length === 0) return [];
+
+  // 1. Find matching state
+  let matchedState = allStates.find(
+    (s) =>
+      userState &&
+      (s.toLowerCase() === userState.toLowerCase() ||
+        userState.toLowerCase().includes(s.toLowerCase()) ||
+        s.toLowerCase().includes(userState.toLowerCase()))
+  );
+
+  if (!matchedState) {
+    // Check if city or district matches any known state
+    matchedState = allStates.find((s) => s.toLowerCase() === 'maharashtra') || allStates[0];
+  }
+
+  const stateMandis = (MANDIS_DATASET[matchedState] || []).map((m) => ({
+    ...m,
+    state: matchedState,
+  }));
+
+  if (stateMandis.length === 0) return [];
+
+  // 2. Try to match district or city in this state
+  const targetDist = (userDistrict || userCity || '').toLowerCase().trim();
+  if (targetDist) {
+    const directMatches = stateMandis.filter((m) => {
+      const d = (m.district || '').toLowerCase();
+      const n = (m.mandi || '').toLowerCase();
+      const addr = (m.postal_address || '').toLowerCase();
+      return d.includes(targetDist) || n.includes(targetDist) || addr.includes(targetDist) || targetDist.includes(d);
+    });
+
+    if (directMatches.length > 0) {
+      return directMatches;
+    }
+  }
+
+  // If no direct district match, return first 6 mandis from that state
+  return stateMandis.slice(0, 6);
+}
+
 export interface MandiItem {
   id: string;
   name: string;

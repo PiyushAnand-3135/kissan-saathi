@@ -418,7 +418,7 @@ export default function HomeScreen() {
               iconName="location-sharp"
               iconType="ionicons"
               theme={theme}
-              onPress={() => handleCardPress(t('nearbyMandis'))}
+              onPress={() => router.push('/mandis')}
             />
             <ActionCard
               title={t('myCrops')}
