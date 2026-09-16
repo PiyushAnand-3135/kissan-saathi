@@ -287,6 +287,39 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     findMandiBtn: 'Find a Mandi',
     selectStateFirst: 'Please select a state first',
     getDirections: 'Directions',
+
+    // Registration (English only for now -- needs review before use in
+    // other languages; falls back to English automatically until then)
+    registerTitle: 'Farmer Registration',
+    registerSubtitle: 'Tell us a bit about yourself to get started',
+    fieldName: 'Full Name',
+    fieldNamePlaceholder: 'Enter your name',
+    fieldPhone: 'Phone Number',
+    fieldPhonePlaceholder: '10-digit mobile number',
+    fieldPhoneInvalid: 'Enter a valid 10-digit mobile number',
+    fieldLocation: 'Location',
+    fieldLocationDetected: 'Detected automatically. Tap to update.',
+    fieldLocationTapToDetect: 'Tap to detect your location',
+    fieldCrops: 'Crops You Grow',
+    registerSubmit: 'Register',
+    registerSubmitting: 'Saving...',
+    registerErrorTitle: 'Registration Failed',
+    registerErrorBody: 'Something went wrong saving your details. Please try again.',
+    primaryCropsLabel: 'Primary Crops',
+
+    // Chat screen
+    chatTitle: 'Kissan Saathi Assistant',
+    chatEmptyState: 'Ask about MSP prices, pests, procurement status, or anything else.',
+    chatInputPlaceholder: 'Ask a question...',
+    chatThinking: 'Thinking...',
+    chatUsedHistory: 'Used your past conversations',
+    chatConnectionError: "Couldn't reach the assistant. Check your connection and try again.",
+    chatTranscribing: 'Listening...',
+    chatAnalyzingImage: 'Looking at your photo...',
+    chatImageSentLabel: 'Photo',
+    voiceAssistantTitle: 'Voice Assistant',
+    voiceProcessing: 'Understanding...',
+    typeInsteadLink: 'Type instead',
   },
 
   hi: {

@@ -17,6 +17,7 @@ import {
 } from '@expo/vector-icons';
 import { useSettings } from '@/context/settings-context';
 import { useFarmerLocation } from '@/context/location-context';
+import { useFarmer } from '@/context/farmer-context';
 import { LanguageDropdown } from '@/components/language-dropdown';
 import { LocationModal } from '@/components/location-modal';
 
@@ -29,6 +30,7 @@ export default function ProfileScreen() {
     t,
   } = useSettings();
   const { location, isLoading: isLocationLoading } = useFarmerLocation();
+  const { farmer } = useFarmer();
   const [isLocationModalVisible, setIsLocationModalVisible] = useState(false);
 
   const handleBack = () => {
@@ -106,7 +108,7 @@ export default function ProfileScreen() {
             <View style={styles.profileInfo}>
               <View style={styles.nameRow}>
                 <Text style={[styles.profileName, { color: theme.textPrimary }]}>
-                  {t('greetingName')}
+                  {farmer?.name || t('greetingName')}
                 </Text>
                 <View
                   style={[
@@ -159,7 +161,7 @@ export default function ProfileScreen() {
                 </Text>
               </View>
               <Text style={[styles.metaValue, { color: theme.textPrimary }]}>
-                {t('samplePhone')}
+                {farmer?.phone || t('samplePhone')}
               </Text>
             </View>
 
@@ -221,11 +223,11 @@ export default function ProfileScreen() {
                   color={theme.primaryGreen}
                 />
                 <Text style={[styles.metaLabel, { color: theme.textMuted }]}>
-                  {t('landHolding')}
+                  {t('primaryCropsLabel')}
                 </Text>
               </View>
               <Text style={[styles.metaValue, { color: theme.textPrimary }]}>
-                {t('sampleLand')}
+                {farmer?.primaryCrops?.length ? farmer.primaryCrops.join(', ') : t('sampleLand')}
               </Text>
             </View>
           </View>

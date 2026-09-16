@@ -19,6 +19,7 @@ import {
 } from '@expo/vector-icons';
 import { useSettings } from '@/context/settings-context';
 import { useFarmerLocation } from '@/context/location-context';
+import { useFarmer } from '@/context/farmer-context';
 import { getNearbyMandisForLocation } from '@/constants/mandis';
 import { LocationModal } from '@/components/location-modal';
 import { AppThemePalette } from '@/constants/theme';
@@ -107,6 +108,7 @@ export default function HomeScreen() {
   const router = useRouter();
   const { theme, t, currentLanguageOption } = useSettings();
   const { location, isLoading: isLocationLoading, fetchCurrentLocation } = useFarmerLocation();
+  const { farmer } = useFarmer();
 
   const [isListening, setIsListening] = useState(false);
   const [activeTab, setActiveTab] = useState<'Home' | 'Slots' | 'Help' | 'Profile'>('Home');
@@ -168,6 +170,7 @@ export default function HomeScreen() {
     ]).start();
 
     setIsListening((prev) => !prev);
+    router.push('/voice-assistant');
   };
 
   const handleCardPress = (feature: string) => {
@@ -294,7 +297,7 @@ export default function HomeScreen() {
               </Text>
               <View style={styles.greetingNameRow}>
                 <Text style={[styles.greetingName, { color: theme.textPrimary }]}>
-                  {t('greetingName')}
+                  {farmer?.name || t('greetingName')}
                 </Text>
                 <Text style={styles.greetingEmoji}> 👋</Text>
               </View>
