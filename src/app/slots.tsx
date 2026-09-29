@@ -18,6 +18,8 @@ import {
   FontAwesome5,
 } from '@expo/vector-icons';
 import { useSettings } from '@/context/settings-context';
+import { useFarmer } from '@/context/farmer-context';
+import { enqueue } from '@/lib/outbox';
 import { useFarmerLocation } from '@/context/location-context';
 import { getNearbyMandisForLocation, NearbyMandiResult } from '@/constants/mandis';
 import {
@@ -28,6 +30,7 @@ import { AppThemePalette } from '@/constants/theme';
 
 interface SlotItem {
   id: string;
+  clientId?: string;
   tokenNumber: string;
   cropName: string;
   cropHindi: string;
@@ -149,6 +152,7 @@ export default function SlotsScreen() {
   const router = useRouter();
   const { theme, t } = useSettings();
   const { location } = useFarmerLocation();
+  const { farmerId } = useFarmer();
 
   const [activeTab, setActiveTab] = useState<'upcoming' | 'completed'>('upcoming');
   const [slotsList, setSlotsList] = useState<SlotItem[]>(INITIAL_SLOTS);
@@ -195,9 +199,11 @@ export default function SlotsScreen() {
     const estVal = qtyNum * selectedCrop.msp;
     const newSlotId = `SLOT-${Math.floor(1000 + Math.random() * 9000)}`;
     const newToken = `TK-${Math.floor(10 + Math.random() * 89)}`;
+    const clientId = `${farmerId ?? 'guest'}-${Date.now()}-${Math.floor(Math.random() * 1000000)}`;
 
     const newSlot: SlotItem = {
       id: newSlotId,
+      clientId,
       tokenNumber: newToken,
       cropName: selectedCrop.name,
       cropHindi: selectedCrop.native,
@@ -217,6 +223,27 @@ export default function SlotsScreen() {
     setSlotsList([newSlot, ...slotsList]);
     setIsBookingModalVisible(false);
     setSelectedGatePass(newSlot);
+
+    if (farmerId) {
+      // Saved to the outbox first, so the booking reaches the server even if sent offline.
+      enqueue({
+        id: `slot-${clientId}`,
+        path: '/slots',
+        body: {
+          client_id: clientId,
+          farmer_id: farmerId,
+          token: newToken,
+          mandi_id: selectedMandi.id,
+          mandi_name: selectedMandi.name,
+          latitude: 'latitude' in selectedMandi ? selectedMandi.latitude : undefined,
+          longitude: 'longitude' in selectedMandi ? selectedMandi.longitude : undefined,
+          crop: selectedCrop.name,
+          quantity_qtl: qtyNum,
+          date: selectedDate.fullDate,
+          window: selectedTimeWindow.time,
+        },
+      }).catch(() => undefined);
+    }
   };
 
   const handleCancelSlot = (slotId: string) => {
@@ -229,9 +256,17 @@ export default function SlotsScreen() {
           text: t('yesCancel'),
           style: 'destructive',
           onPress: () => {
+            const cancelled = slotsList.find((s) => s.id === slotId);
             setSlotsList((prev) =>
               prev.map((s) => (s.id === slotId ? { ...s, status: 'cancelled' } : s))
             );
+            if (farmerId && cancelled?.clientId) {
+              enqueue({
+                id: `cancel-${cancelled.clientId}`,
+                path: `/slots/${cancelled.clientId}/cancel`,
+                body: { farmer_id: farmerId },
+              }).catch(() => undefined);
+            }
           },
         },
       ]
