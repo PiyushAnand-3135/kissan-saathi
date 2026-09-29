@@ -5,6 +5,7 @@ import { SettingsProvider, useSettings } from '@/context/settings-context';
 import { LocationProvider } from '@/context/location-context';
 import { FarmerProvider, useFarmer } from '@/context/farmer-context';
 import { ConversationProvider } from '@/context/conversation-context';
+import { SyncProvider } from '@/context/sync-context';
 
 function RootLayoutNav() {
   const { theme, isDark } = useSettings();
@@ -41,6 +42,7 @@ function RootLayoutNav() {
         <Stack.Screen name="payments" />
         <Stack.Screen name="crops" />
         <Stack.Screen name="mandis" />
+        <Stack.Screen name="my-status" />
       </Stack>
     </>
   );
@@ -52,7 +54,9 @@ export default function RootLayout() {
       <LocationProvider>
         <FarmerProvider>
           <ConversationProvider>
-            <RootLayoutNav />
+            <SyncProvider>
+              <RootLayoutNav />
+            </SyncProvider>
           </ConversationProvider>
         </FarmerProvider>
       </LocationProvider>

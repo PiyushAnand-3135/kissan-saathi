@@ -411,7 +411,7 @@ export default function HomeScreen() {
               iconName="currency-inr"
               iconType="material"
               theme={theme}
-              onPress={() => router.push('/payments')}
+              onPress={() => router.push('/my-status')}
             />
           </View>
 
