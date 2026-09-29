@@ -313,6 +313,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     chatInputPlaceholder: 'Ask a question...',
     chatThinking: 'Thinking...',
     chatUsedHistory: 'Used your past conversations',
+    chatGrievanceLabel: 'Reported Issue',
     chatConnectionError: "Couldn't reach the assistant. Check your connection and try again.",
     chatTranscribing: 'Listening...',
     chatAnalyzingImage: 'Looking at your photo...',

@@ -1,14 +1,14 @@
-import { useConversation } from '@/context/conversation-context';
-import { useFarmer } from '@/context/farmer-context';
-import { useSettings } from '@/context/settings-context';
-import { Ionicons } from '@expo/vector-icons';
-import { AudioModule, RecordingPresets, setAudioModeAsync, useAudioRecorder, useAudioRecorderState } from 'expo-audio';
-import * as FileSystem from 'expo-file-system/legacy';
-import { useFocusEffect, useRouter } from 'expo-router';
-import * as Speech from 'expo-speech';
-import { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Animated, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useState, useCallback, useRef, useEffect } from 'react';
+import { StyleSheet, View, Text, Pressable, FlatList, ActivityIndicator, Animated } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter, useFocusEffect } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
+import * as Speech from 'expo-speech';
+import { useAudioRecorder, useAudioRecorderState, RecordingPresets, AudioModule, setAudioModeAsync } from 'expo-audio';
+import * as FileSystem from 'expo-file-system/legacy';
+import { useSettings } from '@/context/settings-context';
+import { useFarmer } from '@/context/farmer-context';
+import { useConversation } from '@/context/conversation-context';
 
 const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:8000';
 
@@ -120,7 +120,7 @@ export default function VoiceAssistantScreen() {
         if (!chatRes.ok) throw new Error(`Chat failed: ${chatRes.status}`);
         const data = await chatRes.json();
 
-        addMessage({ id: `a-${Date.now()}`, role: 'assistant', text: data.answer, usedMemory: data.used_memory });
+        addMessage({ id: `a-${Date.now()}`, role: 'assistant', text: data.answer, usedMemory: data.used_memory, memoryNote: data.memory_note, isGrievance: data.is_grievance });
         // Only speak if this screen is still the one on top -- see
         // isFocusedRef comment above for why this check is necessary.
         if (isFocusedRef.current) {
@@ -176,16 +176,34 @@ export default function VoiceAssistantScreen() {
                 styles.bubble,
                 item.role === 'farmer'
                   ? [styles.bubbleFarmer, { backgroundColor: theme.primaryGreen }]
+                  : item.isGrievance
+                  ? [styles.bubbleAssistant, { backgroundColor: '#FFF7ED', borderColor: '#F59E0B', borderWidth: 1.5 }]
                   : [styles.bubbleAssistant, { backgroundColor: theme.surface, borderColor: theme.border }],
               ]}
             >
+              {item.isGrievance && (
+                <View style={styles.grievanceHeader}>
+                  <Ionicons name="alert-circle" size={16} color="#B45309" />
+                  <Text style={styles.grievanceHeaderText}>{t('chatGrievanceLabel')}</Text>
+                </View>
+              )}
               <Text style={{ color: item.role === 'farmer' ? '#FFFFFF' : theme.textPrimary, fontSize: 15, lineHeight: 21 }}>
                 {item.text}
               </Text>
               {item.role === 'assistant' && (
-                <Pressable onPress={() => Speech.speak(item.text, { language: currentLanguageOption?.code })} hitSlop={8} style={styles.replayButton}>
-                  <Ionicons name="volume-medium-outline" size={16} color={theme.textMuted} />
-                </Pressable>
+                <View style={styles.bubbleFooterRow}>
+                  {item.usedMemory && (
+                    <View style={styles.memoryTag}>
+                      <Ionicons name="time-outline" size={11} color={theme.textMuted} />
+                      <Text style={[styles.memoryTagText, { color: theme.textMuted }]} numberOfLines={1}>
+                        {item.memoryNote ?? t('chatUsedHistory')}
+                      </Text>
+                    </View>
+                  )}
+                  <Pressable onPress={() => Speech.speak(item.text, { language: currentLanguageOption?.code })} hitSlop={8} style={styles.replayButton}>
+                    <Ionicons name="volume-medium-outline" size={16} color={theme.textMuted} />
+                  </Pressable>
+                </View>
               )}
             </View>
           )}
@@ -234,7 +252,12 @@ const styles = StyleSheet.create({
   bubble: { maxWidth: '82%', borderRadius: 16, paddingHorizontal: 14, paddingVertical: 10, marginBottom: 4 },
   bubbleFarmer: { alignSelf: 'flex-end', borderBottomRightRadius: 4 },
   bubbleAssistant: { alignSelf: 'flex-start', borderBottomLeftRadius: 4, borderWidth: 1 },
-  replayButton: { marginTop: 6, alignSelf: 'flex-start' },
+  replayButton: { padding: 2 },
+  bubbleFooterRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 6 },
+  memoryTag: { flexDirection: 'row', alignItems: 'center', gap: 4, flexShrink: 1 },
+  memoryTagText: { fontSize: 11 },
+  grievanceHeader: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 6 },
+  grievanceHeaderText: { fontSize: 12, fontWeight: '700', color: '#B45309', textTransform: 'uppercase', letterSpacing: 0.3 },
   micArea: { alignItems: 'center', paddingVertical: 28, gap: 14 },
   statusLabel: { fontSize: 14, fontWeight: '500' },
   micButton: { width: 100, height: 100, borderRadius: 50, alignItems: 'center', justifyContent: 'center' },

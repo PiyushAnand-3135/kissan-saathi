@@ -90,7 +90,7 @@ export default function ChatScreen() {
         if (!response.ok) throw new Error(`Server responded with ${response.status}`);
 
         const data = await response.json();
-        addMessage({ id: `a-${Date.now()}`, role: 'assistant', text: data.answer, usedMemory: data.used_memory });
+        addMessage({ id: `a-${Date.now()}`, role: 'assistant', text: data.answer, usedMemory: data.used_memory, memoryNote: data.memory_note, isGrievance: data.is_grievance });
       } catch (error) {
         addMessage({ id: `err-${Date.now()}`, role: 'assistant', text: t('chatConnectionError') });
       } finally {
@@ -190,7 +190,7 @@ export default function ChatScreen() {
       }
 
       const data = await response.json();
-      addMessage({ id: `a-${Date.now()}`, role: 'assistant', text: data.answer, usedMemory: data.used_memory });
+      addMessage({ id: `a-${Date.now()}`, role: 'assistant', text: data.answer, usedMemory: data.used_memory, memoryNote: data.memory_note, isGrievance: data.is_grievance });
     } catch (error) {
       console.error('Image upload error:', error);
       addMessage({ id: `err-${Date.now()}`, role: 'assistant', text: t('chatConnectionError') });
@@ -239,9 +239,17 @@ export default function ChatScreen() {
                   styles.bubble,
                   item.role === 'farmer'
                     ? [styles.bubbleFarmer, { backgroundColor: theme.primaryGreen }]
+                    : item.isGrievance
+                    ? [styles.bubbleAssistant, { backgroundColor: '#FFF7ED', borderColor: '#F59E0B', borderWidth: 1.5 }]
                     : [styles.bubbleAssistant, { backgroundColor: theme.surface, borderColor: theme.border }],
                 ]}
               >
+                {item.isGrievance && (
+                  <View style={styles.grievanceHeader}>
+                    <Ionicons name="alert-circle" size={16} color="#B45309" />
+                    <Text style={styles.grievanceHeaderText}>{t('chatGrievanceLabel')}</Text>
+                  </View>
+                )}
                 {item.imageUri && (
                   <Image source={{ uri: item.imageUri }} style={styles.messageImage} resizeMode="cover" />
                 )}
@@ -252,7 +260,9 @@ export default function ChatScreen() {
                   {item.usedMemory && (
                     <View style={styles.memoryTag}>
                       <Ionicons name="time-outline" size={11} color={theme.textMuted} />
-                      <Text style={[styles.memoryTagText, { color: theme.textMuted }]}>{t('chatUsedHistory')}</Text>
+                      <Text style={[styles.memoryTagText, { color: theme.textMuted }]} numberOfLines={1}>
+                        {item.memoryNote ?? t('chatUsedHistory')}
+                      </Text>
                     </View>
                   )}
                   {item.role === 'assistant' && (
@@ -349,8 +359,10 @@ const styles = StyleSheet.create({
   bubbleAssistant: { alignSelf: 'flex-start', borderBottomLeftRadius: 4, borderWidth: 1 },
   messageImage: { width: 200, height: 150, borderRadius: 10, marginBottom: 8 },
   bubbleFooterRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 6 },
-  memoryTag: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  memoryTag: { flexDirection: 'row', alignItems: 'center', gap: 4, flexShrink: 1 },
   memoryTagText: { fontSize: 11 },
+  grievanceHeader: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 6 },
+  grievanceHeaderText: { fontSize: 12, fontWeight: '700', color: '#B45309', textTransform: 'uppercase', letterSpacing: 0.3 },
   listenButton: { padding: 2 },
   typingRow: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 16, paddingBottom: 6 },
   typingText: { fontSize: 12 },

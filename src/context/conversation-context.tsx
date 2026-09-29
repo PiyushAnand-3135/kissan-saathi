@@ -5,6 +5,8 @@ export interface ConversationMessage {
   role: 'farmer' | 'assistant';
   text: string;
   usedMemory?: boolean;
+  memoryNote?: string; // e.g. 'Recalled: "wheat pest question" from 5 days ago' -- makes memory visible, not just claimed
+  isGrievance?: boolean; // true when this reply is escalation guidance for a reported problem, not a routine answer
   imageUri?: string;
 }
 
